@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/6974693/clearing-a-single-texbox-when-clicked-in-c

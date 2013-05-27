@@ -1,0 +1,7 @@
+http://www.qtrac.eu/diffpdf.html
+http://soft.rubypdf.com/software/diffpdf
+
+
+http://automated-testing.info/forum/analiz-pdf-otchetov
+http://automated-testing.info/forum/testirovanie-pdf
+http://stackoverflow.com/questions/145657/tool-to-compare-large-numbers-of-pdf-files
