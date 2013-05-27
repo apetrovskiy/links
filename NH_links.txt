@@ -1,0 +1,12 @@
+http://code.google.com/p/codeconform
+http://nmg.codeplex.com/
+http://blog.vuscode.com/malovicn/archive/2009/11/04/fluent-nhibernate-samples-auto-mapping-part-12.aspx
+http://stackoverflow.com/questions/6556680/how-to-create-dynamic-nhibernate-mappings-without-generating-hbm-xml-files
+http://marekblotny.blogspot.ru/2009/02/fluent-nhbernate-and-collections.html
+http://stackoverflow.com/questions/5777898/docs-examples-for-nhibernate-3-2-mapping-by-code
+http://fabiomaulo.blogspot.ru/2011/04/nhibernate-32-mapping-by-code.html
+http://stackoverflow.com/questions/7672054/how-to-set-entire-mapping-to-read-only-in-nhibernate-3-2-mapping-by-code
+http://thatextramile.be/blog/2007/08/read-only-data-in-nhibernate
+http://lycog.com/programming/nhibernate-32-mapping-code-referential_integrity/
+http://salardbcodegenerator.codeplex.com/
+http://puredotnetcoder.blogspot.ru/2011/08/nhibernate-32-nxtgenug-presentation-at.html
