@@ -10,3 +10,7 @@ http://thatextramile.be/blog/2007/08/read-only-data-in-nhibernate
 http://lycog.com/programming/nhibernate-32-mapping-code-referential_integrity/
 http://salardbcodegenerator.codeplex.com/
 http://puredotnetcoder.blogspot.ru/2011/08/nhibernate-32-nxtgenug-presentation-at.html
+
+
+how to create a DB on demand:
+http://stackoverflow.com/questions/5884359/fluent-nhibernate-create-database-schema-only-if-not-existing
