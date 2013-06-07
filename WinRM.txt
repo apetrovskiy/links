@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/5143560/cannot-launch-winrm-quickconfig-on-windows-2003-r2-server
