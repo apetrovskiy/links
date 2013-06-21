@@ -1,0 +1,4 @@
+http://4sysops.com/archives/file-server-resource-manager-fsrm-part-1-install-frsm/
+http://4sysops.com/archives/file-server-resource-manager-fsrm-part-4-file-screening/
+http://technet.microsoft.com/en-us/library/cc732349(v=ws.10)
+http://technet.microsoft.com/en-us/library/cc755013(v=ws.10)
