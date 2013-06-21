@@ -1,3 +1,5 @@
+http://stackoverflow.com/questions/9849486/is-it-possible-to-use-extened-ascii-characters-in-bat-file?lq=1
+
 http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how
 http://stackoverflow.com/questions/1035388/unicode-output-on-windows-command-line
 http://stackoverflow.com/questions/2706097/how-to-do-proper-unicode-and-ansi-output-redirection-on-cmd-exe
