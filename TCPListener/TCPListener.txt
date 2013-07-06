@@ -1,0 +1,5 @@
+http://aione.ru/primer-realizatsii-klient-servernogo-vzaimodeystviya-na-csharp/
+http://codeincodeblock.blogspot.ru/2011/11/tcp-client-and-server-sample-example.html
+http://msdn.microsoft.com/ru-ru/library/system.net.sockets.tcplistener.aspx
+http://social.msdn.microsoft.com/Forums/en-US/837493e9-82fb-41fc-80ad-b09afbef3cc2/a-simple-sample-of-a-tcplistener-and-client
+http://habrahabr.ru/post/120157/
