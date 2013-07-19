@@ -1,0 +1,11 @@
+Memory profilers:
+Paid:
+http://memprofiler.com/
+http://www.red-gate.com/products/dotnet-development/ants-memory-profiler/
+http://www.telerik.com/products/memory-performance-profiler.aspx
+http://smartbear.com/products/qa-tools/application-performance-profiling (performance)
+
+Free:
+http://www.eqatec.com/tools/profiler/ (code profiler, not a memory profiler)
+https://code.google.com/p/slimtune/
+http://msdn.microsoft.com/en-us/library/ms979205.aspx
