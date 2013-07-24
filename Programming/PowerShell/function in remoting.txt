@@ -1,0 +1,6 @@
+http://stackoverflow.com/questions/11367367/how-do-i-include-a-locally-defined-function-when-using-powershells-invoke-comma
+http://stackoverflow.com/questions/8448808/using-invoke-command-scriptblock-on-a-function-with-arguments
+https://www.google.ru/search?q=how+to+create+a+new+function+powershell+getting+content+from+a+file&oq=how+to+create+a+new+function+powershell+getting+content+from+a+file&aqs=chrome.0.69i57j69i62l3.14822j0&sourceid=chrome&ie=UTF-8&qscrl=1
+http://technet.microsoft.com/en-us/library/ee176914.aspx
+
+http://stackoverflow.com/questions/6016436/in-powershell-how-do-i-define-a-function-in-a-file-and-call-it-from-the-powersh

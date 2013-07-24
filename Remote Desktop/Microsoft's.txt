@@ -1,0 +1,5 @@
+2009
+http://blogs.technet.com/b/ptsblog/archive/2011/12/09/extending-remote-desktop-services-using-powershell.aspx
+http://technet.microsoft.com/en-us/library/ee791871(v=ws.10).aspx
+2012
+http://technet.microsoft.com/en-us/library/jj215451.aspx

@@ -1,0 +1,2 @@
+http://blogs.microsoft.co.il/blogs/scriptfanatic/archive/2010/02/22/psterminalservices-powershell-module-for-terminal-services.aspx
+https://psterminalservices.codeplex.com/
