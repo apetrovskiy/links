@@ -4,3 +4,5 @@ https://www.google.ru/search?q=how+to+create+a+new+function+powershell+getting+c
 http://technet.microsoft.com/en-us/library/ee176914.aspx
 
 http://stackoverflow.com/questions/6016436/in-powershell-how-do-i-define-a-function-in-a-file-and-call-it-from-the-powersh
+
+http://stackoverflow.com/questions/14789602/invoke-command-with-dynamic-function-name
