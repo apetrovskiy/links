@@ -1,0 +1,2 @@
+http://elworthconsulting.com/2011/07/25/managing-sharepoint-2010-access-request-settings-via-powershell/
+http://sharesilver.wordpress.com/2012/06/13/get-a-sites-permission-inheritance-details/
