@@ -1,0 +1,20 @@
+How to create a daily summary alert for any change in a SharePoint site
+http://stackoverflow.com/questions/921509/how-to-create-a-daily-summary-alert-for-any-change-in-a-sharepoint-site
+
+Specific change-info in a sharepoint list/listitem
+http://stackoverflow.com/questions/3457514/specific-change-info-in-a-sharepoint-list-listitem
+
+Enabling SPAudit automatically for new files in list
+http://stackoverflow.com/questions/3499962/enabling-spaudit-automatically-for-new-files-in-list
+
+SPAudit: How to write to the audit log (and how to read from, and how to turn it on)
+http://spuser.blogspot.ru/2011/10/spaudit-how-to-write-to-audit-log.html
+
+Auditing - A Built-in Feature of SharePoint
+http://www.codeproject.com/Articles/431342/Auditing-A-Built-in-Feature-of-SharePoint
+
+SPAudit.WriteAuditEvent Method (String, String, String)
+http://msdn.microsoft.com/en-us/library/ms457131(v=office.12).aspx
+
+SPAudit.WriteAuditEvent Method (SPAuditEventType, String, String)
+http://msdn.microsoft.com/en-us/library/ms460498(v=office.12).aspx

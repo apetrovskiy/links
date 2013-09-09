@@ -1,0 +1,8 @@
+Dynamic Access Control (DAC) – Part 5: Effective Access
+http://4sysops.com/archives/dynamic-access-control-dac-part-5-effective-access/
+
+Dynamic Access Control (DAC) – Part 1: Overview
+Dynamic Access Control (DAC) – Part 2: User Claims
+Dynamic Access Control (DAC) – Part 3: Classifying Shared Folders
+Dynamic Access Control (DAC) – Part 4: Central Access Policy
+Dynamic Access Control (DAC) – Part 5: Effective Access

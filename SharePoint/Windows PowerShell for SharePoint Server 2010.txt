@@ -1,0 +1,2 @@
+Windows PowerShell for SharePoint Server 2010
+http://technet.microsoft.com/en-us/library/ee662539%28v=office.14%29.aspx

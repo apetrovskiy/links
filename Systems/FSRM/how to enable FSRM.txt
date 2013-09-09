@@ -1,0 +1,3 @@
+how to Enable FSRM in windows server 2012
+http://social.technet.microsoft.com/Forums/windowsserver/en-US/520a53e8-03f7-46ca-89ec-7fccb3f1e14c/how-to-enable-fsrm-in-windows-server-2012
+

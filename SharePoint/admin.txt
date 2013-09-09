@@ -1,0 +1,5 @@
+Creating Additional SharePoint 2010 Farm Administrators
+http://blog.octavie.nl/index.php/2011/11/07/creating-additional-sharepoint-2010-farm-administrators/
+
+GUI: How to create a SharePoint 2010 admin account and stop using sp_farm
+http://www.toddklindt.com/blog/Lists/Posts/Post.aspx?ID=259

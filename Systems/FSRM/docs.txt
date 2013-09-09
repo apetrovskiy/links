@@ -1,0 +1,14 @@
+Using File Server Resource Manager
+http://technet.microsoft.com/en-us/library/cc753190(v=ws.10).aspx
+
+Checklist: Apply a File Screen to a Volume or Folder
+http://technet.microsoft.com/en-us/library/cc770332.aspx
+
+File Screening Management Scenarios
+http://technet.microsoft.com/en-us/library/cc755013(v=ws.10)#BKMK_FSS1
+
+Setting File Server Resource Manager Options
+http://technet.microsoft.com/en-us/library/cc755106.aspx
+
+File and Storage Services Overview
+http://technet.microsoft.com/library/hh831487

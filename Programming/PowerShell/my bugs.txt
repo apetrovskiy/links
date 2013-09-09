@@ -1,0 +1,1 @@
+https://connect.microsoft.com/PowerShell/feedback/details/797816/a-minor-parsing-bug-missing-property-name-after-reference-operator#details

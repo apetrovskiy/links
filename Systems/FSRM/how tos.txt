@@ -1,0 +1,10 @@
+File Server Resource Manager (FSRM) – Part 1: Install FRSM
+http://4sysops.com/archives/file-server-resource-manager-fsrm-part-1-install-frsm/
+
+File Server Resource Manager (FSRM) – Part 1: Install FRSM
+File Server Resource Manager (FSRM) – Part 2: Initial Configuration
+File Server Resource Manager (FSRM) – Part 3: Quota Management
+File Server Resource Manager (FSRM) – Part 4: File Screening
+File Server Resource Manager (FSRM) – Part 5: Storage Reports
+File Server Resource Manager (FSRM) – Part 6: Classification Management
+File Server Resource Manager (FSRM) – Part 7: File Management Tasks
