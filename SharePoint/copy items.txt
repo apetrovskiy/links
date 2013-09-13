@@ -1,0 +1,3 @@
+copy list items from one list to another in sharepoint
+http://stackoverflow.com/questions/1075323/copy-list-items-from-one-list-to-another-in-sharepoint
+

@@ -1,0 +1,2 @@
+PowerShell Check Out Required to Update Document in Document Library
+http://social.msdn.microsoft.com/Forums/sharepoint/en-US/e40841c2-4a26-4224-93d1-cf9a33e4f022/powershell-check-out-required-to-update-document-in-document-library

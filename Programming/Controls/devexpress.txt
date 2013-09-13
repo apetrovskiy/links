@@ -1,0 +1,5 @@
+http://go.devexpress.com/DevExpressDownload_UniversalTrial.aspx
+http://www.devexpress.com/Support/Center/Example/List/1
+
+Third party WPF controls: Devexpress vs Telerik
+http://stackoverflow.com/questions/5243167/third-party-wpf-controls-devexpress-vs-telerik
