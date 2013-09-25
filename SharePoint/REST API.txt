@@ -1,0 +1,10 @@
+Get started with the SharePoint 2013 REST service
+http://msdn.microsoft.com/en-us/library/office/fp142380.aspx
+
+http://msdn.microsoft.com/ru-ru/magazine/dn198245.aspx
+
+Updating list items in a document library using SharePoint 2013 REST Api + C#
+http://social.msdn.microsoft.com/Forums/sharepoint/en-US/b1d103a4-71c9-423c-8403-e3dbf519c089/updating-list-items-in-a-document-library-using-sharepoint-2013-rest-api-c
+
+Access SkyDrive Pro using the SharePoint 2013 APIs
+http://blogs.msdn.com/b/sharepointdev/archive/2013/08/13/access-skydrive-pro-using-the-sharepoint-2013-apis.aspx
