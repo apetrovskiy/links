@@ -1,0 +1,2 @@
+Use PowerShell to Replace Text in Strings
+http://blogs.technet.com/b/heyscriptingguy/archive/2011/03/21/use-powershell-to-replace-text-in-strings.aspx
