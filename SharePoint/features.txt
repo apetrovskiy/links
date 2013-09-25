@@ -1,0 +1,12 @@
+Activating and Deactivating Features with PowerShell
+http://sharepointgroup.wordpress.com/2012/05/04/activating-and-deactivating-features-with-powershell/
+
+Walkthrough: Add Feature Event Receivers
+http://msdn.microsoft.com/en-us/library/vstudio/ee231604(v=vs.120).aspx
+
+Publishing features overview (SharePoint Server 2010)
+http://technet.microsoft.com/en-us/library/ff628963(v=office.14).aspx
+
+Enabling publishing infrastructure feature in sharepoint 2010
+http://stackoverflow.com/questions/2374578/enabling-publishing-infrastructure-feature-in-sharepoint-2010
+
