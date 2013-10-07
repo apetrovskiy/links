@@ -1,0 +1,2 @@
+Permissions for site collection administrators
+http://office.microsoft.com/en-us/sharepoint-server-help/permissions-for-site-collection-administrators-HA101943260.aspx
