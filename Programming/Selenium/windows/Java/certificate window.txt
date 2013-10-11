@@ -1,0 +1,2 @@
+How to use custom Firefox Profile with Selenium? ( JAVA ) ( And pass Html Authorization Window )
+http://stackoverflow.com/questions/14458289/how-to-use-custom-firefox-profile-with-selenium-java-and-pass-html-author
