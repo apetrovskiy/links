@@ -1,0 +1,5 @@
+18.15. quopri — Encode and decode MIME quoted-printable data
+http://docs.python.org/2/library/quopri.html
+
+18.6. mimetools — Tools for parsing MIME messages
+http://docs.python.org/2/library/mimetools.html

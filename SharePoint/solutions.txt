@@ -1,0 +1,5 @@
+Deploy solution packages (SharePoint Server 2010)
+http://technet.microsoft.com/en-us/library/cc262995(v=office.14).aspx
+
+Sandboxed solutions overview (SharePoint Server 2010)
+http://technet.microsoft.com/en-us/library/ee721992(v=office.14).aspx

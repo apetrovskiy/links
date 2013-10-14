@@ -1,0 +1,2 @@
+Configure Kerberos authentication (Office SharePoint Server)
+http://technet.microsoft.com/en-us/library/cc263449(office.12).aspx#section14

@@ -1,0 +1,2 @@
+Decode an UTF8 email header
+http://stackoverflow.com/questions/126070/decode-an-utf8-email-header

@@ -1,0 +1,2 @@
+Profiles - Where Firefox stores your bookmarks, passwords and other user data
+http://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data

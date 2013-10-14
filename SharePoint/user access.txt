@@ -1,0 +1,8 @@
+How to Determine Where a User Has Been Granted Access in SharePoint 2010
+http://blogs.msdn.com/b/rcormier/archive/2012/10/23/how-to-determine-where-a-user-has-been-granted-access-in-sharepoint-2010.aspx
+
+List for all team sites for a specific user
+http://sharepoint.stackexchange.com/questions/45968/list-for-all-team-sites-for-a-specific-user
+
+get list of all sites user has permission in sharepoint 2010
+http://social.msdn.microsoft.com/Forums/sharepoint/en-US/ff828c3f-9f35-4d71-9870-156625d1f81b/get-list-of-all-sites-user-has-permission-in-sharepoint-2010
