@@ -1,3 +1,6 @@
 How to add specific SharePoint Group to List permission with c#?
 http://sharepoint.stackexchange.com/questions/42395/how-to-add-specific-sharepoint-group-to-list-permission-with-c
 http://stackoverflow.com/questions/358647/programatically-add-user-permission-to-a-list-in-sharepoint
+
+SharePoint 2010: Choosing Between AD Groups or SharePoint Groups
+http://social.technet.microsoft.com/wiki/contents/articles/10550.sharepoint-2010-choosing-between-ad-groups-or-sharepoint-groups.aspx

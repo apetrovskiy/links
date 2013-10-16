@@ -1,0 +1,9 @@
+Installing Microsoft SharePoint Foundation 2010 on Windows 7
+jaliyaudagedara.blogspot.ru/2012/01/installing-microsoft-sharepoint.html
+
+Installing Sharepoint Foundation 2010 on Windows 7
+http://develoq.net/2010/installing-sharepoint-foundation-2010-on-windows-7/
+
+Start: Set up the development environment for SharePoint 2013
+http://msdn.microsoft.com/en-us/library/ee554869.aspx
+

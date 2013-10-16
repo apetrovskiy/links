@@ -1,0 +1,2 @@
+Installation: Stsadm operations (Windows SharePoint Services)
+http://technet.microsoft.com/en-us/library/cc288249(v=office.12).aspx
