@@ -1,0 +1,14 @@
+Hardware and software requirements (SharePoint Server 2010)
+http://technet.microsoft.com/en-us/library/cc262485(office.14).aspx
+
+System requirements (SharePoint Foundation 2010)
+http://technet.microsoft.com/en-us/library/cc288955(v=office.14).aspx
+
+Hardware and software requirements (SharePoint Foundation 2010)
+http://technet.microsoft.com/en-us/library/cc288751(v=office.14).aspx
+
+Hardware and software requirements for SharePoint 2013
+http://technet.microsoft.com/en-us/library/cc262485.aspx
+
+Documentation Toolkit for SharePoint System Requirements
+http://www.spdockit.com/support/help/requirements/system-requirements/
