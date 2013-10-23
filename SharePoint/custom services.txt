@@ -1,0 +1,2 @@
+Creating a Custom Web Service for SharePoint
+http://www.walisystems.com/articles/SPS/uplservice/v1/creating%20a%20custom%20web%20service.htm

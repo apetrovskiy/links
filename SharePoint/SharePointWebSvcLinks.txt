@@ -1,9 +1,13 @@
-http://www.keutmann.dk/Products.aspx
 http://letitknow.wordpress.com/2012/11/07/uploaddownload-documents-to-sharepoint-via-powershell/
+
+Create SharePoint List Items with PowerShell
 http://www.petri.co.il/create-sharepoint-list-items-using-powershell.htm#
+
+Web Services
 http://msdn.microsoft.com/en-us/library/dd878586(v=office.12).aspx
 http://msdn.microsoft.com/en-us/library/administration(v=office.12).aspx
 --------------------
+Web Services Access
 http://msdn.microsoft.com/en-us/library/bb862916(v=office.12).aspx
 --------------------
 
@@ -24,3 +28,6 @@ http://stackoverflow.com/questions/4245678/get-sharepoint-list-visible-columns-n
 
 http://sarangasl.blogspot.ru/2011/06/android-login-screen-using-httpclient.html
 
+(not working, though with code)
+How to Create Site using Sharepoint web services?
+http://stackoverflow.com/questions/2162552/how-to-create-site-using-sharepoint-web-services
