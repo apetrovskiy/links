@@ -31,3 +31,6 @@ http://sarangasl.blogspot.ru/2011/06/android-login-screen-using-httpclient.html
 (not working, though with code)
 How to Create Site using Sharepoint web services?
 http://stackoverflow.com/questions/2162552/how-to-create-site-using-sharepoint-web-services
+
+Create/Delete Folders using Lists.asmx Web Service
+http://sridharu.blogspot.ru/2008/10/createdelete-folers-using-listsasmx-web.html
