@@ -1,0 +1,3 @@
+<FieldRef
+  Aggregation="sum" | "count" | "average" | "min" | "max" | "merge" | "plaintext" | "first" | "last"
+</FieldRef>
