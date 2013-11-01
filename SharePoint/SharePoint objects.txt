@@ -8,3 +8,9 @@ Chapter 3: Programming SharePoint Lists and Libraries
 (SharePoint 2007 and Office Development Expert Solutions)
 http://msdn.microsoft.com/en-us/library/dd490727%28v=office.12%29.aspx
 http://www.wrox.com/WileyCDA/WroxTitle/SharePoint-2007-and-Office-Development-Expert-Solutions.productCd-047009740X,descCd-DOWNLOAD.html
+
+Content Type Definition Schema
+http://msdn.microsoft.com/en-us/library/ms463449%28v=office.12%29.aspx
+
+ContentType Element (ContentType)
+http://msdn.microsoft.com/en-us/library/aa544268%28v=office.12%29.aspx
