@@ -1,0 +1,15 @@
+http://programmers.stackexchange.com/questions/5757/is-static-universally-evil-for-unit-testing-and-if-so-why-does-resharper-recom
+http://misko.hevery.com/2008/12/15/static-methods-are-death-to-testability/
+http://stackoverflow.com/questions/6484/how-do-you-mock-a-sealed-class
+http://googletesting.blogspot.ru/2008/08/by-miko-hevery-so-you-decided-to.html
+http://stackoverflow.com/questions/1386962/how-to-throw-a-sqlexceptionneed-for-mocking
+http://stackoverflow.com/questions/5447672/mock-net-classes-using-wrapper-classes
+http://cs.rthand.com/blogs/blog_with_righthand/archive/2008/07/22/Creating-wrappers-for-sealed-and-other-types-for-mocking.aspx
+http://blogs.clariusconsulting.net/kzu/a-practical-example-on-how-to-mock-static-classes-without-typemock/
+http://weblogs.asp.net/cibrax/archive/2008/05/16/unit-tests-for-wcf.aspx
+http://volaresystems.com/Blog/post/2010/08/19/Dont-mock-HttpContext.aspx
+http://programmers.stackexchange.com/questions/201871/unit-testing-functions-which-have-parameters-of-classes-where-source-code-is-not
+http://msdn.microsoft.com/en-us/library/ff650441.aspx
+http://weblogs.asp.net/cibrax/archive/2008/05/20/unit-tests-for-wcf-and-moq-part-ii.aspx
+
+
