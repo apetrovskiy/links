@@ -1,0 +1,20 @@
+SPContext class
+http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.spcontext.aspx
+
+Faking SPContext
+http://solutionizing.net/2009/02/16/faking-spcontext/
+
+Setting HttpContext.Current using Powershell
+http://social.technet.microsoft.com/Forums/windowsserver/en-US/9d584486-dbf4-436b-8d0b-e028aa822112/setting-httpcontextcurrent-using-powershell
+
+$site = Get-SPSite http://vl-at-sp:7777/sites/coll45; #("http://yourserver.com")
+$web = $site.OpenWeb("www")
+
+$sw = New-Object System.IO.StringWriter
+$resp = New-Object System.Web.HttpResponse $sw
+#$req = New-Object System.Web.HttpRequest "", http://intranet.cbi, ""
+$req = New-Object System.Web.HttpRequest "", $web.Url, ""
+$htc = New-Object System.Web.HttpContext $req, $resp
+[System.Web.HttpContext]::Current = $htc
+
+ 
