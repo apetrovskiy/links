@@ -24,3 +24,8 @@ http://stackoverflow.com/questions/4245678/get-sharepoint-list-visible-columns-n
 
 http://sarangasl.blogspot.ru/2011/06/android-login-screen-using-httpclient.html
 
+SharePoint 2013 Web Services library
+http://msdn.microsoft.com/en-us/library/jj193051.aspx
+
+WebSvcLists namespace
+http://msdn.microsoft.com/en-us/library/websvcLists.aspx
