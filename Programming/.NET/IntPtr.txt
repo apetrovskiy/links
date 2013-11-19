@@ -1,0 +1,2 @@
+Proper way to dispose Hwnd IntPtr
+http://stackoverflow.com/questions/12980072/proper-way-to-dispose-hwnd-intptr
