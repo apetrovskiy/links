@@ -1,0 +1,2 @@
+Does .NET framework offer methods to parse an HTML string? (review)
+http://stackoverflow.com/questions/9473514/does-net-framework-offer-methods-to-parse-an-html-string
