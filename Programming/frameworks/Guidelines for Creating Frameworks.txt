@@ -1,0 +1,2 @@
+Guidelines for Creating Frameworks
+https://developer.apple.com/library/mac/documentation/macosx/conceptual/BPFrameworks/Concepts/CreationGuidelines.html
