@@ -1,0 +1,20 @@
+Basic (working) tutorial calling C# code in Java using JNI
+http://stackoverflow.com/questions/6640444/basic-working-tutorial-calling-c-sharp-code-in-java-using-jni
+
+jni4net
+http://jni4net.sourceforge.net/
+
+Call any Java method from C#
+http://stackoverflow.com/questions/2591935/call-any-java-method-from-c-sharp/2591958#2591958
+
+IKVM.NET
+http://www.ikvm.net/
+
+Calling Java Classes Directly from .NET 
+http://www.devx.com/interop/Article/19945
+
+JNBridgePro
+http://www.jnbridge.com/
+
+Call my own Java code from C#
+http://stackoverflow.com/questions/2063037/call-my-own-java-code-from-c-sharp
