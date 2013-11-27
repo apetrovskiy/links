@@ -29,3 +29,6 @@ http://msdn.microsoft.com/en-us/library/jj193051.aspx
 
 WebSvcLists namespace
 http://msdn.microsoft.com/en-us/library/websvcLists.aspx
+
+Reading a SharePoint list with Java: tutorial
+http://davidsit.wordpress.com/2010/02/10/reading-a-sharepoint-list-with-java-tutorial/

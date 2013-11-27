@@ -3,3 +3,39 @@ http://www.nephandus.com/2013/05/10/overloading-ninject/
 
 Ninject constructor selection preview
 http://www.planetgeek.ch/2011/05/28/ninject-constructor-selection-preview/
+
+Ninject: Passing dynamic parameters to the constructor
+http://blog.thekfactor.info/posts/ninject-passing-dynamic-parameters-to-the-constructor/
+
+ninject factory constructor selection with runtime generics
+http://stackoverflow.com/questions/17398933/ninject-factory-constructor-selection-with-runtime-generics
+
+Unable to get default constructor for Integration class ninject
+http://stackoverflow.com/questions/17985951/unable-to-get-default-constructor-for-integration-class-ninject
+
+theory:
+When should I use dependency injectors like Ninject
+http://stackoverflow.com/questions/18410634/when-should-i-use-dependency-injectors-like-ninject
+
+not very old:
+Ninject : Constructor parameter
+http://stackoverflow.com/questions/13893268/ninject-constructor-parameter
+
+old:
+Creating an instance using Ninject with additional parameters in the constructor
+http://stackoverflow.com/questions/2227548/creating-an-instance-using-ninject-with-additional-parameters-in-the-constructor
+
+With.Parameters.ConstructorArgument with ninject 2.0
+http://stackoverflow.com/questions/1374098/with-parameters-constructorargument-with-ninject-2-0
+
+Inject value into injected dependency
+http://stackoverflow.com/questions/2153770/inject-value-into-injected-dependency
+
+Ninject: Resolve list of all registered types with constructor parameters
+http://stackoverflow.com/questions/16304518/ninject-resolve-list-of-all-registered-types-with-constructor-parameters
+
+Injecting multiple constructor parameters of the same type with Ninject 2.0
+http://stackoverflow.com/questions/7982893/injecting-multiple-constructor-parameters-of-the-same-type-with-ninject-2-0
+
+Ninject 2.0 Constructor parameter - how to set when default constructor is also present?
+http://stackoverflow.com/questions/1484992/ninject-2-0-constructor-parameter-how-to-set-when-default-constructor-is-also
