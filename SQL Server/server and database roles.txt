@@ -1,0 +1,8 @@
+Server and Database Roles in SQL Server
+http://msdn.microsoft.com/en-us/library/bb669065%28v=vs.110%29.aspx
+
+Server-Level Roles
+http://msdn.microsoft.com/library/ms188659.aspx
+
+Permissions of Fixed Server Roles (Database Engine)
+http://msdn.microsoft.com/library/ms175892.aspx

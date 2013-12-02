@@ -1,0 +1,5 @@
+AWS Command Line Tools
+http://docs.aws.amazon.com/general/latest/gr/GetTheTools.html
+
+Installing the Amazon EC2 Command Line Interface Tools on Windows
+http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/InstallEC2CommandLineTools.html#tools-download
