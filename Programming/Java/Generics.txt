@@ -4,3 +4,6 @@ http://docs.oracle.com/javase/tutorial/java/generics/
 
 Java Generics FAQs - Fundamentals of Java Generics
 http://www.angelikalanger.com/GenericsFAQ/FAQSections/Fundamentals.html
+
+Generics in Java
+http://en.wikipedia.org/wiki/Generics_in_Java
