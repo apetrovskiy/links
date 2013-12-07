@@ -1,2 +1,5 @@
 Write html in C#
 http://stackoverflow.com/questions/1004776/write-html-in-c-sharp
+
+C# HtmlTextWriter
+http://www.dotnetperls.com/htmltextwriter
