@@ -19,3 +19,6 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html#Available
 
 To configure static IP addressing on a Windows instance
 http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/config-windows-multiple-ip.html
+
+Differences Between EC2-Classic and EC2-VPC
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html
