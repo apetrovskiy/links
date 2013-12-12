@@ -1,0 +1,2 @@
+Aspect-Oriented Programming
+http://msdn.microsoft.com/en-us/library/aa288717%28v=vs.71%29.aspx
