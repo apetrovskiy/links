@@ -1,0 +1,10 @@
+http://stackoverflow.com/questions/5622024/opensource-alternative-to-postsharp-that-supports-easy-custom-attributes
+http://mhoop.wordpress.com/2011/04/11/afterthought-the-free-postsharp-alternative/
+
+Github:
+https://github.com/vc3/Afterthought
+
+Documentation:
+https://github.com/vc3/Afterthought/wiki
+https://github.com/vc3/Afterthought/wiki/Step-1:-Get-Afterthought
+https://github.com/vc3/Afterthought/wiki/Step-2%3A-Create-Amendments

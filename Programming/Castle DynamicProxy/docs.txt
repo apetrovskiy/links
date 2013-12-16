@@ -1,0 +1,18 @@
+project
+http://www.castleproject.org/projects/dynamicproxy/
+
+Castle DynamicProxy
+http://docs.castleproject.org/Tools.DynamicProxy.ashx
+
+Kinds of proxy objects
+http://docs.castleproject.org/Tools.Kinds-of-proxy-objects.ashx
+
+DYNAMIC PROXY TUTORIAL
+http://kozmic.net/dynamic-proxy-tutorial/
+
+Kosmic
+http://kozmic.net/category/23.aspx
+
+perofrmance
+http://kozmic.net/2009/03/18/comparing-execution-speed-of-net-dynamic-proxy-frameworks/
+
