@@ -1,0 +1,2 @@
+http://social.technet.microsoft.com/Forums/windowsserver/en-US/1d878a44-a5ff-4006-94a5-81fbd8f1a0fb/uninstall-ps-v3?forum=winserverpowershell
+wusa /uninstall /quiet /kb:2506143
