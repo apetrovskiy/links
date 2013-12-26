@@ -1,0 +1,2 @@
+WMI Tasks: Computer Hardware
+http://msdn.microsoft.com/en-us/library/aa394587(v=vs.85).aspx
