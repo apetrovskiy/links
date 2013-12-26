@@ -1,0 +1,5 @@
+Best Practices for Assembly Loading
+http://msdn.microsoft.com/en-us/library/dd153782(v=vs.110).aspx
+
+How the Runtime Locates Assemblies
+http://msdn.microsoft.com/en-us/library/yx7xezcf(v=vs.90).aspx
