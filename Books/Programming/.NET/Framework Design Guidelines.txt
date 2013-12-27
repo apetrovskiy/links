@@ -1,1 +1,2 @@
 http://mangadonkey.free.fr/Calibre/Krzysztof%20Cwalina/Framework%20Design%20Guidelines_%20Conventions%20(7)/Framework%20Design%20Guidelines_%20Conventions%20-%20Krzysztof%20Cwalina.pdf
+http://msdn.microsoft.com/en-us/library/ms229042(v=vs.110).aspx
