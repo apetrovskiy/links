@@ -1,0 +1,2 @@
+What's New in UI Automation?
+http://msdn.microsoft.com/en-us/library/windows/desktop/hh437316%28v=vs.85%29.aspx
