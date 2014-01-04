@@ -1,0 +1,15 @@
+Best Practices for Handling Exceptions
+http://msdn.microsoft.com/en-us/library/seyhszts(v=vs.110).aspx
+
+How using try catch for exception handling is best practice
+http://stackoverflow.com/questions/14973642/how-using-try-catch-for-exception-handling-is-best-practice
+
+Foundations of Programming 
+Building Better Software 
+http://openmymind.net/FoundationsOfProgramming.pdf
+
+Write Robust Exception-Handling Code
+http://visualstudiomagazine.com/articles/2007/06/01/write-robust-exceptionhandling-code.aspx
+
+C# Exception
+http://www.dotnetperls.com/exception
