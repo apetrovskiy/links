@@ -1,0 +1,8 @@
+Using Indexers (C# Programming Guide)
+http://msdn.microsoft.com/en-us/library/2549tw02.aspx
+
+Indexers in Interfaces (C# Programming Guide)
+http://msdn.microsoft.com/en-us/library/tkyhsw31.aspx
+
+Comparison Between Properties and Indexers (C# Programming Guide)
+http://msdn.microsoft.com/en-us/library/4bsztef7.aspx
