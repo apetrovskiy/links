@@ -1,0 +1,2 @@
+How to use SSL with different port in Send-MailMessage?
+http://social.technet.microsoft.com/Forums/en-US/84daff27-072f-4ad1-9320-71a0f684353c/how-to-use-ssl-with-different-port-in-sendmailmessage?forum=winserverpowershell
