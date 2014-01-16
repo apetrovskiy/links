@@ -1,0 +1,5 @@
+Keyboard Input
+http://msdn.microsoft.com/en-us/library/windows/desktop/ms645530(v=vs.85).aspx
+
+Mouse Input
+http://msdn.microsoft.com/en-us/library/windows/desktop/ms645533(v=vs.85).aspx
