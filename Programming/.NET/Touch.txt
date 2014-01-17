@@ -1,0 +1,29 @@
+Microsoft Surface 2.0 SDK
+http://msdn.microsoft.com/en-us/library/ff727815.aspx
+
+Input Simulator
+http://msdn.microsoft.com/en-us/library/ff727737.aspx
+
+Using Input Simulator
+http://msdn.microsoft.com/en-us/library/ff727911.aspx
+
+Testing Applications by Using Input Simulator
+http://msdn.microsoft.com/en-us/library/ff727908.aspx
+
+Multi-Touch Vista
+https://multitouchvista.codeplex.com/
+http://social.msdn.microsoft.com/Forums/windowsdesktop/en-US/8b556a80-355a-4fd1-8a43-a985204f2c7c/multitouch-simulation-and-c?forum=tabletandtouch
+
+Touchless SDK
+https://touchless.codeplex.com/
+
+?
+Testing keyboard and touch capabilities in Windows 8
+http://stackoverflow.com/questions/18793026/testing-keyboard-and-touch-capabilities-in-windows-8
+
+Touch performance issue
+http://social.msdn.microsoft.com/Forums/vstudio/en-US/756a2ccf-6cf1-4e4a-a101-30b6f3d9c2c9/touch-event-responsivenessperformancedelay?forum=wpf#ed51226a-6319-49f8-be45-cf5ff48d56bb
+http://stackoverflow.com/questions/8856633/application-improve-performance-of-touch-events
+
+blogs:
+http://blog.cktouch.com/
