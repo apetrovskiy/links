@@ -1,0 +1,2 @@
+How to dynamically add attributes to a class with Castle.Core
+http://patriksvensson.se/how-to-dynamically-add-attributes-to-a-class-with-castle-core/
