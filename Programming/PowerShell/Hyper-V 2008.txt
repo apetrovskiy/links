@@ -1,0 +1,2 @@
+PowerShell in Hyper-V 2008 R2
+http://www.altaro.com/hyper-v/powershell-in-hyper-v-2008-r2/

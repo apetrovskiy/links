@@ -1,0 +1,5 @@
+Ninject.Extension.ContextPreservation explained
+http://www.planetgeek.ch/2010/12/08/ninject-extension-contextpreservation-explained/
+
+How to use the additional Ninject Scopes of NamedScope
+http://www.planetgeek.ch/2010/12/08/how-to-use-the-additional-ninject-scopes-of-namedscope/
