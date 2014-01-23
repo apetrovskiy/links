@@ -1,0 +1,5 @@
+how to find msi product version number using powershell?
+http://stackoverflow.com/questions/8743122/how-to-find-msi-product-version-number-using-powershell
+
+Automation Interface Reference
+http://msdn.microsoft.com/en-us/library/aa367810(v=vs.85).aspx
