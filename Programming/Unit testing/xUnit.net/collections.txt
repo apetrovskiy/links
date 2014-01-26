@@ -1,0 +1,3 @@
+xUnit : Assert two List<T> are equal?
+http://stackoverflow.com/questions/419659/xunit-assert-two-listt-are-equal/419717#419717
+http://xunit.codeplex.com/SourceControl/latest#src/xunit2.assert/Asserts/CollectionAsserts.cs

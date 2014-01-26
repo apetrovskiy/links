@@ -1,0 +1,5 @@
+An Introduction to xUnit.net for ASP.NET MVC Developers
+http://stephenwalther.com/archive/2008/06/30/an-introduction-to-the-xunit-net-testing-framework-for-asp-net-mvc-developers
+
+Run tests explicitly in xUnit.net
+http://lostechies.com/jimmybogard/2013/06/20/run-tests-explicitly-in-xunit-net/
