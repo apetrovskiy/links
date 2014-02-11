@@ -1,0 +1,2 @@
+Encoding Strings to Base64 in C#
+http://arcanecode.com/2007/03/21/encoding-strings-to-base64-in-c/
