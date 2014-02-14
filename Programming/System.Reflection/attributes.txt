@@ -1,0 +1,10 @@
+How to get a list of properties with a given attribute?
+http://stackoverflow.com/questions/2281972/how-to-get-a-list-of-properties-with-a-given-attribute
+
+
+Theory:
+Creating Custom Attributes
+http://msdn.microsoft.com/en-us/library/sw480ze8.aspx
+
+Attributes Tutorial
+http://msdn.microsoft.com/en-us/library/aa288454(v=vs.71).aspx
