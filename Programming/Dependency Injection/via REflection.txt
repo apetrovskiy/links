@@ -1,0 +1,1 @@
+http://kohari.org/2008/03/13/context-variables-in-ninject/
