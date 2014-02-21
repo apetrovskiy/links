@@ -1,0 +1,2 @@
+C# Singleton Initialisation
+http://stackoverflow.com/questions/19834817/c-sharp-singleton-initialisation

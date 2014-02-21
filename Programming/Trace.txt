@@ -1,0 +1,5 @@
+How to: Create and Initialize Trace Listeners
+http://msdn.microsoft.com/en-us/library/sk36c28t(v=vs.110).aspx
+
+Walkthrough: Integrating ASP.NET Tracing with System.Diagnostics Tracing
+http://msdn.microsoft.com/en-us/library/b0ectfxd.ASPX

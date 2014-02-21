@@ -1,0 +1,14 @@
+http://www.codeproject.com/Articles/696413/First-date-with-WCF-Named-Pipe-Transport-Duplex
+http://social.msdn.microsoft.com/Forums/windowsdesktop/en-US/cd79e799-f260-423a-8ec6-3e691447e4e7/windows-7-vista-crossing-session-boundaries-using-wcf-named-pipe-binding?forum=windowscompatibility
+
+How to cross a session boundary using a WCF named pipe binding?
+http://stackoverflow.com/questions/4959417/how-to-cross-a-session-boundary-using-a-wcf-named-pipe-binding
+
+Connecting via named pipe from windows service (session#0) to desktop app (session #1)
+http://stackoverflow.com/questions/4303154/connecting-via-named-pipe-from-windows-service-session0-to-desktop-app-sessi
+
+How to call my own defined method from Windows Service
+http://stackoverflow.com/questions/20114388/how-to-call-my-own-defined-method-from-windows-service
+
+About named pipes:
+http://www.hsc.fr/ressources/presentations/null_sessions/msrpc_null_sessions.pdf
