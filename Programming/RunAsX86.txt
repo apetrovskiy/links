@@ -1,0 +1,6 @@
+http://coolsoft.altervista.org/en/blog/2012/01/run-anycpu-net-applications-x86-mode
+http://lostechies.com/gabrielschenker/2009/10/21/force-net-application-to-run-in-32bit-process-on-64bit-os/
+
+
+http://thingsthatshouldbeeasy.blogspot.ru/2009/08/anycpu-x86-x64-whats-difference.html#.UxdAHPl_smk
+http://stackoverflow.com/questions/3787428/loading-x86-or-x64-assembly
