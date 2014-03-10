@@ -1,0 +1,3 @@
+http://api.yandex.ru/tank/doc/
+http://clubs.ya.ru/yandex-tank/
+http://tech.yandex.ru/events/yasubbotnik/msk-jul-2012/talks/296/
