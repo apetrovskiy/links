@@ -1,0 +1,2 @@
+Can HtmlAgilityPack handle an xml file that comes with an xsl file to render html?
+http://stackoverflow.com/questions/5385010/can-htmlagilitypack-handle-an-xml-file-that-comes-with-an-xsl-file-to-render-htm

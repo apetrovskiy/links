@@ -1,0 +1,13 @@
+
+http://qtp.blogspot.ru/2008/10/generations-of-test-automation.html
+
+Skill Category 4: Test Automation Frameworks
+http://www.automatedtestinginstitute.com/home/index.php?option=com_content&view=article&catid=69:automation-body-of-knowledge-abok&id=1112:skill-category-4-test-automation-frameworks&Itemid=196
+
+Scriptless Test Automation
+Next generation technique for productivity improvement in software testing
+http://geometricglobal.com/wp-content/uploads/2013/03/Geometric_Whitepaper_scriptless_test_automation.pdf
+
+The Next Generation Of Mainframe Test Automation
+http://www.worksoft.com/files/resources/Worksoft-Paper-The-Next-Generation-Of-Mainframe-Test-Automation.pdf
+
