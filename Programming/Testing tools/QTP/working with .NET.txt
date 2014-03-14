@@ -1,0 +1,2 @@
+Calling C# dll in vbscript
+http://stackoverflow.com/questions/1451956/calling-c-sharp-dll-in-vbscript
