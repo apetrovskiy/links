@@ -1,0 +1,2 @@
+Ninject and NLog with Multiple Loggers
+http://www.geoffhudik.com/tech/2011/11/15/ninject-and-nlog-with-multiple-loggers.html
