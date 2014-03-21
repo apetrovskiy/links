@@ -1,0 +1,18 @@
+Data Connections, Data Sources, and Connection Strings (SSRS)
+http://msdn.microsoft.com/en-us/library/ms156450.aspx
+
+Use an Office Data Connection (.odc) with Reports (Reporting Services in SharePoint Integrated Mode)
+http://msdn.microsoft.com/en-us/library/bb326418.aspx
+
+Generating Data Feeds from Reports (Report Builder and SSRS)
+http://technet.microsoft.com/en-us/library/ee240754.aspx
+
+Generate Data Feeds from a Report (Report Builder and SSRS)
+http://technet.microsoft.com/en-us/library/ff519563.aspx
+
+Exporting Reports (Report Builder and SSRS)
+http://technet.microsoft.com/en-us/library/dd239307.aspx
+
+Rendering to HTML (Report Builder and SSRS)
+http://technet.microsoft.com/en-us/library/dd255269.aspx
+
