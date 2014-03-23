@@ -1,0 +1,2 @@
+Generating Data Feeds from Reports (Report Builder and SSRS)
+http://technet.microsoft.com/en-us/library/ee240754.aspx
