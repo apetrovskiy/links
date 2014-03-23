@@ -1,0 +1,2 @@
+Keeping Entity State Over Multiple NHibernate Sessions
+http://www.codeproject.com/Articles/108921/Keeping-Entity-State-Over-Multiple-NHibernate-Sess

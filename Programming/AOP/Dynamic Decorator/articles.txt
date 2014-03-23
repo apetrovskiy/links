@@ -1,0 +1,8 @@
+Dynamic Decorator Pattern
+http://www.codeproject.com/Articles/104978/Dynamic-Decorator-Pattern
+
+Add Aspects to Object Using Dynamic Decorator
+http://www.codeproject.com/Articles/114178/Add-Aspects-to-Object-Using-Dynamic-Decorator
+
+Dynamic Decorator and Castle DynamicProxy Comparison
+http://www.codeproject.com/Articles/219425/Dynamic-Decorator-and-Castle-DynamicProxy-Comparis

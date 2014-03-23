@@ -1,0 +1,2 @@
+Dynamic/Transparent Proxy using DynamicProxy.NET
+http://www.codeproject.com/Articles/5238/Dynamic-Transparent-Proxy-using-DynamicProxy-NET

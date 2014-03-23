@@ -1,0 +1,6 @@
+NHibernate - Relational Persistence for Idiomatic .NET
+
+NHibernate Reference Documentation
+
+2.0.0
+http://nhforge.org/wikis/reference2-0en/try-entry-doc.aspx

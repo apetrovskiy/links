@@ -1,0 +1,2 @@
+Using Dynamic Proxies for Fault Tolerance and Failover
+http://www.codeproject.com/Articles/33793/Using-Dynamic-Proxies-for-Fault-Tolerance-and-Fail

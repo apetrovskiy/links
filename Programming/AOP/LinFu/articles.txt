@@ -1,0 +1,11 @@
+The LinFu Reimplementation Plan, and Dogfooding
+http://www.codeproject.com/Articles/281392/The-LinFu-Reimplementation-Plan-and-Dogfooding
+
+LinFu IoC 2.0 Reaches an Important Milestone
+http://www.codeproject.com/Articles/278406/LinFu-IoC-Reaches-an-Important-Milestone
+
+Dynamically Intercepting Thrown Exceptions with LinFu.AOP 2.0
+http://www.codeproject.com/Articles/190948/Dynamically-Intercepting-Thrown-Exceptions-with-Li
+
+Duck Typing with LinFu & C# 4.0's Dynamic Keyword
+http://www.codeproject.com/Articles/190951/Duck-Typing-with-LinFu-C-s-Dynamic-Keyword

@@ -1,0 +1,5 @@
+Introducing Hiro, the World's Fastest IOC Container, Part I: Design Diary
+http://www.codeproject.com/Articles/35345/Introducing-Hiro-the-World-s-Fastest-IOC-Container
+
+Introducing Hiro, the World's Fastest IOC Container, Part II: The Little Feature Set That Could
+http://www.codeproject.com/Articles/35511/Introducing-Hiro-the-Worlds-Fastest-IOC-Container
