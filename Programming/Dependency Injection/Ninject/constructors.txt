@@ -1,0 +1,2 @@
+Can I Use Ninject To Bind A Boolean Value To A Named Constructor Value
+http://stackoverflow.com/questions/22512353/can-i-use-ninject-to-bind-a-boolean-value-to-a-named-constructor-value/22524731#22524731
