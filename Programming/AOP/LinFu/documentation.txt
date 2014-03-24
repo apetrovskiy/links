@@ -21,3 +21,6 @@ http://www.codeproject.com/Articles/31635/LinFu-IOC-in-Five-Minutes-Part-of-n-Fu
 
 LinFu.IOC 2.0 in Five Minutes (Part 2 of n): Constructor, Field, Method, and Property Injection
 http://www.codeproject.com/Articles/33313/LinFu-IOC-in-Five-Minutes-Part-of-n-Construc
+
+Intercepting Console.WriteLine and Other Third-Party Method Calls with LinFu.AOP 2.0
+http://www.codeproject.com/Articles/190949/Intercepting-Console-WriteLine-and-Other-Third-Par
