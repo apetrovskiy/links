@@ -1,0 +1,15 @@
+Influencing AOP with attributes via IoC; code-smell or elegant?
+http://stackoverflow.com/questions/2235270/influencing-aop-with-attributes-via-ioc-code-smell-or-elegant/2235405#2235405
+
+
+Why dependency injection rocks
+http://blog.andreloker.de/post/2008/05/19/Why-dependency-injection-rocks.aspx
+
+Simple AOP: introduction to AOP
+http://blog.andreloker.de/post/2009/02/13/Simple-AOP-introduction-to-AOP.aspx
+
+Simple AOP: call interception with DynamicProxy
+http://blog.andreloker.de/post/2009/02/14/Simple-AOP-call-interception-with-DynamicProxy.aspx
+
+Simple AOP: integrating interceptors into Windsor
+http://blog.andreloker.de/post/2009/02/20/Simple-AOP-integrating-interceptors-into-Windsor.aspx

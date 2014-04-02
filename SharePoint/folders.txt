@@ -1,0 +1,14 @@
+Programmatically creating folder in SharePoint Document library
+http://www.c-sharpcorner.com/uploadfile/dhananjaycoder/programmatically-creating-folder-in-sharepoint-document-library/
+
+Document Library in SharePoint 2010 Programmatically Using VS 2010
+http://www.c-sharpcorner.com/UploadFile/54db21/document-library-in-sharepoint-2010-programmatically-using-v/
+
+How To make SharePoint document library folder unique Permission Programmatically
+http://www.c-sharpcorner.com/uploadfile/Roji.Joy/how-to-make-sharepoint-document-library-folder-unique-permission-programmatically/
+
+Move Folders of SharePoint Document Library using object model
+http://adicodes.com/move-folders-of-sharepoint-document-library-using-object-model/
+
+Creating Nested Folders via Client Object Model
+http://sharepoint.stackexchange.com/questions/51729/creating-nested-folders-via-client-object-model

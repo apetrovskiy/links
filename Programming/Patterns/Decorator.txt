@@ -1,0 +1,2 @@
+What are the different methods for injecting cross-cutting concerns?
+http://stackoverflow.com/questions/1708992/what-are-the-different-methods-for-injecting-cross-cutting-concerns/1709048#1709048

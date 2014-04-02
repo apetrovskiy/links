@@ -1,0 +1,12 @@
+Android Emulator
+Keyboard Commands
+http://developer.android.com/tools/help/emulator.html#KeyMapping
+
+Getting Started with Android Studio
+http://developer.android.com/sdk/installing/studio.html#Updating
+
+Get the Android SDK
+http://developer.android.com/sdk/index.html
+
+Android NDK
+https://developer.android.com/tools/sdk/ndk/index.html
