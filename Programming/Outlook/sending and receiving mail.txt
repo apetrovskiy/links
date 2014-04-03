@@ -1,0 +1,2 @@
+How To: Perform Send/Receive in Outlook programmatically
+http://www.add-in-express.com/creating-addins-blog/2011/10/05/outlook-send-receive-programmatically/

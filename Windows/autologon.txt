@@ -1,0 +1,5 @@
+Windows 7 AutoLogon
+http://social.technet.microsoft.com/Forums/windows/en-US/b2e213fe-ce33-4712-8a8d-3cc09722c551/windows-7-autologon?forum=w7itproinstall
+
+How to enable automatic logon in Windows
+http://support.microsoft.com/kb/310584
