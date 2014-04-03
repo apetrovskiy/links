@@ -1,0 +1,2 @@
+LINQ-like List Manipulation in C++
+http://www.drdobbs.com/cpp/linq-like-list-manipulation-in-c/240166882
