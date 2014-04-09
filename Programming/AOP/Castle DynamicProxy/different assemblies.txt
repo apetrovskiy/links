@@ -1,0 +1,2 @@
+Castle DynamicProxy Interceptor having problems with different assemblies
+http://stackoverflow.com/questions/13553004/castle-dynamicproxy-interceptor-having-problems-with-different-assemblies
