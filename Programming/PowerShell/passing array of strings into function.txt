@@ -1,0 +1,2 @@
+passing array of strings into function
+http://social.technet.microsoft.com/Forums/windowsserver/en-US/4760846a-3b31-401f-a49e-92e87beeb367/passing-array-of-strings-into-function?forum=winserverpowershell
