@@ -1,0 +1,8 @@
+.NET: NGEN, explicit loads and load-context promotion
+http://blogs.msdn.com/b/abhinaba/
+
+Back to Basics - Do namespace using directives affect Assembly Loading?
+http://www.hanselman.com/blog/BackToBasicsDoNamespaceUsingDirectivesAffectAssemblyLoading.aspx
+
+Do namespace using directives affect Assembly Loading?
+http://blogs.msdn.com/b/abhinaba/archive/2008/07/08/do-namespace-using-directives-affect-assembly-loading.aspx
