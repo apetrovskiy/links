@@ -1,0 +1,8 @@
+Publishing ClickOnce Applications
+http://msdn.microsoft.com/en-us/library/748fh114(v=vs.90).aspx
+
+Walkthrough: Creating a Custom Installer for a ClickOnce Application
+http://msdn.microsoft.com/en-us/library/dd997001.aspx
+
+ClickOnce Deployment Overview
+http://msdn.microsoft.com/en-us/library/142dbbz4(v=vs.90).aspx
