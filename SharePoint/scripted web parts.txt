@@ -1,0 +1,5 @@
+Allow or prevent Contributors ability to edit scriptable Web Parts (SharePoint Server 2010)
+http://technet.microsoft.com/en-us/library/hh272821(v=office.14).aspx
+
+Prevent your Contributors from adding Scriptable Web Parts in SharePoint 2010
+http://johnnyharbieh.wordpress.com/2011/03/24/prevent-your-contributors-from-adding-scriptable-web-parts-in-sharepoint-2010/
