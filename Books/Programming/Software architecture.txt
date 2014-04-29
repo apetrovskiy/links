@@ -13,3 +13,9 @@ http://www.amazon.com/dp/0321154959/?tag=stackoverfl08-20
 http://www.amazon.com/Software-Architecture-Practice-Edition-Engineering/dp/0321815734/ref=dp_ob_title_bk
 http://www.amazon.com/Process-Software-Architecting-Peter-Eeles-ebook/dp/B002L9MZ06/ref=pd_sim_kstore_4?ie=UTF8&refRID=0CMA80ATPQ82WRF0N9YN
 http://programmers.stackexchange.com/questions/22146/best-books-on-the-theory-and-practice-of-software-architecture
+http://www.fromdev.com/2010/08/best-software-architecture-books-must.html
+http://blog.codinghorror.com/recommended-reading-for-developers/
+https://www.goodreads.com/shelf/show/software-design
+http://stackoverflow.com/questions/996151/how-can-i-learn-to-really-design-software
+http://www.amazon.com/Practical-API-Design-Confessions-Framework-ebook/dp/B001XCVZP8/ref=tmm_kin_title_0
+http://www.amazon.com/API-Design-C-Martin-Reddy/dp/0123850037/ref=pd_sim_b_5?ie=UTF8&refRID=1BPF8YJDYB6H48PHBAEZ
