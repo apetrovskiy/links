@@ -1,1 +1,4 @@
 http://samples.leanpub.com/software-architecture-for-developers-sample.pdf
+http://pnp.azurewebsites.net/en-us/projects.htm
+http://msdn.microsoft.com/en-us/library/ff650706.aspx
+http://msdn.microsoft.com/en-us/library/ff650706.aspx
