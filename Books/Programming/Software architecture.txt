@@ -2,3 +2,14 @@ http://samples.leanpub.com/software-architecture-for-developers-sample.pdf
 http://pnp.azurewebsites.net/en-us/projects.htm
 http://msdn.microsoft.com/en-us/library/ff650706.aspx
 http://msdn.microsoft.com/en-us/library/ff650706.aspx
+http://www.amazon.com/dp/0984618104/?tag=stackoverfl08-20
+http://www.amazon.com/dp/0321552687/?tag=stackoverfl08-20
+http://www.amazon.com/dp/0471958697/?tag=stackoverfl08-20
+http://www.amazon.com/dp/0201703696/?tag=stackoverfl08-20
+http://www.amazon.com/dp/0470447613/?tag=stackoverfl08-20
+http://www.amazon.com/dp/073562609X/?tag=stackoverfl08-20
+http://www.amazon.com/dp/0321112296/?tag=stackoverfl08-20
+http://www.amazon.com/dp/0321154959/?tag=stackoverfl08-20
+http://www.amazon.com/Software-Architecture-Practice-Edition-Engineering/dp/0321815734/ref=dp_ob_title_bk
+http://www.amazon.com/Process-Software-Architecting-Peter-Eeles-ebook/dp/B002L9MZ06/ref=pd_sim_kstore_4?ie=UTF8&refRID=0CMA80ATPQ82WRF0N9YN
+http://programmers.stackexchange.com/questions/22146/best-books-on-the-theory-and-practice-of-software-architecture
