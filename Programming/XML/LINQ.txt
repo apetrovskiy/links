@@ -1,0 +1,2 @@
+.NET Language-Integrated Query for XML Data
+http://msdn.microsoft.com/en-us/library/bb308960.aspx
