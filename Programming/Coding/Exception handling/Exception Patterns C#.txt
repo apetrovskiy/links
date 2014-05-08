@@ -1,0 +1,14 @@
+Chapter 3 - Error Management Made Exceptionally Easy
+http://msdn.microsoft.com/en-us/library/ff953192%28v=pandp.50%29.aspx
+
+Design Guidelines for Exceptions
+http://msdn.microsoft.com/en-us/library/vstudio/ms229014%28v=vs.100%29.aspx
+
+Best Practices for Exceptions
+http://msdn.microsoft.com/en-us/library/seyhszts%28v=vs.110%29.aspx
+
+Design Pattern for Error Handling
+http://stackoverflow.com/questions/21476716/design-pattern-for-error-handling
+
+Design Patterns in Exception Handling
+http://stackoverflow.com/questions/13877647/design-patterns-in-exception-handling

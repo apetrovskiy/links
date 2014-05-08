@@ -1,0 +1,8 @@
+Implementing IEquatable Properly
+http://www.codeproject.com/Articles/20592/Implementing-IEquatable-Properly
+
+IEquatable<T> Interface
+http://msdn.microsoft.com/en-us/library/ms131187(v=vs.110).aspx
+
+IEquatable<T>.Equals
+http://msdn.microsoft.com/ru-ru/library/ms131190(v=vs.110).aspx
