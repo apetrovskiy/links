@@ -1,0 +1,5 @@
+Exception Patterns
+http://c2.com/cgi/wiki?ExceptionPatterns
+
+Design patterns: exception / error handling
+http://stackoverflow.com/questions/15542608/design-patterns-exception-error-handling
