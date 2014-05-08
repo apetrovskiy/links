@@ -1,3 +1,6 @@
+ClickOnce Deployment
+http://msdn.microsoft.com/en-us/library/t71a733d(v=vs.80).ASPX
+
 Publishing ClickOnce Applications
 http://msdn.microsoft.com/en-us/library/748fh114(v=vs.90).aspx
 

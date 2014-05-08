@@ -1,0 +1,2 @@
+XmlSerializer.Deserialize Method (XmlReader)
+http://msdn.microsoft.com/en-us/library/tz8csy73(v=vs.110).aspx
