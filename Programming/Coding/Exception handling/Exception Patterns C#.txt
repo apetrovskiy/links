@@ -12,3 +12,18 @@ http://stackoverflow.com/questions/21476716/design-pattern-for-error-handling
 
 Design Patterns in Exception Handling
 http://stackoverflow.com/questions/13877647/design-patterns-in-exception-handling
+
+Automatic Error Handling
+http://www.codeproject.com/Articles/24437/Automatic-Error-Handling
+
+Exception Handling Best Practices in .NET
+http://www.codeproject.com/Articles/9538/Exception-Handling-Best-Practices-in-NET
+
+Name The Problem Not The Thrower
+http://c2.com/cgi/wiki?NameTheProblemNotTheThrower
+
+Framework Patterns: Exception Handling, Logging, and Tracing
+http://ptgmedia.pearsoncmg.com/images/0321130022/samplechapter/thilmanych02.pdf
+
+Exception Patterns
+http://c2.com/cgi/wiki?ExceptionPatterns
