@@ -1,0 +1,5 @@
+Well documented open source project in .net [closed]
+http://stackoverflow.com/questions/3430670/well-documented-open-source-project-in-net
+
+Recommended open-source software to study C# and design patters (MVC and others)
+http://stackoverflow.com/questions/3122246/recommended-open-source-software-to-study-c-sharp-and-design-patters-mvc-and-ot

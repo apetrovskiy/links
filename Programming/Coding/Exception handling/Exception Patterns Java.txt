@@ -1,0 +1,8 @@
+Java exception handling best practices
+http://howtodoinjava.com/2013/04/04/java-exception-handling-best-practices/
+
+Exception Handling Templates in Java"Exception Patterns C#.txt"
+http://tutorials.jenkov.com/java-exception-handling/exception-handling-templates.html
+
+Design patterns: exception / error handling
+http://stackoverflow.com/questions/15542608/design-patterns-exception-error-handling

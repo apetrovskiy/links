@@ -1,0 +1,29 @@
+Chapter 3 - Error Management Made Exceptionally Easy
+http://msdn.microsoft.com/en-us/library/ff953192%28v=pandp.50%29.aspx
+
+Design Guidelines for Exceptions
+http://msdn.microsoft.com/en-us/library/vstudio/ms229014%28v=vs.100%29.aspx
+
+Best Practices for Exceptions
+http://msdn.microsoft.com/en-us/library/seyhszts%28v=vs.110%29.aspx
+
+Design Pattern for Error Handling
+http://stackoverflow.com/questions/21476716/design-pattern-for-error-handling
+
+Design Patterns in Exception Handling
+http://stackoverflow.com/questions/13877647/design-patterns-in-exception-handling
+
+Automatic Error Handling
+http://www.codeproject.com/Articles/24437/Automatic-Error-Handling
+
+Exception Handling Best Practices in .NET
+http://www.codeproject.com/Articles/9538/Exception-Handling-Best-Practices-in-NET
+
+Name The Problem Not The Thrower
+http://c2.com/cgi/wiki?NameTheProblemNotTheThrower
+
+Framework Patterns: Exception Handling, Logging, and Tracing
+http://ptgmedia.pearsoncmg.com/images/0321130022/samplechapter/thilmanych02.pdf
+
+Exception Patterns
+http://c2.com/cgi/wiki?ExceptionPatterns

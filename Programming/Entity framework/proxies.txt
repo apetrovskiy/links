@@ -1,0 +1,2 @@
+POCO Proxies Part 1
+http://blogs.msdn.com/b/adonet/archive/2009/12/22/poco-proxies-part-1.aspx
