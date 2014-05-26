@@ -1,0 +1,3 @@
+http://ubuntu-news.ru/howto/ustanovka-ubuntu-1204-na-toshiba-ac100
+https://wiki.ubuntu.com/ARM/TEGRA/AC100
+http://rutracker.org/forum/viewtopic.php?t=3445760
