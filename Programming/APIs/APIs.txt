@@ -1,0 +1,6 @@
+http://msdn.microsoft.com/en-us/library/windows/desktop/dd834960.aspx
+http://gamearchitect.net/2008/09/19/good-middleware/
+http://queue.acm.org/detail.cfm?id=1255422
+http://birdchan.com/home/2011/12/05/how-to-design-a-good-api-and-why-it-matters/
+http://www.infoq.com/presentations/effective-api-design
+http://lcsd05.cs.tamu.edu/slides/keynote.pdf
