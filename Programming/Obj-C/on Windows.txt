@@ -1,0 +1,13 @@
+OBJECTIVE-C ON WINDOWS? YES, YOU CAN!
+http://sweettutos.com/2012/08/11/objective-c-on-windows-yes-you-can/
+
+Objective C for Windows
+http://stackoverflow.com/questions/56708/objective-c-for-windows
+
+http://www.gnustep.org/experience/Windows.html
+
+WCR-Write, Compile & Run 
+http://prog.tumblr.com/les01
+
+Objective-C Editor and IDE Features
+http://editrocket.com/features/objective-c_editor.html
