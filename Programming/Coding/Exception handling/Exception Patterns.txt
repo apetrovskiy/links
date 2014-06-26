@@ -3,3 +3,14 @@ http://c2.com/cgi/wiki?ExceptionPatterns
 
 Design patterns: exception / error handling
 http://stackoverflow.com/questions/15542608/design-patterns-exception-error-handling
+
+(
+Best Practices for Exception Handling
+http://www.onjava.com/pub/a/onjava/2003/11/19/exceptions.html
+
+15 Best Practices for Exception Handling 
+http://codebuild.blogspot.ru/2012/01/15-best-practices-about-exception.html
+
+Exception-Handling Antipatterns
+https://today.java.net/article/2006/04/04/exception-handling-antipatterns
+)
