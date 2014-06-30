@@ -10,3 +10,6 @@ http://roysvork.wordpress.com/2013/09/22/why-you-shouldnt-use-a-web-framework-to
 
 
 http://stackoverflow.com/questions/11425095/benefits-of-using-nancyfx
+
+
+http://blog.jonathanchannon.com/2012/12/19/why-use-nancyfx/
