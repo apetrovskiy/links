@@ -16,3 +16,7 @@ http://blog.jonathanchannon.com/2012/12/19/why-use-nancyfx/
 
 Async Route Handling with Nancy
 http://blog.jonathanchannon.com/2013/08/24/async-route-handling-with-nancy/
+
+Get started by using ASP.Net Web API and NancyFx with OWIN/Katana
+
+
