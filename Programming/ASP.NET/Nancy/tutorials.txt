@@ -5,3 +5,5 @@ http://www.d80.co.uk/post/2013/01/04/NancyFx-Tutorial.aspx
 
 
 http://www.hanselman.com/blog/OneASPNETNancyTemplatesForVisualStudio.aspx
+
+http://roysvork.wordpress.com/2013/09/22/why-you-shouldnt-use-a-web-framework-to-build-your-next-api/
