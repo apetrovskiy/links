@@ -3,3 +3,14 @@ http://channel9.msdn.com/Events/aspConf/aspConf/The-Lightweight-Approach-to-Buil
 
 Nancy (.NET Micro Web Frameworks Part 1)
 http://www.nicholascloud.com/2011/05/nancy-net-micro-web-frameworks-part-1/
+
+NancyFx Tutorial
+http://www.youtube.com/watch?v=SJm7chCfaDs
+
+
+
+Introduction to Nancy and Simple.Data
+https://skillsmatter.com/skillscasts/2390-introduction-to-nancy-and-simple-data
+
+Video of my WebNETConf Talk
+http://www.horsdal-consult.dk/2012/11/video-of-my-webnetconf-talk.html
