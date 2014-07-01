@@ -1,0 +1,5 @@
+The Lightweight Approach to Building Web Based APIs with .Net
+http://channel9.msdn.com/Events/aspConf/aspConf/The-Lightweight-Approach-to-Building-Web-Based-APIs-with-Net
+
+Nancy (.NET Micro Web Frameworks Part 1)
+http://www.nicholascloud.com/2011/05/nancy-net-micro-web-frameworks-part-1/
