@@ -1,0 +1,22 @@
+The Lightweight Approach to Building Web Based APIs with .Net
+http://channel9.msdn.com/Events/aspConf/aspConf/The-Lightweight-Approach-to-Building-Web-Based-APIs-with-Net
+
+Nancy (.NET Micro Web Frameworks Part 1)
+http://www.nicholascloud.com/2011/05/nancy-net-micro-web-frameworks-part-1/
+
+Mathew McLoughlin - An Introduction to Nancy
+http://vimeo.com/97419157
+
+Google Books
+http://books.google.ru/books?id=Veb7AAAAQBAJ&pg=PT11&lpg=PT11&dq=Instant+Nancy+Web+Development+download+pdf&source=bl&ots=aYG4tNg8zB&sig=z_HFvSaZ_jU_GBWg9zfO3_ljXt8&hl=ru&sa=X&ei=8mmyU5bzJ8b14QTpo4GwBg&ved=0CGIQ6AEwCA#v=onepage&q=Instant%20Nancy%20Web%20Development%20download%20pdf&f=false
+
+NancyFx Tutorial
+http://www.youtube.com/watch?v=SJm7chCfaDs
+
+
+
+Introduction to Nancy and Simple.Data
+https://skillsmatter.com/skillscasts/2390-introduction-to-nancy-and-simple-data
+
+Video of my WebNETConf Talk
+http://www.horsdal-consult.dk/2012/11/video-of-my-webnetconf-talk.html
