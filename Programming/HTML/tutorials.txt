@@ -1,0 +1,6 @@
+HTTP: The Protocol Every Web Developer Must Know - Part 1
+http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
+
+HTTP: The Protocol Every Web Developer Must Know – Part 2 at Nettuts+
+http://www.larryullman.com/2013/05/03/http-the-protocol-every-web-developer-must-know-part-2-at-nettuts/
+http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-2--net-31155
