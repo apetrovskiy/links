@@ -7,3 +7,5 @@ http://www.active-undelete.com/howto_restore_part.htm
 Recovery data from hard disk after deleting partition
 http://www.tomshardware.co.uk/forum/252267-45-recovery-data-hard-disk-deleting-partition
 
+How do I recover the deleted, missing or lost logical drives?
+http://www.easeus.com/datarecoverywizard/recover-lost-partition.htm
