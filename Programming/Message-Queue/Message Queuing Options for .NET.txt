@@ -1,0 +1,4 @@
+Message Queuing Options for .NET
+http://www.infoq.com/news/2011/04/Message-Queues
+
+http://www.codeproject.com/Articles/193611/DotNetMQ-A-Complete-Message-Queue-System-for-NET
