@@ -6,3 +6,12 @@ http://zguide.zeromq.org/cs:asyncsrv
 
 Examples in C#
 http://zguide.zeromq.org/cs:_start
+
+NetMQ
+https://github.com/zeromq/netmq
+
+ØMQ - The Guide
+http://zguide.zeromq.org/page:all
+
+Somdoron's Blog
+http://somdoron.com/category/netmq/
