@@ -1,2 +1,6 @@
 Developing a REST Web Service using C# - A walkthrough
 http://www.codeproject.com/Articles/112470/Developing-a-REST-Web-Service-using-C-A-walkthroug
+
+Call web APIs in C# using .NET framework 3.5
+http://stackoverflow.com/questions/22397865/call-web-apis-in-c-sharp-using-net-framework-3-5
+http://msdn.microsoft.com/en-us/library/system.net.webclient%28v=vs.90%29.aspx
