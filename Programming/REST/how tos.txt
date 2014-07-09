@@ -1,0 +1,4 @@
+Web API Design Crafting Interfaces that Developers Love
+http://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf
+http://habrahabr.ru/company/SECL_GROUP/blog/204510/
+http://habrahabr.ru/post/181988/
