@@ -1,0 +1,8 @@
+http://www.jetbrains.com/idea/documentation/
+http://www.jetbrains.com/idea/features/android-tutorials.jsp
+!! (12 Community Edition)
+http://www.youtube.com/watch?v=DDHEYPzXm94
+(8)
+http://www.youtube.com/watch?v=37Cl0Q4KddM
+100 Best IntelliJ Videos
+http://meta-guide.com/videography/100-best-intellij-videos/
