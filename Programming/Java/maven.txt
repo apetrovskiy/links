@@ -1,0 +1,6 @@
+https://www.google.com/search?q=%D0%BA%D0%B0%D0%BA+%D0%BD%D0%B0%D1%87%D0%B0%D1%82%D1%8C+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C+%D1%81+java+maven&oq=%D0%BA%D0%B0%D0%BA+%D0%BD%D0%B0%D1%87%D0%B0%D1%82%D1%8C+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C+%D1%81+java+maven&aqs=chrome..69i57j0.9951j0j7&sourceid=chrome&es_sm=93&ie=UTF-8&qscrl=1
+
+http://habrahabr.ru/post/77382/
+http://www.apache-maven.ru/quick_start.html
+http://vsprog.ru/258
+http://javaxblog.ru/article/java-maven-1/
