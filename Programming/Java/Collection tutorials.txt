@@ -1,0 +1,7 @@
+http://www.java2s.com/Tutorial/Java/0140__Collections/UsingEnumerationtoloopthroughProperties.htm
+http://www.tutorialspoint.com/java/util/properties_propertynames.htm
+http://stackoverflow.com/questions/1432481/multiple-values-in-java-util-properties
+http://stackoverflow.com/questions/1318347/how-to-use-java-property-files
+http://crunchify.com/how-to-iterate-through-java-list-4-way-to-iterate-through-loop/
+http://www.tech-recipes.com/rx/1181/java-enumeration-and-iterators/
+http://examples.javacodegeeks.com/core-java/util/properties/java-util-properties-example/
