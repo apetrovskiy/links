@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/3793105/threads-and-delegates-i-dont-fully-understand-their-relations
