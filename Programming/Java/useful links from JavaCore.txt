@@ -1,0 +1,5 @@
+GUI:
+http://www.javootoo.com/
+http://napkinlaf.sourceforge.net/
+https://wiki.eclipse.org/Eclipse_Corner
+http://www.oracle.com/technetwork/java/javafx/overview/index.html
