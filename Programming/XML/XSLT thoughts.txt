@@ -1,0 +1,8 @@
+Are there any good reasons to use, learn, or recommend XSLT? [closed]
+http://programmers.stackexchange.com/questions/95846/are-there-any-good-reasons-to-use-learn-or-recommend-xslt
+
+How much HTML and CSS should server side developer know?
+http://programmers.stackexchange.com/questions/95335/how-much-html-and-css-should-server-side-developer-know/95343#95343
+
+Is XSLT worth it? [closed]
+http://stackoverflow.com/questions/78716/is-xslt-worth-it

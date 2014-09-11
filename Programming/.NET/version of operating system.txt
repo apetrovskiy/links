@@ -1,0 +1,4 @@
+http://stackoverflow.com/questions/2819934/detect-windows-7-in-net
+http://social.msdn.microsoft.com/Forums/vstudio/en-US/5956c04f-072a-406c-ae6a-cc8b3a207936/systemenvironmentosversionversionmajor?forum=csharpgeneral
+http://www.csharp411.com/wp-content/uploads/2009/01/OSInfo.cs
+http://www.codeproject.com/Articles/73000/Getting-Operating-System-Version-Info-Even-for-Win
