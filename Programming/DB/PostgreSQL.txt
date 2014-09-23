@@ -1,0 +1,5 @@
+What's the default superuser username/password for postgres after a new install?
+http://serverfault.com/questions/110154/whats-the-default-superuser-username-password-for-postgres-after-a-new-install
+sudo -u postgres psql postgres
+
+
