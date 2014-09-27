@@ -1,0 +1,9 @@
+The Razor Framework :: Part 1 :: Plugins/Extensibility
+http://www.codeproject.com/Articles/9685/The-Razor-Framework-Part-Plugins-Extensibility
+
+http://en.wikipedia.org/wiki/ASP.NET_Razor_view_engine
+
+Walkthrough: Creating a Web Site using Razor Syntax in Visual Studio
+http://msdn.microsoft.com/en-us/library/vstudio/gg606533%28v=vs.100%29.aspx
+
+http://www.microsoft.com/web/category/razor
