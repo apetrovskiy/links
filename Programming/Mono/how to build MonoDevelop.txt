@@ -1,0 +1,8 @@
+MonoDevelop 5.0 for Linux Distro?
+http://stackoverflow.com/questions/23970245/monodevelop-5-0-for-linux-distro
+
+?
+Building MonoDevelop
+http://monodevelop.com/developers/building_monodevelop
+
+http://stackoverflow.com/questions/16485826/ubuntu-13-04-how-to-build-monodevelop-4-0-1
