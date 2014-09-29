@@ -1,0 +1,2 @@
+Паттерн 'Репозиторий' в ASP.NET
+http://metanit.com/sharp/articles/mvc/11.php
