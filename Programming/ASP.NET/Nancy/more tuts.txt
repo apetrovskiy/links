@@ -1,0 +1,6 @@
+Dan's Development Blog
+NancyFx Tutorial
+http://www.d80.co.uk/post/2013/01/04/NancyFx-Tutorial.aspx
+
+Adventures With NancyFx - NHaml ViewEngine Integration Part I
+http://russellallen.info/post/2012/04/30/Adventures-With-NancyFx-NHaml-ViewEngine-Integration-Part-I.aspx
