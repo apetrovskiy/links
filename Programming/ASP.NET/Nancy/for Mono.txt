@@ -1,2 +1,5 @@
 Building a simple Nancy app from scratch using Mono and MonoDevelop in OSX
 http://littlegists.blogspot.ru/2012/12/building-simple-nancy-app-from-scratch.html
+
+.Net Web dev Mac – Nuget, Monodevelop and Nancy
+http://www.codedistillers.com/rui/2013/01/09/net-web-dev-on-mac-nuget-monodevelop-nancy/
