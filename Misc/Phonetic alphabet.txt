@@ -1,0 +1,2 @@
+Gartner predicts that by 2016, 99% of Global 2000 enterprises will use open source in mission-critical software.
+
