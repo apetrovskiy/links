@@ -1,0 +1,11 @@
+this works!
+assign value using linq
+http://stackoverflow.com/questions/5376405/assign-value-using-linq
+
+OK:
+How can I set properties on all items from a linq query with values from another object that is also pulled from a query?
+http://stackoverflow.com/questions/7851890/how-can-i-set-properties-on-all-items-from-a-linq-query-with-values-from-another
+
+this didn't work for me
+LINQ: Select an object and change some properties without creating a new object
+http://stackoverflow.com/questions/807797/linq-select-an-object-and-change-some-properties-without-creating-a-new-object
