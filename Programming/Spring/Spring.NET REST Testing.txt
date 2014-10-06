@@ -1,3 +1,6 @@
+How to unittest a class using RestTemplate offline?
+http://stackoverflow.com/questions/4643105/how-to-unittest-a-class-using-resttemplate-offline
+
 spring-net-rest / examples / Spring.TestingQuickStart
 https://github.com/spring-projects/spring-net-rest/tree/master/examples/Spring.TestingQuickStart
 https://github.com/spring-projects/spring-net-rest/blob/master/examples/Spring.TestingQuickStart/test/Spring.RestBucksClient.Tests/Api/RestBucksClientTests.cs
@@ -13,3 +16,6 @@ http://www.objectpartners.com/2013/01/09/rest-client-testing-with-mockrestservic
 
 Designing and Implementing RESTful Web Services with Spring
 http://spring.io/guides/tutorials/rest/4/
+
+Consuming RESTful Web Services using Spring's RestTemplate
+http://www.informit.com/guides/content.aspx?g=java&seqNum=546
