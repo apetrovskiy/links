@@ -1,0 +1,10 @@
+
+
+https://github.com/spring-projects/spring-net-rest/tree/master/examples/Spring.TestingQuickStart
+
+Testing RestTemplate based code
+http://www.springframework.net/rest/refdoc/resttemplate.html
+
+
+Designing and Implementing RESTful Web Services with Spring
+http://spring.io/guides/tutorials/rest/4/
