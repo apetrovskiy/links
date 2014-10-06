@@ -8,5 +8,8 @@ http://www.springframework.net/rest/refdoc/resttemplate.html
 Unit test Spring RestTemplate webservice client
 http://raymondhlee.wordpress.com/2013/02/16/unit-test-spring-resttemplate-webservice-client/
 
+REST Client Testing With MockRestServiceServer
+http://www.objectpartners.com/2013/01/09/rest-client-testing-with-mockrestserviceserver/
+
 Designing and Implementing RESTful Web Services with Spring
 http://spring.io/guides/tutorials/rest/4/
