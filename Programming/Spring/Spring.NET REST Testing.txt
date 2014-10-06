@@ -1,6 +1,6 @@
-
-
+spring-net-rest / examples / Spring.TestingQuickStart
 https://github.com/spring-projects/spring-net-rest/tree/master/examples/Spring.TestingQuickStart
+https://github.com/spring-projects/spring-net-rest/blob/master/examples/Spring.TestingQuickStart/test/Spring.RestBucksClient.Tests/Api/RestBucksClientTests.cs
 
 Testing RestTemplate based code
 http://www.springframework.net/rest/refdoc/resttemplate.html
