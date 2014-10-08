@@ -9,3 +9,6 @@ http://timjones.tw/blog/archive/2010/10/25/introducing-dotliquid-the-secure-open
 
 Try DotLiquid Online
 http://dotliquidmarkup.org/try-online
+
+DotLiquid for Designers
+https://github.com/formosatek/dotliquid/wiki/DotLiquid-for-Designers
