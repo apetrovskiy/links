@@ -1,0 +1,11 @@
+RestTemplate with Basic Authentication in Spring
+http://www.baeldung.com/2012/04/16/how-to-use-resttemplate-with-basic-authentication-in-spring-3-1/
+
+2.3. Authenticating requests
+http://www.springframework.net/rest/refdoc/resttemplate.html
+
+Quick Tip: Basic Authentication With Spring RestTemplate
+http://springinpractice.com/2013/10/02/quick-tip-basic-authentication-with-spring-resttemplate
+
+Basic Authentication with RestTemplate - compilation error - The constructor HttpClient() is not visible
+http://stackoverflow.com/questions/15462128/basic-authentication-with-resttemplate-compilation-error-the-constructor-htt
