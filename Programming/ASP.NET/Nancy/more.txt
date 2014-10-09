@@ -1,0 +1,5 @@
+Nancy Was the Right Tool for the Job
+http://adaptengine.com/blog/nancy-was-the-right-tool-for-the-job/
+
+Nancy routing for ASP.NET webforms
+http://stackoverflow.com/questions/11261524/nancy-routing-for-asp-net-webforms
