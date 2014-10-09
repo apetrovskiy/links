@@ -1,0 +1,14 @@
+Dot Liquid Template Syntax
+http://havanacommerce.net/en/help/templates.syntax
+
+Inconsistent Behavior in Mono 3.2 with DotLiquid Collections on Nancy Web Solution
+http://stackoverflow.com/questions/19651473/inconsistent-behavior-in-mono-3-2-with-dotliquid-collections-on-nancy-web-soluti
+
+Introducing DotLiquid: the secure, open-source template engine for .NET
+http://timjones.tw/blog/archive/2010/10/25/introducing-dotliquid-the-secure-open-source-template-engine
+
+Try DotLiquid Online
+http://dotliquidmarkup.org/try-online
+
+DotLiquid for Designers
+https://github.com/formosatek/dotliquid/wiki/DotLiquid-for-Designers
