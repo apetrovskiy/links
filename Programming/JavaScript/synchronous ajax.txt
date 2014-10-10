@@ -1,0 +1,12 @@
+How can I run Ajax functions synchronously from Javascript?
+http://stackoverflow.com/questions/6482333/how-can-i-run-ajax-functions-synchronously-from-javascript
+
+jQuery: Performing synchronous AJAX requests
+http://stackoverflow.com/questions/6685249/jquery-performing-synchronous-ajax-requests
+
+How can I get jQuery to perform a synchronous, rather than asynchronous, AJAX request?
+http://stackoverflow.com/questions/133310/how-can-i-get-jquery-to-perform-a-synchronous-rather-than-asynchronous-ajax-re
+
+Ajax
+Asynchronous or Synchronous
+http://javascript.about.com/od/ajax/a/ajaxasyn.htm
