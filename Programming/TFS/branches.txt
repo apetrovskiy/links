@@ -1,0 +1,2 @@
+Branches
+http://www.visualstudio.com/en-us/integrate/reference/reference-vso-version-control-branches-vsi

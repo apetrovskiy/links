@@ -1,0 +1,11 @@
+Parsing REST Services JSON Responses (C#)
+http://msdn.microsoft.com/en-us/library/hh674188.aspx
+
+Get started with the REST APIs
+http://www.visualstudio.com/integrate/get-started/get-started-rest-basics-vsi
+
+Working with JSON Data
+http://msdn.microsoft.com/en-us/library/cc197957(v=vs.95).aspx
+
+How to: Make Requests to HTTP-Based Services
+http://msdn.microsoft.com/en-us/library/cc197953(v=vs.95).aspx

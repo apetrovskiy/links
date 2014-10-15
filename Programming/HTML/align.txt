@@ -1,0 +1,10 @@
+all below are doubtful
+
+html5 equivalent to align=“center” in table's TD
+http://stackoverflow.com/questions/16985799/html5-equivalent-to-align-center-in-tables-td
+
+Image align attribute in HTML 5
+http://stackoverflow.com/questions/12546682/image-align-attribute-in-html-5
+
+In HTML5, with respect to tables, what replaces cellpadding, cellspacing, valign, and align?
+http://stackoverflow.com/questions/6048913/in-html5-with-respect-to-tables-what-replaces-cellpadding-cellspacing-valign

@@ -1,0 +1,8 @@
+http://spbtfs2013.nwx.local:8080/tfs/defaultcollection/_apis/tfvc/branches?includeChildren=true
+
+Get started with the REST APIs
+http://www.visualstudio.com/integrate/get-started/get-started-rest-basics-vsi
+
+Authentication for the REST APIs
+http://www.visualstudio.com/en-us/integrate/get-started/get-started-auth-introduction-vsi
+
