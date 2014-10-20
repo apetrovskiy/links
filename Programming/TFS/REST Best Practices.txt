@@ -1,0 +1,10 @@
+10 Best Practices for Better RESTful API
+http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/
+
+Best Practices REST API from Scratch – Introduction
+http://www.sitepoint.com/best-practices-rest-api-scratch-introduction/
+
+What Is REST?
+http://www.restapitutorial.com/lessons/whatisrest.html
+
+

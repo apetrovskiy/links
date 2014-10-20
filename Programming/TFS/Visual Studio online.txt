@@ -1,0 +1,13 @@
+Get started with the REST APIs
+http://www.visualstudio.com/en-us/integrate/get-started/get-started-rest-basics-vsi
+
+Authentication for the REST APIs
+http://www.visualstudio.com/en-us/integrate/get-started/get-started-auth-introduction-vsi
+
+Authorize access with OAuth 2.0
+http://www.visualstudio.com/en-us/integrate/get-started/get-started-auth-oauth2-vsi
+
+Visual Studio Online REST API Reference
+http://www.visualstudio.com/en-us/integrate/reference/reference-vso-overview-vsi
+
+
