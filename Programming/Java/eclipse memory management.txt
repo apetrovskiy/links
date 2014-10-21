@@ -1,0 +1,12 @@
+https://docs.oseems.com/general/application/eclipse/fix-gc-overhead-limit-exceeded
+
+Eclipse has stopped working and won't start anymore
+http://stackoverflow.com/questions/18297068/eclipse-has-stopped-working-and-wont-start-anymore
+
+dubious:
+Eclipse heap space (out of memory error)
+http://stackoverflow.com/questions/11266077/eclipse-heap-space-out-of-memory-error
+
+dubious:
+Why do I get message: “Unhandled event loop exception Java heap space” in Eclipse when using javascript autocomplete?
+http://stackoverflow.com/questions/14276892/why-do-i-get-message-unhandled-event-loop-exception-java-heap-space-in-eclips
