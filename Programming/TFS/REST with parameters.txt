@@ -1,0 +1,7 @@
+REST API Best practice: How to accept as input a list of parameter values
+http://stackoverflow.com/questions/2602043/rest-api-best-practice-how-to-accept-as-input-a-list-of-parameter-values
+
+REST API Best practices: Where to put parameters?
+http://stackoverflow.com/questions/4024271/rest-api-best-practices-where-to-put-parameters
+
+
