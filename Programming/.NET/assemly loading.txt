@@ -6,3 +6,7 @@ http://www.hanselman.com/blog/BackToBasicsDoNamespaceUsingDirectivesAffectAssemb
 
 Do namespace using directives affect Assembly Loading?
 http://blogs.msdn.com/b/abhinaba/archive/2008/07/08/do-namespace-using-directives-affect-assembly-loading.aspx
+
+
+How to call a Managed DLL File in C#?
+http://stackoverflow.com/questions/6830610/how-to-call-a-managed-dll-file-in-c
