@@ -3,6 +3,13 @@ https://getopt.codeplex.com/releases/view/4344
 
 !!! Mono.Options
 http://tirania.org/blog/archive/2008/Oct-14.html
+OptionSet Class
+http://www.ndesk.org/doc/ndesk-options/NDesk.Options/OptionSet.html
+
+this works!
+Command line parsing in C# with NDesk.Options
+http://jasona.wordpress.com/2010/01/10/command-line-parsing-in-c-with-ndesk-options/
+
 https://www.nuget.org/packages/Mono.Options/
 
 http://www.codeproject.com/Articles/26502/GetOpt-for-NET

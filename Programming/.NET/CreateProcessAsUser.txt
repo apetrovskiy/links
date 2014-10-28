@@ -3,3 +3,6 @@ http://msdn.microsoft.com/en-us/library/windows/desktop/aa379608%28v=vs.85%29.as
 http://msdn.microsoft.com/en-us/library/windows/desktop/ms682431%28v=vs.85%29.aspx
 http://social.msdn.microsoft.com/Forums/en-US/windowssecurity/thread/31bfa13d-982b-4b1a-bff3-2761ade5214f/   !!!
 http://msdn.microsoft.com/en-us/library/23hecdet%28v=vs.80%29.aspx
+
+this works! (/netonly)
+http://blogs.msdn.com/b/alejacma/archive/2007/12/20/how-to-call-createprocesswithlogonw-createprocessasuser-in-net.aspx

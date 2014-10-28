@@ -1,0 +1,18 @@
+this works!
+How to call CreateProcessWithLogonW & CreateProcessAsUser in .NET
+http://blogs.msdn.com/b/alejacma/archive/2007/12/20/how-to-call-createprocesswithlogonw-createprocessasuser-in-net.aspx
+
+CreateProcessWithLogonW (advapi32)
+http://www.pinvoke.net/default.aspx/advapi32/CreateProcessWithLogonW.html
+
+Managed CreateProcessWithLogonW
+http://geekswithblogs.net/khanna/archive/2005/02/09/22430.aspx
+
+CreateProcessWithLogonW function
+http://msdn.microsoft.com/en-us/library/windows/desktop/ms682431(v=vs.85).aspx
+
+CreateProcessWithLogonW and UAC
+https://social.msdn.microsoft.com/Forums/vstudio/en-US/580e2d48-8dc6-4c37-ba98-caf5c1f2a5e8/createprocesswithlogonw-and-uac?forum=csharpgeneral
+
+Using alternative network credentials with CreateProcessWithLogonW
+https://social.msdn.microsoft.com/Forums/en-US/4f498444-3ccd-4cf3-94f9-c35702c02f50/using-alternative-network-credentials-with-createprocesswithlogonw?forum=netfx64bit
