@@ -1,0 +1,8 @@
+Changing application pool identities in IIS 7/8 using PowerShell
+http://www.iisonthe.net/2012/07/25/changing-application-pool-identities-in-iis-78-using-powershell/
+
+How to configure application pool identity from powershell?
+http://forums.iis.net/t/1171615.aspx
+
+how to recyle a particular application pool in iis using powershell script. All i have is a site name
+http://social.technet.microsoft.com/Forums/windowsserver/en-US/0448a533-b0ac-4ece-9f2a-7c5924df1c8b/how-to-recyle-a-particular-application-pool-in-iis-using-powershell-script-all-i-have-is-a-site?forum=winserverpowershell

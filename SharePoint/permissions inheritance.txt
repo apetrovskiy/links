@@ -1,0 +1,14 @@
+http://msdn.microsoft.com/en-us/library/ee535228(v=office.14).aspx
+http://msdn.microsoft.com/en-us/library/ee538244(v=office.14).aspx
+http://msdn.microsoft.com/en-us/library/ee535915(v=office.14).aspx
+http://msdn.microsoft.com/en-us/library/ms414400(v=office.14).aspx
+http://msdn.microsoft.com/en-us/library/ee539350(v=office.14).aspx
+http://sharepoint.stackexchange.com/questions/31941/stop-inheriting-permissions-programatically
+http://stackoverflow.com/questions/4818704/sharepoint-2010-breaking-role-inheritance-with-ecmascript
+http://msdn.microsoft.com/en-us/library/ee534974.aspx
+http://answers.flyppdevportal.com/categories/sharepoint2010/sharepoint2010setup.aspx?ID=753a98d7-b769-4bca-a048-3b74661baa38
+http://www.wictorwilen.se/Post/BreakRoleInheritance-and-AllowUnsafeUpdates.aspx
+
+
+http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.spweb.breakroleinheritance.aspx
+http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.splist.breakroleinheritance.aspx

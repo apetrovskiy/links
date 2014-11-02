@@ -1,0 +1,2 @@
+Creating a dynamic proxy generator – Part 1 – Creating the Assembly builder, Module builder and caching mechanism
+http://weblogs.asp.net/seanmcalinden/archive/2010/03/18/creating-a-dynamic-proxy-generator-part-1-creating-the-assembly-builder-module-builder-and-caching-mechanism.aspx

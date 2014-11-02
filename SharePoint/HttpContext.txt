@@ -1,0 +1,7 @@
+Injecting HttpContext and SPContext into your PowerShell scripts
+http://pholpar.wordpress.com/2013/07/15/injecting-httpcontext-and-spcontext-into-your-powershell-scripts/
+
+Injecting HttpContext and SPContext into the event receiver context 
+http://pholpar.wordpress.com/2011/06/26/injecting-httpcontext-and-spcontext-into-the-event-receiver-context/
+
+http://pholpar.wordpress.com/

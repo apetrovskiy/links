@@ -1,0 +1,12 @@
+Dan's Development Blog
+NancyFx Tutorial
+http://www.d80.co.uk/post/2013/01/04/NancyFx-Tutorial.aspx
+
+Adventures With NancyFx - NHaml ViewEngine Integration Part I
+http://russellallen.info/post/2012/04/30/Adventures-With-NancyFx-NHaml-ViewEngine-Integration-Part-I.aspx
+
+Nancy vs ASP.NET MVC - Getting Started
+http://benfoster.io/blog/nancy-vs-aspnet-mvc-getting-started
+
+Build Simple Web UIs with the Nancy Framework
+http://visualstudiomagazine.com/articles/2013/03/01/simple-web-uis-with-the-nancy-framework.aspx

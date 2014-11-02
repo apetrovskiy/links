@@ -1,0 +1,14 @@
+Extending Team Foundation
+http://msdn.microsoft.com/en-us/library/bb130146.aspx
+
+Team Foundation Server (TFS) API Wrapper
+http://tfsapiwrapper.codeplex.com/
+
+How to: Add New Work Items (Team System Web Access)
+http://msdn.microsoft.com/en-us/library/bb822136%28v=VS.90%29.aspx
+
+A new API for Visual Studio Online
+http://blogs.msdn.com/b/bharry/archive/2014/05/12/a-new-api-for-visual-studio-online.aspx
+
+Visual Studio Online REST API Reference
+http://www.visualstudio.com/integrate/reference/reference-vso-overview-vsi

@@ -1,0 +1,3 @@
+(Pandarama)
+Castle Dynamic Proxy how to merge data in CreateClassProxyWithTarget
+http://stackoverflow.com/questions/14438133/castle-dynamic-proxy-how-to-merge-data-in-createclassproxywithtarget

@@ -1,0 +1,2 @@
+PowerShell Workflow for Mere Mortals: Part 1
+http://blogs.technet.com/b/heyscriptingguy/archive/2013/08/19/powershell-workflow-for-mere-mortals-part-1.aspx

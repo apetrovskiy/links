@@ -1,0 +1,8 @@
+MonoDevelop: How To Get ASP.NET MVC 3 (Razor) Project Working On Ubuntu 14.04
+http://www.davidloo.com/?p=479
+
+Install MonoDevelop 5.1 on fresh Ubuntu 14.04 LTS 64bit
+https://anangbakti.wordpress.com/2014/05/16/install-monodevelop-5-1-on-fresh-ubuntu-14-04-lts-64bit/
+
+Installing monodevelop from PPA on Ubuntu 14.04 (trusty)
+http://askubuntu.com/questions/450654/installing-monodevelop-from-ppa-on-ubuntu-14-04-trusty

@@ -1,0 +1,4 @@
+http://docs.castleproject.org/Windsor.Interceptors.ashx#Using_interceptors_2
+
+Introduction to AOP With Castle
+http://docs.castleproject.org/Windsor.Introduction-to-AOP-With-Castle.ashx

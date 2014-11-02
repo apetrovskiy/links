@@ -1,0 +1,2 @@
+Overview of Mobile Pages and the Redirection System
+http://msdn.microsoft.com/en-us/library/office/ms462572(v=office.14).aspx

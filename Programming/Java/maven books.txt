@@ -1,0 +1,5 @@
+http://books.sonatype.com/mvnex-book/reference/public-book.html
+http://books.sonatype.com/mvnref-book/reference/
+
+http://www.packtpub.com/getting-started-with-apache-maven/video
+http://www.packtpub.com/apache-maven-3-0-cookbook/book

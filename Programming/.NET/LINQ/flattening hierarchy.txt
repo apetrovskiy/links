@@ -1,0 +1,8 @@
+How to flatten nested objects with linq expression
+http://stackoverflow.com/questions/6428940/how-to-flatten-nested-objects-with-linq-expression
+
+Populate a tree from Hierarchical data using 1 LINQ statement
+http://stackoverflow.com/questions/2760415/populate-a-tree-from-hierarchical-data-using-1-linq-statement
+
+(ID/ParentID) list to Hierarchical list
+http://stackoverflow.com/questions/9409021/id-parentid-list-to-hierarchical-list

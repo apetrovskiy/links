@@ -1,0 +1,17 @@
+HowTo – NInject – Part 1 – Basics
+http://lukewickstead.wordpress.com/2013/02/09/howto-ninject-part-1-basics/
+
+Overloading Ninject
+http://www.nephandus.com/2013/05/10/overloading-ninject/
+
+Constructor injection with Func on Ninject
+http://stackoverflow.com/questions/9438829/constructor-injection-with-func-on-ninject
+
+Ninject Cascading Constructor Arguments
+http://stackoverflow.com/questions/10141661/ninject-cascading-constructor-arguments
+
+NInject Cheat Sheet
+http://lukewickstead.wordpress.com/2013/01/18/ninject-cheat-sheet/
+
+.NET HowTos
+http://lukewickstead.wordpress.com/2013/01/13/net-howtos/

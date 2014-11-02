@@ -1,0 +1,3 @@
+http://developer.gnome.org/accessibility-devel-guide/3.0/gad-how-it-works.html.en
+http://developer.gnome.org/accessibility-devel-guide/3.4/accessibility-devel-guide.html
+http://linux.softpedia.com/downloadTag/GNOME+Accessibility+framework

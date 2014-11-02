@@ -1,0 +1,40 @@
+Use PowerShell to Manage Lists, Views, and Items in SharePoint
+http://blogs.technet.com/b/heyscriptingguy/archive/2010/09/22/use-powershell-to-manage-lists-views-and-items-in-sharepoint.aspx
+
+How to: Create or Delete SharePoint Lists
+http://msdn.microsoft.com/en-us/library/ms425818(v=office.14).aspx
+Creating List Programatically in SharePoint 2010 using Visual Studio 2010
+http://devendra-sharepoint.blogspot.ru/2012/01/creating-list-programatically-in_30.html
+How to Create Custom List in SharePoint 2010 Programmatically?
+http://stackoverflow.com/questions/14722761/how-to-create-custom-list-in-sharepoint-2010-programmatically
+How to create list programmatically using Custom List Template.
+http://social.msdn.microsoft.com/Forums/sharepoint/en-US/903b6479-8faf-4e65-9519-d14c9c8808d3/how-to-create-list-programmatically-using-custom-list-template
+Create List in Sharepoint 2010 Programmatically
+http://saifalmaluk.wordpress.com/2011/10/26/create-list-in-sharepoint-2010-programmatically/
+
+
+Moving a SharePoint 2010 Web using PowerShell
+http://oszakiewski.net/eric/moving-a-sharepoint-2010-web-using-powershell
+SharePoint 2010 – How to move a subsite to a different location
+http://www.coretekservices.com/2011/10/20/sharepoint-2010-how-to-move-a-subsite-to-a-different-location/
+??????? Moving your website to SharePoint 2010–guest post by Applicable
+http://blogs.technet.com/b/simonmay/archive/2011/02/11/moving-your-website-to-sharepoint-2010-guest-post-by-applicable.aspx
+
+
+
+Hey, Scripting Guy!
+tag SharePoint:
+http://blogs.technet.com/b/heyscriptingguy/archive/tags/sharepoint/
+Use SharePoint 2010 PowerShell Cmdlets to Get and Manage Sites (basic)
+http://blogs.technet.com/b/heyscriptingguy/archive/2010/09/21/use-sharepoint-2010-powershell-cmdlets-to-get-and-manage-sites.aspx
+
+
+Use PowerShell to Upload a New File Version to SharePoint
+http://blogs.technet.com/b/heyscriptingguy/archive/2013/04/28/weekend-scripter-use-powershell-to-upload-a-sharepoint-file-version.aspx
+
+Logging
+The Greatest SharePoint 2010 Cmdlet
+http://blogs.technet.com/b/heyscriptingguy/archive/2012/11/10/weekend-scripter-the-greatest-sharepoint-2010-cmdlet.aspx
+
+Use PowerShell to Edit SharePoint Profiles
+http://blogs.technet.com/b/heyscriptingguy/archive/2011/11/12/use-powershell-to-edit-sharepoint-profiles.aspx

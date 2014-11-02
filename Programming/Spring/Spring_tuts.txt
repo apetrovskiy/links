@@ -1,0 +1,9 @@
+Chapter 1. Basic Application and Environment Setup
+1.1. Create the project directory structure
+http://docs.spring.io/docs/Spring-MVC-step-by-step/part1.html
+
+Spring Boot – Simplifying Spring for Everyone
+https://spring.io/blog/2013/08/06/spring-boot-simplifying-spring-for-everyone
+
+Configuration
+http://docs.spring.io/spring/docs/3.1.x/spring-framework-reference/html/xsd-config.html

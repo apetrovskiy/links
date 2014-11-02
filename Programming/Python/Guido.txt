@@ -1,0 +1,11 @@
+http://habrahabr.ru/post/196624/
+http://www.youtube.com/watch?v=sMql3Di4Kgc
+
+
+Code Review
+https://codereview.appspot.com/
+
+
+https://developers.google.com/appengine/docs/python/ndb/
+
+https://www.dropbox.com/developers/datastore

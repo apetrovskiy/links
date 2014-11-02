@@ -1,0 +1,7 @@
+https://github.com/rlipscombe/nancy-owin-signalr-chat
+
+Create a super-duper-happy SPA web app using Durandal, Nancy, and Bootstrap
+http://cyanbyfuchsia.wordpress.com/2014/01/12/create-a-super-duper-happy-spa-web-app-using-durandal-nancy-and-bootstrap/
+
+Running Nancy on Windows Azure Web Sites
+http://www.bradygaster.com/post/running-nancy-on-windows-azure-web-sites

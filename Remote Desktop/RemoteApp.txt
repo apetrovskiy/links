@@ -1,0 +1,15 @@
+Remote Desktop Services Blog
+RemoteApp for Hyper-V (VDI) Deployment
+http://geekswithblogs.net/twickers/archive/2009/12/18/137048.aspx
+http://blogs.msdn.com/b/rds/archive/2010/03/08/remoteapp-for-hyper-v-vdi-deployment.aspx
+
+TS RemoteApp Step-by-Step Guide
+http://technet.microsoft.com/en-us/library/cc730673%28v=ws.10%29.aspx
+
+Terminal Services Client Configuration through the .rdp File (Windows CE 5.0)
+http://msdn.microsoft.com/en-us/library/ms861803.aspx
+
+How to change the listening port for Remote Desktop
+http://support.microsoft.com/kb/306759
+How to configure the Remote Desktop client to connect to a specific port when you use Windows XP
+http://support.microsoft.com/kb/304304

@@ -1,0 +1,11 @@
+Introduction to Generics (C# Programming Guide)
+http://msdn.microsoft.com/en-us/library/vstudio/0x6a29h6.aspx
+
+Constraints on Type Parameters (C# Programming Guide)
+http://msdn.microsoft.com/en-us/library/vstudio/d5x73970.aspx
+
+where (generic type constraint) (C# Reference)
+http://msdn.microsoft.com/en-us/library/vstudio/bb384067.aspx
+
+Generic classes
+http://msdn.microsoft.com/en-us/library/sz6zd40f(v=vs.110).aspx

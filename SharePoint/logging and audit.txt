@@ -1,0 +1,5 @@
+http://sharepointlogviewer.codeplex.com/
+
+natively
+http://sharepoint.stackexchange.com/questions/16705/how-to-find-when-a-sharepoint-list-item-was-deleted
+http://www.codeproject.com/Articles/431342/Auditing-A-Built-in-Feature-of-SharePoint

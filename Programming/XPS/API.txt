@@ -1,0 +1,14 @@
+XPS Document API
+http://msdn.microsoft.com/en-us/library/windows/desktop/dd316976(v=vs.85).aspx
+
+About XPS Document API
+http://msdn.microsoft.com/en-us/library/windows/desktop/ff819109(v=vs.85).aspx
+
+Using XPS Document API
+http://msdn.microsoft.com/en-us/library/windows/desktop/ff819182(v=vs.85).aspx
+
+XPS Document API Reference
+http://msdn.microsoft.com/en-us/library/windows/desktop/dd372980(v=vs.85).aspx
+
+Read Text From XPS Document
+http://autoitsourcecode.blogspot.ru/2013/06/read-text-from-xps-document.html

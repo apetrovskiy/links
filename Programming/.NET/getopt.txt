@@ -1,0 +1,25 @@
+http://www.ndesk.org/Options
+https://getopt.codeplex.com/releases/view/4344
+
+!!! Mono.Options
+http://tirania.org/blog/archive/2008/Oct-14.html
+OptionSet Class
+http://www.ndesk.org/doc/ndesk-options/NDesk.Options/OptionSet.html
+
+documentation:
+http://docs.go-mono.com/?link=N%3aMono.Options
+samples:
+http://docs.go-mono.com/?link=T%3aMono.Options.OptionSet
+
+this works!
+Command line parsing in C# with NDesk.Options
+http://jasona.wordpress.com/2010/01/10/command-line-parsing-in-c-with-ndesk-options/
+
+https://www.nuget.org/packages/Mono.Options/
+
+http://www.codeproject.com/Articles/26502/GetOpt-for-NET
+https://code.google.com/p/gettext-cs-utils/
+https://code.google.com/p/gettext-cs-utils/downloads/list
+http://www.codeproject.com/Articles/19057/XGetoptCS-A-Unix-style-getopt-written-in-C
+http://stackoverflow.com/questions/172443/getopt-library-for-c-sharp
+http://www.codeproject.com/Articles/1940/XGetopt-A-Unix-compatible-getopt-for-MFC-and-Win

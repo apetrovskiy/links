@@ -1,0 +1,5 @@
+AOP Using Spring.NET - Part 1
+http://www.codeproject.com/Articles/26726/AOP-Using-Spring-NET-Part
+
+AOP Using Spring.NET - Part 2
+http://www.codeproject.com/Articles/26916/AOP-Using-Spring-NET-Part

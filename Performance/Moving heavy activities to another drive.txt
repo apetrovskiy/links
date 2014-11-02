@@ -1,0 +1,3 @@
+Install a ram drive in Windows 7
+or How to move the Firefox or Chrome cache to a RAM disk and speed up surfing by 20% or more
+http://terminaladdict.com/2013/04/16/install-a-ram-drive-in-windows-7/

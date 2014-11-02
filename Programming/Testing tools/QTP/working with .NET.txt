@@ -1,0 +1,5 @@
+Calling C# dll in vbscript
+http://stackoverflow.com/questions/1451956/calling-c-sharp-dll-in-vbscript
+
+How to Automate Qtp with C sharp
+http://www.codeproject.com/Questions/156466/How-to-Automate-Qtp-with-C-sharp

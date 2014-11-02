@@ -1,0 +1,5 @@
+get file version in powershell
+http://stackoverflow.com/questions/30686/get-file-version-in-powershell
+
+Get file version on Remote Computer using PowerShell
+http://gallery.technet.microsoft.com/scriptcenter/Get-file-version-on-Remote-8835bfe8

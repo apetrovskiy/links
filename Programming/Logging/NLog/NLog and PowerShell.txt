@@ -1,0 +1,6 @@
+Using NLog Powershell #233
+https://github.com/NLog/NLog/issues/233
+
+PSLog
+http://pslog.codeplex.com/
+http://www.developerfusion.com/project/101485/pslog-powershell-interface-to-nlog/

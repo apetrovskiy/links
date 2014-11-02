@@ -1,0 +1,5 @@
+Some practices to write better C#/.NET code
+http://www.codeproject.com/Articles/539179/Some-practices-to-write-better-Csharp-NET-code
+
+Top 15+ Best Practices for Writing Super Readable Code
+http://net.tutsplus.com/tutorials/html-css-techniques/top-15-best-practices-for-writing-super-readable-code/

@@ -1,0 +1,2 @@
+Ninject interception proxying class with non empty constructor via castle dynamic proxy
+http://stackoverflow.com/questions/22348731/ninject-interception-proxying-class-with-non-empty-constructor-via-castle-dynami

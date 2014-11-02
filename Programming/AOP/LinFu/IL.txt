@@ -1,0 +1,2 @@
+The Bytecode Artist
+http://www.bytecodeartist.net/2011/05/introduction-to-il-rewriting-with-cecil.html

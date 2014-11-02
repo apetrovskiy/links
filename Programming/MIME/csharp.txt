@@ -1,0 +1,11 @@
+Decoding Base64 / Quoted Printable encoded UTF8 string
+http://stackoverflow.com/questions/9278899/decoding-base64-quoted-printable-encoded-utf8-string
+
+Basic C# Mime Decoding
+http://stackoverflow.com/questions/3876406/basic-c-sharp-mime-decoding
+
+SharpMimeTools
+http://anmar.eu.org/projects/sharpmimetools/
+
+OpenPop.NET
+http://sourceforge.net/projects/hpop/

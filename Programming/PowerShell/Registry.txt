@@ -1,0 +1,2 @@
+Use PowerShell to Easily Create New Registry Keys
+https://blogs.technet.com/b/heyscriptingguy/archive/2012/05/09/use-powershell-to-easily-create-new-registry-keys.aspx

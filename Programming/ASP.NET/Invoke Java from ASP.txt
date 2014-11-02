@@ -1,0 +1,2 @@
+How to invoke Java web service in ASP.net using C#
+http://www.codeproject.com/Articles/32313/How-to-invoke-Java-web-service-in-ASP-net-using-C

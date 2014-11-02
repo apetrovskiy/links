@@ -1,0 +1,12 @@
+VB:
+Outlook for the Summer
+http://msdn.microsoft.com/en-us/library/aa201312.aspx
+
+the Restrict method
+VB:
+http://support2.microsoft.com/kb/313795
+http://www.dimastr.com/redemption/mapitable.htm
+
+.NET:
+Outlook Object Model : Using Restrict method to get contacts based on specific categories
+http://blogs.msdn.com/b/deva/archive/2009/09/03/outlook-object-model-using-restrict-method-to-get-contacts-based-on-specific-categories.aspx

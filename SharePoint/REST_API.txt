@@ -1,0 +1,5 @@
+REST API: Add a plain text file as an attachment to a list item
+http://chuvash.eu/2013/02/20/rest-api-add-a-plain-text-file-as-an-attachment-to-a-list-item/
+http://www.bool.se/sidor/default.aspx
+
+

@@ -1,0 +1,7 @@
+http://stackoverflow.com/questions/1065950/using-actiont-as-an-argument-in-c-sharp-mimicking-a-function-pointer
+http://stackoverflow.com/questions/2050322/how-to-pass-action-with-two-parameters-using-lambda-expression-to-method
+http://stackoverflow.com/questions/4965508/how-can-i-pass-a-parameter-in-action
+
+
+http://stackoverflow.com/questions/569671/c-linq2sql-is-it-possible-to-concatenate-two-queryables-into-one
+http://stackoverflow.com/questions/491780/concatenating-lambda-functions-in-c-sharp

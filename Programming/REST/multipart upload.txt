@@ -1,0 +1,8 @@
+Sending Multipart File as POST parameters with RestTemplate requests
+http://stackoverflow.com/questions/4118670/sending-multipart-file-as-post-parameters-with-resttemplate-requests
+
+S3 File upload with Java and Spring's RestTemplate
+http://www.marcelpanse.nl/2010/11/s3-file-upload-with-java-and-springs.html
+
+Google Drive Web APIs
+https://developers.google.com/drive/web/manage-uploads

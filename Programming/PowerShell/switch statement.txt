@@ -1,0 +1,13 @@
+What's the powershell syntax for multiple values in a switch statement?
+http://stackoverflow.com/questions/3493731/whats-the-powershell-syntax-for-multiple-values-in-a-switch-statement
+
+switch($someString.ToLower()) 
+{ 
+    {($_ -eq "y") -or ($_ -eq "yes")} { "You entered Yes." } 
+    default { "You entered No." } 
+}
+
+
+
+Windows PowerShell Tip of the Week
+http://technet.microsoft.com/en-us/library/ff730937.aspx

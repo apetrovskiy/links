@@ -1,0 +1,5 @@
+Passing Constructor Arguments to a dependency of a root object as part of a single resolve in Ninject
+http://stackoverflow.com/questions/16157629/passing-constructor-arguments-to-a-dependency-of-a-root-object-as-part-of-a-sing
+
+New Features and changes of Ninject 3.0
+http://www.planetgeek.ch/2011/12/30/new-features-and-changes-of-ninject-3-0/

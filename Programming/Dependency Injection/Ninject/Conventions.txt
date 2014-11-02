@@ -1,0 +1,5 @@
+Does Ninject Conventions only work for public classes?
+http://stackoverflow.com/questions/19317545/does-ninject-conventions-only-work-for-public-classes/19318016#19318016
+
+Cannot get Ninject.Extensions.Conventions to work
+http://stackoverflow.com/questions/18793095/cannot-get-ninject-extensions-conventions-to-work/18875070#18875070

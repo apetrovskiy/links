@@ -1,0 +1,2 @@
+http://stackoverflow.com/questions/13162962/importing-powershell-binary-modules-from-network-location
+http://huddledmasses.org/how-to-import-binary-modules-from-network-shares/

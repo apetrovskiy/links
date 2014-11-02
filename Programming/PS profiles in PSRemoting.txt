@@ -1,0 +1,2 @@
+Powershell 3.0: Using my local profile and modules in remote PSSessions
+http://stackoverflow.com/questions/20103688/powershell-3-0-using-my-local-profile-and-modules-in-remote-pssessions

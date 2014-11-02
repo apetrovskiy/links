@@ -1,0 +1,8 @@
+ASP.NET Razor
+http://www.w3schools.com/aspnet/razor_intro.asp
+
+C# Razor Syntax Quick Reference
+http://haacked.com/archive/2011/01/06/razor-syntax-quick-reference.aspx/
+
+Walkthrough: Creating a Web Site using Razor Syntax in Visual Studio
+http://msdn.microsoft.com/ru-ru/library/gg606533(v=vs.100).aspx

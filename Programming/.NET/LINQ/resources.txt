@@ -1,0 +1,5 @@
+Which book is good to start with LINQ? [closed]
+http://stackoverflow.com/questions/6018357/which-book-is-good-to-start-with-linq
+
+101 Linq Samples over on MSDN
+http://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b

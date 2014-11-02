@@ -1,0 +1,5 @@
+Test parameterization in xUnit.net similar to NUnit
+http://stackoverflow.com/questions/9110419/test-parameterization-in-xunit-net-similar-to-nunit/9110623#9110623
+
+Xunit: Perform all 'Assert'ions in one test method?
+http://stackoverflow.com/questions/1846345/xunit-perform-all-assertions-in-one-test-method/1846887#1846887

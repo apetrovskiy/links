@@ -1,0 +1,29 @@
+Работа в Team Web Access
+http://msdn.microsoft.com/ru-ru/library/ee523998.aspx
+
+How to: Connect to Team Foundation Server through Team System Web Access
+http://msdn.microsoft.com/en-us/library/bb822314(v=vs.90).aspx
+
+Team System Web Access
+http://msdn.microsoft.com/en-us/library/bb892990(v=vs.90).aspx
+
+Use Team Web Access to interact with Visual Studio ALM
+http://msdn.microsoft.com/en-us/library/vstudio/ee523998(v=vs.110).aspx
+
+Getting Started with Team System Web Access
+http://msdn.microsoft.com/en-us/library/bb822319(v=vs.90).aspx
+
+TFS 2012 Web Access Customizations, Part 0: What is TFS Web Access?
+http://blogs.msdn.com/b/ondrejstastny/archive/2012/11/25/tfs-2012-web-access-customizations-part-0-what-is-web-access.aspx
+
+Tfs Js Extension using TypeScript
+http://www.codeproject.com/Articles/660203/Tfs-Js-Extension-using-TypeScript
+
+Team Foundation Server 2013 Customization
+https://www.packtpub.com/application-development/team-foundation-server-2013-customization
+
+Debugging TFS Web Access Extensions
+http://www.alexandervanwynsberghe.be/debugging-tfs-web-access-customizations/
+
+Work Item Custom Control Development in TF Web Access 2012 – Deployment
+http://blogs.msdn.com/b/serkani/archive/2012/06/22/work-item-custom-control-development-in-tf-web-access-2012-deployment.aspx

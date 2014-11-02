@@ -1,0 +1,1 @@
+http://dmitrysotnikov.wordpress.com/2008/02/13/managing-terminal-services-attributes-with-powershell/

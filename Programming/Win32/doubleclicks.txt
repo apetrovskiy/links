@@ -1,0 +1,2 @@
+http://www.codeproject.com/Articles/3448/Using-TreeControl-TreeView-under-Win32-API
+http://www.functionx.com/win32/controls/scrollbars.htm

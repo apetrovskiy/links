@@ -1,0 +1,4 @@
+The Little MongoDB Book
+http://jsman.ru/mongo-book/index.html
+http://github.com/karlseguin/the-little-mongodb-book
+https://github.com/jsmarkus/the-little-mongodb-book/tree/master/ru

@@ -1,0 +1,4 @@
+How to list all variables names and their current values?
+http://askubuntu.com/questions/275965/how-to-list-all-variables-names-and-their-current-values
+
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html

@@ -1,0 +1,2 @@
+SOLID (object-oriented design)
+http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29

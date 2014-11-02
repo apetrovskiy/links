@@ -1,0 +1,2 @@
+$.ajax async:false doesn't work in IE and Firefox, works in Chrome/Safari
+http://bytes.com/topic/javascript/answers/946198-ajax-async-false-doesnt-work-ie-firefox-works-chrome-safari

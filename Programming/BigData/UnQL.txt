@@ -1,0 +1,2 @@
+Создатели CouchDB и SQLite представили UnQL, аналог SQL для систем NoSQL 
+http://www.opennet.ru/opennews/art.shtml?num=31346

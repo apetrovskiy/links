@@ -1,0 +1,17 @@
+Working with Mail Items
+http://msdn.microsoft.com/en-us/library/bb157889.aspx
+
+How to: Programmatically Create an E-Mail Item
+http://msdn.microsoft.com/en-us/library/ms269113.aspx
+
+How to: Programmatically Send E-Mail Programmatically
+http://msdn.microsoft.com/en-us/library/ms268749.aspx
+
+How to: Programmatically Perform Actions When an E-Mail Message Is Received
+http://msdn.microsoft.com/en-us/library/ms268998.aspx
+
+How to: Programmatically Save Attachments from Outlook E-Mail Items
+http://msdn.microsoft.com/en-us/library/ms268754.aspx
+
+How to: Programmatically Attach Files to Outlook E-Mail Items
+http://msdn.microsoft.com/en-us/library/ms268870.aspx

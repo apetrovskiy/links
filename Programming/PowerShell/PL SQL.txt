@@ -1,0 +1,2 @@
+How to execute a PL/SQL package from powershell?
+http://stackoverflow.com/questions/5517043/how-to-execute-a-pl-sql-package-from-powershell?rq=1

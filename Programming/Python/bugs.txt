@@ -1,0 +1,6 @@
+Installing SetupTools on 64-bit Windows
+(Python Version 2.7 required which was not found in the registry)
+http://stackoverflow.com/questions/3652625/installing-setuptools-on-64-bit-windows
+
+“Python version 2.7 required, which was not found in the registry” error when attempting to install netCDF4 on Windows 8"
+http://stackoverflow.com/questions/19169582/python-version-2-7-required-which-was-not-found-in-the-registry-error-when-at

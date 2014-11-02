@@ -1,0 +1,2 @@
+http://msdn.microsoft.com/ru-ru/library/windows/desktop/ms644928(v=vs.85).aspx#sending
+http://msdn.microsoft.com/ru-ru/library/windows/desktop/ms644927(v=vs.85).aspx#system_defined

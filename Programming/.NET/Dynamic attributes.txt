@@ -1,0 +1,5 @@
+How to add only an attribute on a class at runtime?
+http://stackoverflow.com/questions/14483523/how-to-add-only-an-attribute-on-a-class-at-runtime
+
+Using the CodeBuilder
+http://filehelpers.sourceforge.net/runtime_classes.html

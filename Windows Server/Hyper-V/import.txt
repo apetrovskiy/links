@@ -1,0 +1,2 @@
+Windows Hyper-V 2012 & 8.1 Hyper-V Did Not Find Virtual Machine to Import
+http://blogs.technet.com/b/rmilne/archive/2013/10/22/windows-hyper-v-2012-amp-8-1-hyper-v-did-not-find-virtual-machine-to-import.aspx

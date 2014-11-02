@@ -1,0 +1,5 @@
+Set via C# Powershell Variable
+http://stackoverflow.com/questions/19678160/set-via-c-sharp-powershell-variable
+
+PowerShell: RunSpace.SessionStateProxy.SetVariable is not setting variable
+http://stackoverflow.com/questions/7674151/powershell-runspace-sessionstateproxy-setvariable-is-not-setting-variable

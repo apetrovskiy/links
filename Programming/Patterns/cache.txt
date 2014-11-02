@@ -1,0 +1,2 @@
+In which layer implement the cache?
+http://stackoverflow.com/questions/15340173/in-which-layer-implement-the-cache/15347030#15347030

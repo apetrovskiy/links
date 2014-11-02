@@ -1,0 +1,9 @@
+Set the default forced screen saver in Group Policy – Logon.scr in Windows 7
+https://4sysops.com/archives/set-the-default-forced-screen-saver-in-group-policy-logon-scr-in-windows-7/
+
+Win7/W2k8 R2 Group POlicy Screensaver setting is not working
+https://support.microsoft.com/kb/2616727?wa=wsignin1.0
+
+Windows 7: Screen Saver - Specify a Default for All Users
+http://www.sevenforums.com/tutorials/106582-screen-saver-specify-default-all-users.html
+

@@ -1,0 +1,5 @@
+Using SQL Server Reporting Services in Client Mode
+http://arcanecode.com/2009/03/23/using-sql-server-reporting-services-in-client-mode/
+
+Generating a PDF file from a Reporting Services Report Viewer Control
+http://arcanecode.com/2009/03/24/generating-a-pdf-file-from-a-reporting-services-report-viewer-control/?relatedposts_exclude=406

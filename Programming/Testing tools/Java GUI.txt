@@ -1,0 +1,8 @@
+Jemmy framework
+https://jemmy.java.net/
+
+Open Source Testing Tools in Java
+http://java-source.net/open-source/testing-tools
+
+SwingLibrary
+https://github.com/robotframework/SwingLibrary

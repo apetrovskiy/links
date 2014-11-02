@@ -1,0 +1,8 @@
+Installation: Stsadm operations (Windows SharePoint Services)
+http://technet.microsoft.com/en-us/library/cc288249(v=office.12).aspx
+
+Complete reference of all STSADM operations (with parameters) in MOSS 2007 SP1
+http://blogs.technet.com/b/josebda/archive/2008/03/15/complete-reference-of-all-stsadm-operations-with-parameters-in-moss-2007-sp1.aspx
+
+STSADM commands for Sharepoint 2007 sp2
+http://ss64.com/docs/stsadm.html

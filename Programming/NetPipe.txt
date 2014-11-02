@@ -1,0 +1,8 @@
+Windows Services, WCF Named Pipes and Windows Sessions
+http://deploytonenyures.blogspot.ru/2013/09/windows-services-named-pipes-and.html
+
+NetPipeBinding, Windows Integrated Security, Windows Server 2003 --> EndpointNotFoundException. Why?
+http://social.msdn.microsoft.com/Forums/vstudio/en-US/c0ddf776-fb2b-4d03-bae6-1105a307d6ee/netpipebinding-windows-integrated-security-windows-server-2003-endpointnotfoundexception-why?forum=wcf
+
+Exploring the WCF Named Pipe Binding - Part 1
+http://blogs.charteris.com/blogs/chrisdi/archive/2008/05/19/exploring-the-wcf-named-pipe-binding-part-1.aspx

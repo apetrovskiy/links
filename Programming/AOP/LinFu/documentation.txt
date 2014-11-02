@@ -1,0 +1,26 @@
+Introducing the LinFu Framework, Part I - LinFu.DynamicProxy: A Lightweight Proxy Generator
+http://www.codeproject.com/kb/cs/linfupart1.aspx
+
+Introducing the LinFu Framework, Part II: LinFu.DynamicObject – Adding Dynamic Language Features to Statically Typed Languages
+http://www.codeproject.com/Articles/21052/Introducing-the-LinFu-Framework-Part-II-LinFu-Dyna
+
+Introducing the LinFu Framework, Part III: LinFu.Delegates-Lambda Arguments & Universal Event Handling
+http://www.codeproject.com/Articles/21158/Introducing-the-LinFu-Framework-Part-III-LinFu-Del
+
+Introducing the LinFu Framework, Part IV: Simple.IOC – The Five Minute Inversion of Control Container
+http://www.codeproject.com/Articles/21318/Introducing-the-LinFu-Framework-Part-IV-Simple-IOC
+
+Introducing the LinFu, Part V: LinFu.DesignByContract2 – Adding Transparent Design by Contract Features to Any .NET Language
+http://www.codeproject.com/Articles/21941/Introducing-the-LinFu-Part-V-LinFu-DesignByContrac
+
+Introducing LinFu, Part VI: LinFu.AOP – Pervasive Method Interception and Replacement for Sealed Types in Any .NET Language
+http://www.codeproject.com/Articles/23333/Introducing-LinFu-Part-VI-LinFu-AOP-Pervasive-Meth
+
+LinFu.IOC 2.0 in Five Minutes (Part 1 of n): Fun With Attributes
+http://www.codeproject.com/Articles/31635/LinFu-IOC-in-Five-Minutes-Part-of-n-Fun-With
+
+LinFu.IOC 2.0 in Five Minutes (Part 2 of n): Constructor, Field, Method, and Property Injection
+http://www.codeproject.com/Articles/33313/LinFu-IOC-in-Five-Minutes-Part-of-n-Construc
+
+Intercepting Console.WriteLine and Other Third-Party Method Calls with LinFu.AOP 2.0
+http://www.codeproject.com/Articles/190949/Intercepting-Console-WriteLine-and-Other-Third-Par

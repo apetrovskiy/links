@@ -1,0 +1,5 @@
+Permissions for site collection administrators
+http://office.microsoft.com/en-us/sharepoint-server-help/permissions-for-site-collection-administrators-HA101943260.aspx
+
+Change site collection administrators in SharePoint 2013
+http://technet.microsoft.com/en-us/library/ff631156.aspx

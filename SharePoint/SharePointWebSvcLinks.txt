@@ -1,0 +1,36 @@
+http://letitknow.wordpress.com/2012/11/07/uploaddownload-documents-to-sharepoint-via-powershell/
+
+Create SharePoint List Items with PowerShell
+http://www.petri.co.il/create-sharepoint-list-items-using-powershell.htm#
+
+Web Services
+http://msdn.microsoft.com/en-us/library/dd878586(v=office.12).aspx
+http://msdn.microsoft.com/en-us/library/administration(v=office.12).aspx
+--------------------
+Web Services Access
+http://msdn.microsoft.com/en-us/library/bb862916(v=office.12).aspx
+--------------------
+
+http://sarangasl.blogspot.ru/2009/12/sharepoint-list-web-service.html
+-------------
+http://msdn.microsoft.com/en-us/library/fp161348.aspx
+-------------
+
+-----
+http://msdn.microsoft.com/en-us/library/ms464040.aspx
+http://msdn.microsoft.com/en-us/library/ms458094(v=office.12).aspx
+-----
+
+--
+http://stackoverflow.com/questions/4245678/get-sharepoint-list-visible-columns-names-through-web-service-using-c-sharp
+--
+
+
+http://sarangasl.blogspot.ru/2011/06/android-login-screen-using-httpclient.html
+
+(not working, though with code)
+How to Create Site using Sharepoint web services?
+http://stackoverflow.com/questions/2162552/how-to-create-site-using-sharepoint-web-services
+
+Create/Delete Folders using Lists.asmx Web Service
+http://sridharu.blogspot.ru/2008/10/createdelete-folers-using-listsasmx-web.html

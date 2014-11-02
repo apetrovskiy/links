@@ -1,0 +1,8 @@
+Nancy Was the Right Tool for the Job
+http://adaptengine.com/blog/nancy-was-the-right-tool-for-the-job/
+
+Nancy routing for ASP.NET webforms
+http://stackoverflow.com/questions/11261524/nancy-routing-for-asp-net-webforms
+
+Issues binding Nancy onto a subpath of a webforms application
+http://stackoverflow.com/questions/23405425/issues-binding-nancy-onto-a-subpath-of-a-webforms-application

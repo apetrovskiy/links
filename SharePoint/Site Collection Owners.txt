@@ -1,0 +1,2 @@
+Give users access to a SharePoint site
+http://office.microsoft.com/en-us/sharepoint-server-help/give-users-access-to-a-sharepoint-site-HA010103222.aspx

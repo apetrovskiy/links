@@ -1,0 +1,21 @@
+your server administrator has limited the number of items you can open simultaneously
+
+Performance problems when you try to access folders in a secondary mailbox in Outlook
+http://support2.microsoft.com/kb/2297543
+
+http://www.experts-exchange.com/Software/Office_Productivity/Groupware/Outlook/Q_22894498.html
+
+SBS 2011 - Disable Session Limit
+http://social.technet.microsoft.com/Forums/en-US/21afe30a-6ae9-4559-9d27-b8b747b9d1c5/sbs-2011-disable-session-limit?forum=smallbusinessserver
+
+Ограничение сеанса MAPI отключено
+http://technet.microsoft.com/ru-ru/library/dd159906%28v=exchg.80%29.aspx
+
+Exchange limits the number of items you can open simultaneously
+http://www.experts-exchange.com/Software/Office_Productivity/Groupware/Outlook/Q_23716363.html
+
+Cannot open many mailboxes in Outlook simultaneously
+http://www.experts-exchange.com/Software/Server_Software/Email_Servers/Exchange/Q_28188218.html
+
+Outlook Contact Export error - your server administrator has limited the number of items you can open simultaneously
+http://www.junxure.com/kb/ViewArticle.aspx?ArticleID=353

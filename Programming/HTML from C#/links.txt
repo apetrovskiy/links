@@ -1,0 +1,8 @@
+C# HtmlTextWriter
+http://teststack.azurewebsites.net/White/UIItems.html
+
+Are there any benefits to using HtmlTextWriter if you are not going to benefit from adaptive rendering?
+http://stackoverflow.com/questions/573722/are-there-any-benefits-to-using-htmltextwriter-if-you-are-not-going-to-benefit-f
+
+Use of the HtmlTextWriter Class to Render Custom Controls in VB.NET
+http://www.c-sharpcorner.com/UploadFile/scottlysle/use-of-the-htmltextwriter-class-to-render-custom-controls-in/

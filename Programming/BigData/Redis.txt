@@ -1,0 +1,2 @@
+The Little Redis Book
+http://openmymind.net/2012/1/23/The-Little-Redis-Book/

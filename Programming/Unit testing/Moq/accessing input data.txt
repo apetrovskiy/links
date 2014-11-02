@@ -1,0 +1,2 @@
+Moq and accessing called parameters
+http://stackoverflow.com/questions/2063740/moq-and-accessing-called-parameters/2063822#2063822

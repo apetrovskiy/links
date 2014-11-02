@@ -1,0 +1,17 @@
+RestTemplate upload image file
+http://stackoverflow.com/questions/21102071/resttemplate-upload-image-file
+
+Regarding uploading files through Java Rest Template
+http://stackoverflow.com/questions/15729190/regarding-uploading-files-through-java-rest-template
+
+How can I make a multipart/form-data POST request using Java?
+http://stackoverflow.com/questions/1378920/how-can-i-make-a-multipart-form-data-post-request-using-java
+
+Spring RestTemplate is not allowing multipart Form Data as MetaData in the Body
+http://stackoverflow.com/questions/24935914/spring-resttemplate-is-not-allowing-multipart-form-data-as-metadata-in-the-body
+
+I keep getting an “Unsupported Media Type” error using RestTemplate
+http://stackoverflow.com/questions/23316589/i-keep-getting-an-unsupported-media-type-error-using-resttemplate
+
+Posting a File and Data to RESTful WebService as JSON
+http://stackoverflow.com/questions/4083702/posting-a-file-and-data-to-restful-webservice-as-json

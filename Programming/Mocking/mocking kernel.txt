@@ -1,0 +1,15 @@
+How to do Setup of mocks with Ninject's MockingKernel (moq)
+http://stackoverflow.com/questions/13212655/how-to-do-setup-of-mocks-with-ninjects-mockingkernel-moq
+
+How do i mock a Interface with Moq or NInject Mocking Kernel
+http://stackoverflow.com/questions/14648863/how-do-i-mock-a-interface-with-moq-or-ninject-mocking-kernel
+
+How to use Ninject.MockingKernel?
+http://stackoverflow.com/questions/5330356/how-to-use-ninject-mockingkernel
+
+Simplifying repository mocks with NInject.MockingKernel
+http://blog.pebblecode.com/post/11607777166/simplifying-repository-mocks-with-ninject-mockingkernel
+
+Using the Ninject.MockingKernel is cool…
+http://cbertolasio.wordpress.com/2011/06/01/using-the-ninject-mockingkernel-is-cool/
+

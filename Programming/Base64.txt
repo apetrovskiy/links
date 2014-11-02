@@ -1,0 +1,5 @@
+Encoding Strings to Base64 in C#
+http://arcanecode.com/2007/03/21/encoding-strings-to-base64-in-c/
+
+NetPipeBinding, Windows Integrated Security, Windows Server 2003 --> EndpointNotFoundException. Why?
+http://social.msdn.microsoft.com/Forums/vstudio/en-US/c0ddf776-fb2b-4d03-bae6-1105a307d6ee/netpipebinding-windows-integrated-security-windows-server-2003-endpointnotfoundexception-why?forum=wcf

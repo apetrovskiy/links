@@ -1,0 +1,2 @@
+Convert a list of objects to an array of one of the object's properties
+http://stackoverflow.com/questions/4765084/convert-a-list-of-objects-to-an-array-of-one-of-the-objects-properties

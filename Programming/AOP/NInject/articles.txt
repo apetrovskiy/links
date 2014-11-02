@@ -1,0 +1,5 @@
+Using Ninject.Extensions.Interception Part 1 : The Basics
+http://codepyre.com/2010/03/using-ninject-extensions-interception-part-1-the-basics/
+
+Using Ninject.Extensions.Interception Part 2 : Working With Interceptors
+http://codepyre.com/2010/03/using-ninject-extensions-interception-part-2-working-with-interceptors/

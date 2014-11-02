@@ -1,0 +1,12 @@
+\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query
+Administering Your Windows Internal Database
+http://www.aidanfinn.com/?p=9219
+
+Administering your Windows Internal Database MICROSOFT##SSEE instance
+http://www.mssqltips.com/sqlservertip/1577/administering-your-windows-internal-database-microsoftssee-instance/
+
+How to connect ?MICROSOFT##?SSEE
+http://channel9.msdn.com/Forums/TechOff/255490-How-to-connect-MICROSOFTSSEE
+
+Windows Internal Database
+http://en.wikipedia.org/wiki/Windows_Internal_Database

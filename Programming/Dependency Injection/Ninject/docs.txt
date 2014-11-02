@@ -1,0 +1,5 @@
+Contextual Binding
+https://github.com/ninject/ninject/wiki/Contextual-Binding
+
+Conventions Based Binding
+https://github.com/ninject/ninject/wiki/Conventions-Based-Binding

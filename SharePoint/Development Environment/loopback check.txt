@@ -1,0 +1,3 @@
+SharePoint disable loopback check (DisableLoopbackCheck dword in registry)
+http://iconraja.wordpress.com/2012/05/21/sharepoint-disable-loopback-check-disableloopbackcheck-dword-in-registry/
+New-ItemProperty HKLM:\System\CurrentControlSet\Control\Lsa -Name “DisableLoopbackCheck” -value 1;

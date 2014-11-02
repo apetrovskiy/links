@@ -1,0 +1,11 @@
+Best Aspect Oriented Framework for features / build performances in .net
+http://stackoverflow.com/questions/1533740/best-aspect-oriented-framework-for-features-build-performances-in-net
+
+What is the best implementation for AOP in .Net? [closed]
+http://stackoverflow.com/questions/633710/what-is-the-best-implementation-for-aop-in-net
+
+Rating of Open Source AOP Frameworks in .NET
+http://www.codeproject.com/Articles/28387/Rating-of-Open-Source-AOP-Frameworks-in-NET
+
+Open Source Aspect-Oriented Frameworks in C#
+http://csharp-source.net/open-source/aspect-oriented-frameworks

@@ -1,0 +1,2 @@
+string replacement without regex
+http://social.technet.microsoft.com/Forums/scriptcenter/en-US/6710c0d6-d62f-4ad1-b2bd-435433966c67/string-replacement-without-regex

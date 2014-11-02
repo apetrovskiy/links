@@ -1,0 +1,2 @@
+Working with SharePoint 2010 Correlation ID in PowerShell and code
+http://www.wictorwilen.se/Post/Working-with-SharePoint-2010-Correlation-ID-in-PowerShell-and-code.aspx

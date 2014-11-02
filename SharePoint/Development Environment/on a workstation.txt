@@ -1,0 +1,23 @@
+Installing Microsoft SharePoint Foundation 2010 on Windows 7
+jaliyaudagedara.blogspot.ru/2012/01/installing-microsoft-sharepoint.html
+
+Installing Sharepoint Foundation 2010 on Windows 7
+http://develoq.net/2010/installing-sharepoint-foundation-2010-on-windows-7/
+
+Start: Set up the development environment for SharePoint 2013
+http://msdn.microsoft.com/en-us/library/ee554869.aspx
+
+How to install SharePoint 2010 on Windows 8 Professional
+http://social.msdn.microsoft.com/Forums/en-US/713adcec-e62c-46a8-92b7-3cfda839f477/how-to-install-sharepoint-2010-on-windows-8-professional
+
+Running SharePoint 2010 on Windows 8 Consumer Preview
+http://blogs.technet.com/b/spweb/archive/2012/03/21/running-sharepoint-2010-on-windows-8-consumer-preview.aspx
+
+SharePoint 2010 Installation on windows 8 x64
+http://social.technet.microsoft.com/Forums/sharepoint/en-US/8d0717b9-eabc-41d9-9e59-db68ffdfc5eb/sharepoint-2010-installation-on-windows-8-x64?forum=sharepointgeneralprevious
+
+Installing SharePoint Server 2010 on Windows 8
+http://www.c-sharpcorner.com/UploadFile/iersoy/installing-sharepoint-server-2010-in-windows-8/
+
+(+) Installing SharePoint 2010 on Windows 8
+http://johnlivingstontech.blogspot.in/2011/09/installing-sharepoint-2010-on-windows-8.html

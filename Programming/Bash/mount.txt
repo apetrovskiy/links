@@ -1,0 +1,5 @@
+Mounting a Windows XP NTFS partition in Linux
+http://www.pendrivelinux.com/mounting-a-windows-xp-ntfs-partition-in-linux/
+
+Mounting NTFS Drives on Linux
+https://support.plex.tv/hc/en-us/articles/200288606-Mounting-NTFS-Drives-on-Linux

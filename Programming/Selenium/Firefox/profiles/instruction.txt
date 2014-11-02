@@ -1,0 +1,2 @@
+Java Robot & Firefox profile
+http://automated-testing.info/t/java-robot-firefox-webdriver-java/1765/3

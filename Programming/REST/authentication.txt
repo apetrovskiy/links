@@ -1,0 +1,30 @@
+Calling a rest api with username and password - how to
+http://stackoverflow.com/questions/18347055/calling-a-rest-api-with-username-and-password-how-to
+
+REST service authentication
+http://stackoverflow.com/questions/14996673/rest-service-authentication
+
+Authenticating REST Requests
+https://developer.atlassian.com/display/FECRUDEV/Authenticating+REST+Requests
+
+?
+Signing and Authenticating REST Requests
+http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html
+
+Principles for Standardized REST Authentication
+http://broadcast.oreilly.com/2009/12/principles-for-standardized-rest-authentication.html
+
+Designing a Secure REST (Web) API without OAuth
+http://www.thebuzzmedia.com/designing-a-secure-rest-api-without-oauth-authentication/
+
+Learn REST: A Tutorial
+http://rest.elkstein.org/2008/01/how-do-i-handle-authentication-in-rest.html
+
+Secure Your REST API... The Right Way
+https://stormpath.com/blog/secure-your-rest-api-right-way/
+
+RESTful web service - how to authenticate requests from other services?
+http://stackoverflow.com/questions/6134082/restful-web-service-how-to-authenticate-requests-from-other-services
+
+REST API Authentication
+http://stackoverflow.com/questions/7999295/rest-api-authentication

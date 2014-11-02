@@ -1,0 +1,7 @@
+http://stackoverflow.com/questions/9849486/is-it-possible-to-use-extened-ascii-characters-in-bat-file?lq=1
+
+http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how
+http://stackoverflow.com/questions/1035388/unicode-output-on-windows-command-line
+http://stackoverflow.com/questions/2706097/how-to-do-proper-unicode-and-ansi-output-redirection-on-cmd-exe
+http://illegalargumentexception.blogspot.ru/2009/04/i18n-unicode-at-windows-command-prompt.html
+http://pic.dhe.ibm.com/infocenter/iseries/v7r1m0/index.jsp?topic=%2Frbam6%2Frbam6unicoderelated.htm

@@ -1,0 +1,4 @@
+http://www.oracle.com/technetwork/java/javase/tech/index-jsp-136191.html
+http://www.oracle.com/technetwork/java/javase/tech/jab202-release-notes-364613.html
+http://docs.oracle.com/javase/accessbridge/2.0.2/index.html
+https://blogs.oracle.com/javaaccessibility/entry/developer_preview_available_for_java

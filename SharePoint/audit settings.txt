@@ -1,0 +1,8 @@
+Disable Auditing
+http://social.technet.microsoft.com/Forums/sharepoint/en-US/2cb1e4c9-80a1-4227-a96a-780df89e0398/disable-auditing?forum=sharepointgenerallegacy
+
+Setting SharePoint 2010 Audit Log Settings using PowerShell
+http://jshidell.com/2012/10/17/setting-sharepoint-2010-audit-log-settings-using-powershell/
+
+Item-Level Auditing with SharePoint Server 2007
+http://msdn.microsoft.com/en-us/library/bb397403%28office.12%29.aspx

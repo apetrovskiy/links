@@ -1,0 +1,2 @@
+Maintainable Automated UI Tests
+http://net.tutsplus.com/tutorials/maintainable-automated-ui-tests/

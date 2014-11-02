@@ -1,0 +1,8 @@
+http://blogs.msdn.com/b/powershell/archive/2012/06/27/windows-powershell-web-access-basic-installation-guide.aspx
+http://jason.pettys.name/2012/03/02/call-a-web-service-with-powershell/
+http://programmers.stackexchange.com/questions/121801/understanding-and-developing-web-services
+http://programmers.stackexchange.com/questions/110056/how-would-you-approach-developing-a-hotel-reservation-system
+
+http://code.google.com/p/servicestack/
+http://www.servicestack.net/
+https://github.com/ServiceStack/ServiceStack/wiki

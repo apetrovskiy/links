@@ -1,0 +1,6 @@
+http://superuser.com/questions/32164/what-utility-can-move-my-windows-boot-partition-over-to-another-hard-drive
+http://www.eightforums.com/general-support/13565-transferring-windows-8-partitions-another-larger-drive.html
+
+http://support.microsoft.com/kb/927392
+http://www.howtogeek.com/howto/windows-vista/using-gparted-to-resize-your-windows-vista-partition/
+http://www.gnu.org/software/parted/manual/html_chapter/parted_8.html

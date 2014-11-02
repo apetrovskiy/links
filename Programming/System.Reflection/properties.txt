@@ -1,0 +1,14 @@
+Get value of c# dynamic property via string
+http://stackoverflow.com/questions/4939508/get-value-of-c-sharp-dynamic-property-via-string
+
+How to diff Property Values of two objects using GetType GetValue?
+http://stackoverflow.com/questions/423157/how-to-diff-property-values-of-two-objects-using-gettype-getvalue
+
+Method GetProperties with BindingFlags.Public doesn't return anything
+http://stackoverflow.com/questions/6562003/method-getproperties-with-bindingflags-public-doesnt-return-anything
+
+Get by reflection properties of class ,but not from inherited class
+http://stackoverflow.com/questions/7596162/get-by-reflection-properties-of-class-but-not-from-inherited-class
+
+How to get a property value using reflection
+http://stackoverflow.com/questions/10338018/how-to-get-a-property-value-using-reflection

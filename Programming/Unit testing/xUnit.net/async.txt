@@ -1,0 +1,5 @@
+Is there a way to unit test an async method?
+http://stackoverflow.com/questions/1174702/is-there-a-way-to-unit-test-an-async-method/1174735#1174735
+
+xUnit and Moq do not support async - await keywords
+http://stackoverflow.com/questions/11230567/xunit-and-moq-do-not-support-async-await-keywords/11232299#11232299

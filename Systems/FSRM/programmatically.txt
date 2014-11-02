@@ -1,0 +1,17 @@
+Defining a File Screen
+http://msdn.microsoft.com/en-us/library/windows/desktop/bb870614(v=vs.85).aspx
+
+Creating File Groups to Specify the Files to Restrict
+http://msdn.microsoft.com/en-us/library/windows/desktop/bb870612(v=vs.85).aspx
+
+Preventing Files From Being Written to a Directory
+http://msdn.microsoft.com/en-us/library/windows/desktop/bb870623(v=vs.85).aspx
+
+Using FSRM
+http://msdn.microsoft.com/en-us/library/windows/desktop/bb870628(v=vs.85).aspx
+
+Defining a File Screen Exception
+http://msdn.microsoft.com/en-us/library/windows/desktop/bb870615(v=vs.85).aspx
+
+File Server Resource Manager (FSRM) Cmdlets in Windows PowerShell
+http://technet.microsoft.com/en-us/library/jj900651.aspx

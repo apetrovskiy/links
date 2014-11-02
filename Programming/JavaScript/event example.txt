@@ -1,0 +1,2 @@
+Open URL in same window and in same tab
+http://stackoverflow.com/questions/8454510/open-url-in-same-window-and-in-same-tab

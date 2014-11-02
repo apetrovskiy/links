@@ -1,0 +1,8 @@
+WSS 3.0 - Audit of User permissions
+http://social.technet.microsoft.com/Forums/sharepoint/en-US/19f085d4-d150-47d2-bb47-7ea4832604f2/wss-30-audit-of-user-permissions
+
+Activating Auditing Programmatically for a Site Collection in Windows SharePoint Services 3.0
+http://msdn.microsoft.com/en-us/library/bb418729(v=office.12).aspx
+
+Plan for security roles (Windows SharePoint Services)
+http://technet.microsoft.com/en-us/library/cc288186.aspx#section2

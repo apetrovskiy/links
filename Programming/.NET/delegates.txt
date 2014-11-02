@@ -1,0 +1,5 @@
+Making reflection fly and exploring delegates
+http://msmvps.com/blogs/jon_skeet/archive/2008/08/09/making-reflection-fly-and-exploring-delegates.aspx
+
+What sorts of things should I do to make a performant and robust reflection cache?
+http://stackoverflow.com/questions/193873/what-sorts-of-things-should-i-do-to-make-a-performant-and-robust-reflection-cach

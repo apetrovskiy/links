@@ -1,0 +1,2 @@
+Extending Castle DynamicProxy
+http://www.codeproject.com/Articles/79966/Extending-Castle-DynamicProxy

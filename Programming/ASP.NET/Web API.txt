@@ -1,0 +1,13 @@
+http://www.asp.net/web-api
+
+ASP.NET Web API
+http://msdn.microsoft.com/ru-ru/library/hh833994(v=vs.108).aspx
+
+Getting Started with ASP.NET Web API 2
+http://www.asp.net/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
+
+http://www.asp.net/posters/web-api/asp.net-web-api-poster.pdf
+
+Web API
+Введение в Web API
+http://metanit.com/sharp/mvc/12.1.php

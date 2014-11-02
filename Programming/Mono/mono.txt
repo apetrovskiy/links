@@ -1,0 +1,3 @@
+http://mono.wikia.com/wiki/Software_using_Mono
+http://www.swfdotnet.com/
+http://mono.wikia.com/wiki/Mono_equivalents_to_.NET

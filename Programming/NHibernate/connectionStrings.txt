@@ -1,0 +1,5 @@
+http://www.connectionstrings.com
+
+http://www.connectionstrings.com/mysql/
+
+http://www.connectionstrings.com/sqlite/

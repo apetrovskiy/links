@@ -1,0 +1,14 @@
+Database types and descriptions (SharePoint Foundation 2010)
+http://technet.microsoft.com/en-us/library/cc974471(v=office.14).aspx
+
+Database types and descriptions (SharePoint 2013)
+http://technet.microsoft.com/en-us/library/cc678868.aspx
+
+Deploy by using DBA-created databases (SharePoint Foundation 2010)
+http://technet.microsoft.com/en-us/library/cc288606(v=office.14).aspx
+
+Tip: The untold story of Audit Logs in SharePoint
+http://blogs.msdn.com/b/subhajitc/archive/2009/05/20/tip-the-untold-story-of-audit-logs-in-sharepoint.aspx
+
+Plan for administrative and service accounts in SharePoint 2013
+http://technet.microsoft.com/en-us/library/cc263445.aspx

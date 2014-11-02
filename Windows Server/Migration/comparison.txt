@@ -1,0 +1,9 @@
+What AD tools besides Dell Quest Tools do others use for AD Domain migrations?
+http://community.spiceworks.com/topic/385850-what-ad-tools-besides-dell-quest-tools-do-others-use-for-ad-domain-migrations
+
+http://www.binarytree.com/managered
+http://www.youtube.com/watch?v=scUXKZgI4e4
+http://www.visualclick.com/content/dsrazor-for-active-directory.htm
+http://winzero.ca/
+http://www.sbsmigration.com/
+http://www.diagknows.com/swing-migrations-demystified/

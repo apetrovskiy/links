@@ -1,0 +1,2 @@
+How to: Set up an environment for developing apps for SharePoint on Office 365
+http://msdn.microsoft.com/en-us/library/fp161179.aspx

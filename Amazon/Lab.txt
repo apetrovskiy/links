@@ -1,0 +1,10 @@
+To launch a Spot Instance in a VPC:
+http://docs.aws.amazon.com/powershell/latest/userguide/pstools-ec2-launch.html
+CLI:
+http://docs.aws.amazon.com/AWSEC2/latest/CommandLineReference/ApiReference-cmd-RequestSpotInstances.html
+
+Amazon Elastic Compute Cloud: Request-EC2SpotInstance Cmdlet
+http://docs.aws.amazon.com/powershell/latest/reference/items/Request-EC2SpotInstance.html
+
+Amazon EC2 Instance IP Addressing
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html#MultipleIP

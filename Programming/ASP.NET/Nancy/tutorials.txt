@@ -1,0 +1,22 @@
+NancyFx Tutorial
+http://www.youtube.com/watch?v=SJm7chCfaDs
+http://www.d80.co.uk/post/2013/01/04/NancyFx-Tutorial.aspx
+
+
+
+http://www.hanselman.com/blog/OneASPNETNancyTemplatesForVisualStudio.aspx
+
+http://roysvork.wordpress.com/2013/09/22/why-you-shouldnt-use-a-web-framework-to-build-your-next-api/
+
+
+http://stackoverflow.com/questions/11425095/benefits-of-using-nancyfx
+
+
+http://blog.jonathanchannon.com/2012/12/19/why-use-nancyfx/
+
+Async Route Handling with Nancy
+http://blog.jonathanchannon.com/2013/08/24/async-route-handling-with-nancy/
+
+Get started by using ASP.Net Web API and NancyFx with OWIN/Katana
+http://weblogs.asp.net/fredriknormen/get-started-by-using-asp-net-web-api-and-nancyfx-with-owin-katana
+

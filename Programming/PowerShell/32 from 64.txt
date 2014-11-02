@@ -1,0 +1,2 @@
+Calling PowerShell 64bit from 32bit and visa versa
+http://karlprosser.com/coder/2011/11/04/calling-powershell-64bit-from-32bit-and-visa-versa/

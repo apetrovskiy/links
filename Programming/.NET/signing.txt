@@ -1,0 +1,5 @@
+Fuslogvw.exe (Assembly Binding Log Viewer)
+http://msdn.microsoft.com/en-us/library/e74a18c4.aspx
+
+Authenticating DLLs in C#
+http://stackoverflow.com/questions/17163481/authenticating-dlls-in-c-sharp

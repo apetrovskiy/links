@@ -1,0 +1,5 @@
+At first look, this seems workable:
+New-SPSite ... -OwnerAlias "administrator"
+In fact, after this line being run, the owner might be a local account (in case a local account has the same name as its domain counterpart):
+(Get-SPSite -Identity http://...site...coll..).Owner.UserLogin
+Here is shown the local account, right?

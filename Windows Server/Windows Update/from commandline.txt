@@ -1,0 +1,4 @@
+Windows 7: is there a command line to force to check up for update
+http://www.sevenforums.com/windows-updates-activation/76696-there-command-line-force-check-up-update.html
+%windir%\system32\wuauclt.exe /detectnow
+shutdown -s

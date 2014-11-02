@@ -1,0 +1,2 @@
+MSDN Subscriptions
+http://www.visualstudio.com/en-us/products/msdn-subscriptions-vs

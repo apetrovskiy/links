@@ -1,0 +1,19 @@
+How can I convert an XML to HTML using XSL and C#.NET?
+http://social.msdn.microsoft.com/Forums/en-US/5c46f1f2-2d0b-433a-ad14-b763a396428c/how-can-i-convert-an-xml-to-html-using-xsl-and-cnet?forum=xmlandnetfx
+
+http://msdn.microsoft.com/ru-ru/library/bb399419(v=vs.110).aspx
+
+transforming xml data with xslt
+http://social.technet.microsoft.com/Forums/scriptcenter/en-US/fb9cfd86-2f87-427d-b613-0831aec4a4b6/transforming-xml-data-with-xslt?forum=winserverpowershell
+
+PowerShell Reporting With XML– Part 1
+http://tech-comments.blogspot.ru/2013/09/powershell-reporting-with-xml.html
+
+Using PowerShell to convert XML to HTML
+http://stackoverflow.com/questions/15888988/using-powershell-to-convert-xml-to-html
+
+Command-line XSLT processor with PowerShell
+http://devio.wordpress.com/2009/09/15/command-line-xslt-processor-with-powershell/
+
+Transforming an XML file with an XSLT in PowerShell
+http://nzbart.blogspot.ru/2010/11/transforming-xml-file-with-xslt-in.html

@@ -1,0 +1,3 @@
+http://technet.microsoft.com/en-us/library/jj134257.aspx
+http://technet.microsoft.com/en-us/library/jj134242.aspx
+http://msdn.microsoft.com/en-us/library/windows/desktop/hh852738(v=vs.85).aspx

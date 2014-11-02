@@ -1,0 +1,8 @@
+Microsoft SQL Server
+http://msdn.microsoft.com/en-us/library/bb545450.aspx
+
+Books Online for SQL Server 2012
+http://technet.microsoft.com/en-us/library/ms130214.aspx
+
+Feature Reference (Database Engine)
+http://technet.microsoft.com/en-us/library/bb510484.aspx

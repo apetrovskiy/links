@@ -1,0 +1,6 @@
+Data Retrieval Overview
+http://msdn.microsoft.com/en-us/library/ee539350(v=office.14).aspx
+How to: Retrieve List Items
+http://msdn.microsoft.com/en-us/library/ee534956(v=office.14).aspx
+Retrieving a SharePoint Client Object Does Not Retrieve All Properties
+http://msdn.microsoft.com/en-us/library/ee534974(v=office.14).aspx

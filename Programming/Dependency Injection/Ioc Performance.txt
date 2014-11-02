@@ -1,0 +1,3 @@
+http://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison
+https://github.com/danielpalme/IocPerformance
+http://www.codinginstinct.com/2008/05/ioc-container-benchmark-rerevisted.html
