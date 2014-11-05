@@ -1,0 +1,20 @@
+https://github.com/NancyFx/Nancy/wiki/Model-binding#binding-against-lists-of-objects
+https://github.com/NancyFx/Nancy/wiki/Model-binding
+
+Nancy : use array of data from POST request
+http://stackoverflow.com/questions/16282022/nancy-use-array-of-data-from-post-request
+
+Lift your Petticoats with Nancy....
+http://www.codeproject.com/Articles/694907/Lift-your-Petticoats-with-Nancy
+
+Lightweight Development in .Net: Nancy
+http://theothersideofcode.com/lightweight-development-in-dot-net-nancy
+
+Build Simple Web UIs with the Nancy Framework
+http://visualstudiomagazine.com/articles/2013/03/01/simple-web-uis-with-the-nancy-framework.aspx
+
+Enable CSRF Protection in Nancy
+http://www.jhovgaard.com/nancy-csrf/
+
+Nancy and C# uploading and showing an image
+http://blogs.lessthandot.com/index.php/webdev/serverprogramming/nancy-and-c-uploading-and/
