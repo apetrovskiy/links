@@ -1,0 +1,2 @@
+Nancy and adding the windows authenticated user to your page.
+http://blogs.lessthandot.com/index.php/webdev/serverprogramming/nancy-and-adding-the-windows/
