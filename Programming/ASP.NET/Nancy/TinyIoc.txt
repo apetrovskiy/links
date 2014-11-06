@@ -1,0 +1,2 @@
+TinyIoC/Nancy and registering multiple implementations of the same interface the easy way.
+http://blogs.lessthandot.com/index.php/webdev/serverprogramming/tinyioc-nancy-and-registering-multiple/
