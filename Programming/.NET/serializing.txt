@@ -1,0 +1,2 @@
+XmlSerializer serialize generic List of interface
+http://stackoverflow.com/questions/3704807/xmlserializer-serialize-generic-list-of-interface/3705115#3705115
