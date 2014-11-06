@@ -1,0 +1,2 @@
+C# Declare a string that spans on multiple lines
+http://stackoverflow.com/questions/12548391/c-sharp-declare-a-string-that-spans-on-multiple-lines
