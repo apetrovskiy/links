@@ -1,2 +1,5 @@
 XmlSerializer serialize generic List of interface
 http://stackoverflow.com/questions/3704807/xmlserializer-serialize-generic-list-of-interface/3705115#3705115
+
+I can't serialize a list of objects in C# with XmlSerializer
+http://stackoverflow.com/questions/15722978/i-cant-serialize-a-list-of-objects-in-c-sharp-with-xmlserializer
