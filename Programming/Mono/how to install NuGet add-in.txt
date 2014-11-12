@@ -1,0 +1,2 @@
+How to install NuGet addin for MonoDevelop?
+http://askubuntu.com/questions/481002/how-to-install-nuget-addin-for-monodevelop
