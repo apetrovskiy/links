@@ -1,0 +1,2 @@
+C# Nancy SelfHosting WebApplication with authentication deployed toLinux - nGinx - Mono
+http://blog.bekijkhet.com/2012/04/c-nancy-selfhosting-webapplication-with.html
