@@ -1,0 +1,2 @@
+Consistent error handling with Nancy
+http://paulstovell.com/blog/consistent-error-handling-with-nancy
