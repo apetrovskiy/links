@@ -1,0 +1,2 @@
+X-Http-Method-Override with NancyFX
+http://blog.nancyfx.org/x-http-method-override-with-nancyfx/
