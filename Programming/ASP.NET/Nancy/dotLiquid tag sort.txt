@@ -1,0 +1,19 @@
+Using liquid to sort posts alphabetically
+http://stackoverflow.com/questions/8991995/using-liquid-to-sort-posts-alphabetically
+
+An easy way to support tags in a jekyll blog
+http://stackoverflow.com/questions/1408824/an-easy-way-to-support-tags-in-a-jekyll-blog/21002505#21002505
+
+Order an array with Jekyll / liquid template
+http://stackoverflow.com/questions/9218769/order-an-array-with-jekyll-liquid-template
+
+http://jekyllrb.com/docs/templates/
+
+Custom Tags in Liquid
+http://robots.thoughtbot.com/custom-tags-in-liquid
+
+How to use Liquid with NationBuilder
+http://nationbuilder.com/liquid_basics
+
+liquid-markup
+https://code.google.com/p/liquid-markup/wiki/UsingLiquidTemplates
