@@ -1,0 +1,8 @@
+How to compare a Powershell object property with two object arrays
+http://www.adamtheautomator.com/how-to-compare-a-powershell-object-property-with-two-object-arrays/
+
+powershell compare two arrays, create third array with only nonmatching values
+http://stackoverflow.com/questions/10804363/powershell-compare-two-arrays-create-third-array-with-only-nonmatching-values
+
+Comparing two arrays & get the values which are not common
+http://stackoverflow.com/questions/6368386/comparing-two-arrays-get-the-values-which-are-not-common
