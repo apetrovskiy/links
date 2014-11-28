@@ -4,3 +4,8 @@ http://stackoverflow.com/questions/168455/how-do-you-post-to-an-iframe
 Can you nest html forms?
 http://stackoverflow.com/questions/379610/can-you-nest-html-forms
 http://jsfiddle.net/nzkEw/10/
+
+
+Dynamic form generation:
+JavaScript post request like a form submit
+http://stackoverflow.com/questions/133925/javascript-post-request-like-a-form-submit
