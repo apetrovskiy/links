@@ -1,0 +1,2 @@
+How to use Liquid with NationBuilder
+http://nationbuilder.com/liquid_basics
