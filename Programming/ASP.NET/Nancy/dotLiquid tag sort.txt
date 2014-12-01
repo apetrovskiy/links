@@ -1,4 +1,7 @@
 Original documentation:
+Liquid reference
+http://docs.shopify.com/themes/liquid-documentation/basics
+
 Array Filters
 http://docs.shopify.com/themes/liquid-documentation/filters/array-filters#sort
 
