@@ -1,3 +1,7 @@
+Original documentation:
+Array Filters
+http://docs.shopify.com/themes/liquid-documentation/filters/array-filters#sort
+
 Using liquid to sort posts alphabetically
 http://stackoverflow.com/questions/8991995/using-liquid-to-sort-posts-alphabetically
 
