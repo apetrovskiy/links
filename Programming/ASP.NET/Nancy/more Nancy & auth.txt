@@ -1,0 +1,23 @@
+Registering dependencies within TinyIOC for use in NancyFX
+http://stackoverflow.com/questions/9571635/registering-dependencies-within-tinyioc-for-use-in-nancyfx/9572032#9572032
+
+Nancy and adding the windows authenticated user to your page.
+http://blogs.lessthandot.com/index.php/webdev/serverprogramming/nancy-and-adding-the-windows/
+
+Introducing Owin.StatelessAuth with Nancy/Angular demo
+http://blog.jonathanchannon.com/2014/05/07/introducing-owin-statelessauth-with-nancy-angular-demo/
+
+User information in Nancy
+http://stackoverflow.com/questions/9070278/user-information-in-nancy
+
+Accessing TinyIoC from within a class other than Nancy modules
+https://groups.google.com/forum/print/msg/nancy-web-framework/FVuM9kIiI7Q/yMT9-U67CNAJ?ctz=2598874_44_44_7020_40_436200
+
+Welcome to TinyIoC
+https://github.com/grumpydev/TinyIoC
+
+Welcome to TinyIoC / TinyMessenger
+http://hg.grumpydev.com/tinyioc/wiki/Home
+
+Announcing: TinyIoC – An Easy to Use, Hassle Free, Inversion of Control Container
+http://www.grumpydev.com/2010/03/02/announcing-tinyioc-an-easy-to-use-hassle-free-inversion-of-control-container/

@@ -1,0 +1,8 @@
+How do you debug a Windows Service?
+http://stackoverflow.com/questions/5156427/how-do-you-debug-a-windows-service
+
+Useful service tricks - Debugging service startup
+http://blogs.msdn.com/b/larryosterman/archive/2006/03/01/541403.aspx
+
+WDK and WinDbg downloads
+http://msdn.microsoft.com/en-us/windows/hardware/hh852365
