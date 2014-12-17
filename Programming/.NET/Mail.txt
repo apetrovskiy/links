@@ -1,2 +1,11 @@
+MailAddress Class
+http://msdn.microsoft.com/en-us/library/system.net.mail.mailaddress(v=vs.110).aspx
+
+MailAddress Constructor (String)
+http://msdn.microsoft.com/en-us/library/591bk9e8(v=vs.110).aspx
+
+Sending Email to multiple Recipients with MailMessage
+http://stackoverflow.com/questions/23484503/sending-email-to-multiple-recipients-with-mailmessage
+
 Attachment Class
 http://msdn.microsoft.com/en-us/library/system.net.mail.attachment(v=vs.110).aspx
