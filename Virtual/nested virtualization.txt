@@ -1,0 +1,8 @@
+Nesting Hyper-V with VMware Workstation 8 and ESXi 5
+http://www.veeam.com/blog/nesting-hyper-v-with-vmware-workstation-8-and-esxi-5.html
+
+VMware vSphere can virtualize itself + 64-bit nested guests
+http://www.vcritical.com/2011/07/vmware-vsphere-can-virtualize-itself/#comment-12442
+
+How to Enable Support for Nested 64bit & Hyper-V VMs in vSphere 5
+http://www.virtuallyghetto.com/2011/07/how-to-enable-support-for-nested-64bit.html
