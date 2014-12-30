@@ -1,0 +1,7 @@
+Change Server Authentication Mode
+http://msdn.microsoft.com/en-us/library/ms188670.aspx
+
+ALTER LOGIN sa ENABLE ;
+GO
+ALTER LOGIN sa WITH PASSWORD = '<enterStrongPasswordHere>' ;
+GO

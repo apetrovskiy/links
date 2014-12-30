@@ -1,0 +1,14 @@
+XPath - select text of selected child nodes
+http://stackoverflow.com/questions/14614318/xpath-select-text-of-selected-child-nodes
+
+XPath “Not”. Ignore branches with a specific tag
+http://stackoverflow.com/questions/9481807/xpath-not-ignore-branches-with-a-specific-tag?rq=1
+//text()[not(parent::script)]
+or
+//*[not(self::script)]/text()
+
+Using Xpath and HtmlAgilityPack to find all elements with innertext containing a specific word or words
+http://stackoverflow.com/questions/8948895/using-xpath-and-htmlagilitypack-to-find-all-elements-with-innertext-containing-a?rq=1
+
+HtmlAgilityPack SelectNodes expression to ignore an element with a certain attribute
+http://stackoverflow.com/questions/13225438/htmlagilitypack-selectnodes-expression-to-ignore-an-element-with-a-certain-attri

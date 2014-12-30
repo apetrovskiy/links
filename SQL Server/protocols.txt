@@ -1,0 +1,8 @@
+Enable or Disable a Server Network Protocol
+http://msdn.microsoft.com/en-us/library/ms191294.aspx
+
+Create or Delete a Server Alias for Use by a Client (SQL Server Configuration Manager)
+http://msdn.microsoft.com/en-us/library/ms190445.aspx
+
+Configure a Server to Listen on a Specific TCP Port (SQL Server Configuration Manager)
+http://msdn.microsoft.com/en-us/library/ms177440.aspx
