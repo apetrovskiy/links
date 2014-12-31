@@ -1,0 +1,2 @@
+How to use LINQ to SQL without using the designer generated classes
+http://blogs.msdn.com/b/spike/archive/2010/01/08/how-to-use-linq-to-sql-without-using-the-designer-generated-classes.aspx

@@ -1,0 +1,15 @@
+http://nikig.ucoz.ru/load/knigi/knigi/linq_jazyk_integrirovannykh_zaprosov_v_c_2010_dlja_professionalov/68-1-0-11099
+http://nikig.ucoz.ru/load/knigi/knigi/izuchaem_c/68-1-0-5978
+http://nikig.ucoz.ru/load/knigi/knigi/c_2010_uskorennyj_kurs_dlja_professionalov/68-1-0-6453
+http://nikig.ucoz.ru/load/knigi/knigi/izuchaem_c_3_e_izdanie/68-1-0-11748
+!
+http://nikig.ucoz.ru/load/knigi/knigi/jazyk_programmirovanija_c/68-1-0-8121
+
+
+porto:
+http://nikig.ucoz.ru/load/knigi/knigi/portugalskij_jazyk_prodvinutyj_ehtap_kuznecova_g_b_zhebit_a_a_1989/68-1-0-4845
+
+hz:
+http://nikig.ucoz.ru/load/knigi/istoricheskie/specnaz_gru_ocherki_istorii_novejshaja_istorija_1999_2010_gg/75-1-0-6740
+
+http://nikig.ucoz.ru/load/knigi/knigi/jazyk_programmirovanija_java_i_sreda_netbeans_3_e_izd/68-1-0-12911
