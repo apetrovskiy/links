@@ -1,0 +1,5 @@
+how to declare local variable in Razor
+http://stackoverflow.com/questions/6601715/how-to-declare-local-variable-in-razor
+
+Using MVC HtmlHelper extensions from Razor declarative views
+http://stackoverflow.com/questions/4710853/using-mvc-htmlhelper-extensions-from-razor-declarative-views

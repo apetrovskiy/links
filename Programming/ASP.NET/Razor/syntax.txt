@@ -1,0 +1,13 @@
+Introduction to ASP.NET Web Programming Using the Razor Syntax (C#)
+http://www.asp.net/web-pages/overview/getting-started/introducing-razor-syntax-(c)
+
+C# Razor Syntax Quick Reference
+http://haacked.com/archive/2011/01/06/razor-syntax-quick-reference.aspx/
+
+ASP.NET Razor Reference Documentation
+http://stackoverflow.com/questions/4773411/asp-net-razor-reference-documentation
+
+Razor reseverd words
+http://stackoverflow.com/questions/4338627/razor-reseverd-words
+
+

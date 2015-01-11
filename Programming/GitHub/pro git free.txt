@@ -1,0 +1,7 @@
+http://git-scm.com/book/en/v2
+http://git-scm.com/book/ru/v2
+https://github.com/progit/progit2
+
+
+http://git-scm.com/book/ru/v1
+

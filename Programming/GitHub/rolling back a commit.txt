@@ -1,0 +1,10 @@
+this works:
+How can I rollback a github repository to a specific commit?
+http://stackoverflow.com/questions/4372435/how-can-i-rollback-a-github-repository-to-a-specific-commit
+
+How can I remove a commit on GitHub?
+http://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github
+
+Revert to a previous Git commit
+http://stackoverflow.com/questions/4114095/revert-to-a-previous-git-commit
+
