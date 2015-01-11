@@ -1,0 +1,3 @@
+difference between routeconfig.cs and global.asax.cs
+http://forums.asp.net/t/1985751.aspx?difference+between+routeconfig+cs+and+global+asax+cs
+
