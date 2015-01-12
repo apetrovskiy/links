@@ -10,4 +10,5 @@ http://stackoverflow.com/questions/4773411/asp-net-razor-reference-documentation
 Razor reseverd words
 http://stackoverflow.com/questions/4338627/razor-reseverd-words
 
-
+razor syntax - foreach loop
+http://stackoverflow.com/questions/4463000/razor-syntax-foreach-loop
