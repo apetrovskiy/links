@@ -15,3 +15,6 @@ http://stackoverflow.com/questions/4463000/razor-syntax-foreach-loop
 
 Iterating through a collection with MVC3 and razor
 http://stackoverflow.com/questions/6674621/iterating-through-a-collection-with-mvc3-and-razor
+
+ASP.NET MVC 4 - for loop posts model collection properties but foreach does not
+http://stackoverflow.com/questions/14165632/asp-net-mvc-4-for-loop-posts-model-collection-properties-but-foreach-does-not
