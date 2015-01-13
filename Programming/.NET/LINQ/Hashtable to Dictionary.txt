@@ -1,0 +1,7 @@
+convert HashTable to Dictionary in C#
+this works
+http://stackoverflow.com/questions/6455822/convert-hashtable-to-dictionary-in-c-sharp
+
+?
+Hashtable to Dictionary
+http://stackoverflow.com/questions/20618809/hashtable-to-dictionary

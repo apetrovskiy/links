@@ -1,0 +1,9 @@
+XPath Examples
+http://msdn.microsoft.com/en-us/library/ms256086(v=vs.110).aspx
+
+XPath: How to check if an attribute exists?
+http://stackoverflow.com/questions/3737906/xpath-how-to-check-if-an-attribute-exists
+//*[@foo]
+
+XPath selection by innertext
+http://stackoverflow.com/questions/1998681/xpath-selection-by-innertext
