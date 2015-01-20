@@ -1,0 +1,2 @@
+Supporting Windows NT 4.0, Windows 95, and Windows 98 Clients
+https://technet.microsoft.com/en-us/library/cc978256.aspx
