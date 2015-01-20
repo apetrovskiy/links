@@ -1,2 +1,8 @@
 Supporting Windows NT 4.0, Windows 95, and Windows 98 Clients
 https://technet.microsoft.com/en-us/library/cc978256.aspx
+
+Solstice NFS Client 3.2 User's Guide for Microsoft Windows 95 and Windows NT
+https://docs.oracle.com/cd/E19957-01/805-6572/6j66matpn/index.html
+
+How to use the Group Policy Migration utility to migrate Windows NT System Policy settings to Windows 2000 or Windows Server 2003
+http://support.microsoft.com/kb/317367
