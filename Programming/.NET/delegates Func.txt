@@ -1,0 +1,17 @@
+Func<T, TResult> Delegate
+https://msdn.microsoft.com/en-us/library/bb549151%28v=vs.110%29.aspx
+
+How can I pass in a func with a generic type parameter?
+http://stackoverflow.com/questions/12578965/how-can-i-pass-in-a-func-with-a-generic-type-parameter
+
+Emulating delegates with free generic type parameters in C#
+http://stackoverflow.com/questions/12878864/emulating-delegates-with-free-generic-type-parameters-in-c-sharp
+
+Pass Method as Parameter using C#
+http://stackoverflow.com/questions/2082615/pass-method-as-parameter-using-c-sharp
+
+Func<T1, T2, TResult> Delegate
+https://msdn.microsoft.com/en-us/library/bb534647%28v=vs.110%29.aspx
+
+C#: Func<T, TResult> for generic methods
+http://stackoverflow.com/questions/2835929/c-funct-tresult-for-generic-methods
