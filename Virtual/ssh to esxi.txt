@@ -1,0 +1,8 @@
+SSH from PowerShell using the SSH.NET library
+http://www.powershelladmin.com/wiki/SSH_from_PowerShell_using_the_SSH.NET_library#A_Few_Notes_About_Creating_a_Key_for_ESXi_5.x
+
+Allowing SSH access to ESXi/ESX hosts with public/private key authentication (1002866) 
+http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1002866
+
+ssh-keygen
+http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/ssh-keygen.1?query=ssh-keygen
