@@ -1,0 +1,31 @@
+Data driven tests with MSTest 
+http://callumhibbert.blogspot.ru/2009/07/data-driven-tests-with-mstest.html
+
+MsTest Sucks for unit tests
+http://www.richard-banks.org/2010/03/mstest-sucks-for-unit-tests.html
+
+Data Driven MSTest: DataRow is always null
+http://stackoverflow.com/questions/13923203/data-driven-mstest-datarow-is-always-null
+
+TestContext – more on mstest
+http://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/
+
+More on Unit Testing : TestContext
+http://weblogs.asp.net/adilakhter/more-on-unit-testing-testcontext
+
+Understanding the MSTest TestContext
+http://stackoverflow.com/questions/24249133/understanding-the-mstest-testcontext
+
+TestContext in Unit Testing
+http://stackoverflow.com/questions/12709441/testcontext-in-unit-testing
+
+???
+
+How To: Create a Data-Driven Unit Test
+https://msdn.microsoft.com/library/ms182527.aspx
+
+How to simulate RowTest with MS Test
+http://codeclimber.net.nz/archive/2008/01/18/How-to-simulate-RowTest-with-MS-Test.aspx
+
+Extending the Visual Studio Unit Test Type, part 2
+http://blogs.msdn.com/b/vstsqualitytools/archive/2009/09/04/extending-the-visual-studio-unit-test-type-part-2.aspx
