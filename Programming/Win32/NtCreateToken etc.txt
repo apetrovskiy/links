@@ -1,0 +1,10 @@
+http://undocumented.ntinternals.net/
+
+Windows Impersonation from C#
+http://stackoverflow.com/questions/559719/windows-impersonation-from-c-sharp
+
+GUI-Based RunAsEx
+http://www.codeproject.com/Articles/6443/GUI-Based-RunAsEx
+
+CreateToken function
+https://msdn.microsoft.com/en-us/library/windows/desktop/aa374780(v=vs.85).aspx
