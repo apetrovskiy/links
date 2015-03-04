@@ -1,0 +1,25 @@
+Ninject interception proxying class with non empty constructor via castle dynamic proxy
+http://stackoverflow.com/questions/22348731/ninject-interception-proxying-class-with-non-empty-constructor-via-castle-dynami
+
+Ninject Intercept any method with certain attribute?
+http://stackoverflow.com/questions/6386461/ninject-intercept-any-method-with-certain-attribute
+
+Ninject Conventions and Interception
+http://stackoverflow.com/questions/15098757/ninject-conventions-and-interception
+
+some package(s) not deployed:
+Ninject Interceptor custom PlanningStrategy not working in Ninject 3
+http://stackoverflow.com/questions/17664220/ninject-interceptor-custom-planningstrategy-not-working-in-ninject-3
+Can't get Ninject.Extensions.Interception working
+http://stackoverflow.com/questions/9988204/cant-get-ninject-extensions-interception-working
+
+miscellanea:
+Optional Bindings and Null Object Pattern
+https://github.com/ninject/Ninject/wiki/Optional-Bindings-and-Null-Object-Pattern
+
+Highly testable Sitecore code using MVC, Ninject, Synthesis, Moq, and NUnit
+http://nttdatasitecore.com/Blog/2014/September/Highly-testable-Sitecore-code-using-MVC-Ninject-Synthesis-Moq-and-NUnit
+
+hz:
+AOP with Ninject Interception, Castle DynamicProxy and WPF window: Can't find XAML resource in DynamicProxy of window
+http://stackoverflow.com/questions/11226271/aop-with-ninject-interception-castle-dynamicproxy-and-wpf-window-cant-find-xa
