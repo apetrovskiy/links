@@ -1,0 +1,2 @@
+#PowerShell script to wait while any MSI process is running
+http://vlasenko.org/2015/03/10/powershell-script-to-wait-while-any-msi-process-is-running/
