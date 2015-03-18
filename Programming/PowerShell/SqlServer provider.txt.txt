@@ -1,0 +1,15 @@
+Problems using SQL Server 2008 R2 PowerShell extensions outside of SQLPS
+http://stackoverflow.com/questions/4820591/problems-using-sql-server-2008-r2-powershell-extensions-outside-of-sqlps
+for x86:
+# Change this:
+cd $sqlpsPath
+Add-PSSnapin SqlServerCmdletSnapin100
+Add-PSSnapin SqlServerProviderSnapin100 
+# to this:
+cd $sqlpsPath
+$framework=$([System.Runtime.InteropServices.RuntimeEnvironment]::GetRuntimeDirectory())
+Set-Alias installutil "$($framework)installutil.exe"
+installutil Microsoft.SqlServer.Management.PSSnapins.dll
+installutil Microsoft.SqlServer.Management.PSProvider.dll
+Add-PSSnapin SqlServerCmdletSnapin100
+Add-PSSnapin SqlServerProviderSnapin100 
