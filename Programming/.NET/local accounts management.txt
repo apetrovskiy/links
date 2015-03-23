@@ -1,0 +1,2 @@
+Adding a local user to a local group in C#
+http://stackoverflow.com/questions/10999499/adding-a-local-user-to-a-local-group-in-c-sharp
