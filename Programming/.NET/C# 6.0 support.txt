@@ -1,0 +1,2 @@
+Resharper Disable C# 6.0 Support
+http://stackoverflow.com/questions/27621458/resharper-disable-c-sharp-6-0-support
