@@ -1,0 +1,5 @@
+C# 6.0 – NULL PROPAGATION OPERATOR
+http://davefancher.com/2014/08/14/c-6-0-null-propagation-operator/
+
+Null-propagating operator ?.
+https://roslyn.codeplex.com/discussions/540883
