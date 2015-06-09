@@ -1,0 +1,14 @@
+Powershell Command: rm -rf
+http://stackoverflow.com/questions/10443891/powershell-command-rm-rf
+
+How to recursively delete an entire directory with PowerShell 2.0?
+http://stackoverflow.com/questions/1752677/how-to-recursively-delete-an-entire-directory-with-powershell-2-0
+
+PowerShell quietly remove directory with content
+http://stackoverflow.com/questions/7909167/powershell-quietly-remove-directory-with-content
+
+Remove-Item
+http://ss64.com/ps/remove-item.html
+
+Powershell Remove-Item and symbolic links
+http://kristofmattei.be/2012/12/15/powershell-remove-item-and-symbolic-links/

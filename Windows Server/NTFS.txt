@@ -1,0 +1,5 @@
+Practical Guide to Alternative Data Streams in NTFS
+http://www.irongeek.com/i.php?page=security/altds
+
+How to permanently unblock files that came from the Internet: SysInternals Streams utility, Zones, Vista and Blocked Files in IE
+http://darrenmyher.com/2007/03/22/how-to-permanently-unblock-files-that-came-from-the-internet-sysinternals-streams-utility-zones-vista-and-blocked-files-in-ie/
