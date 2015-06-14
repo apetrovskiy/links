@@ -1,0 +1,12 @@
+Installing .Net 3.5 Fails on Windows 8 With 0x800F0906 Error
+http://www.aidanfinn.com/?p=13351
+
+How to Install Microsoft .NET Framework 3.5 Offline in Windows 8 and Later without Internet Connection?
+http://www.askvg.com/how-to-install-microsoft-net-framework-3-5-offline-in-windows-8-without-internet-connection/
+
+cool!
+[Fix] 0x800F0906 and 0x800F081F Error Messages While Installing .NET Framework 3.5 in Windows 8/8.1
+http://www.askvg.com/fix-0x800f0906-and-0x800f081f-error-messages-while-installing-net-framework-3-5-in-windows-8/
+
+Download Microsoft .NET Framework 3.5 Offline Installer for Windows 8 and Later
+http://www.askvg.com/download-microsoft-net-framework-3-5-offline-installer-for-windows-8/

@@ -1,0 +1,14 @@
+Group by in LINQ
+http://stackoverflow.com/questions/7325278/group-by-in-linq?rq=1
+
+SQL to linq Having Clause
+http://stackoverflow.com/questions/25557824/sql-to-linq-having-clause
+
+Playing GROUP BY and HAVING Clauses with LINQ
+http://devkimchi.com/211/playing-group-by-and-having-clauses-with-linq/
+
+How to: Group Query Results (C# Programming Guide)
+https://msdn.microsoft.com/en-us/library/bb545971.aspx?f=255&MSPPError=-2147217396
+
+Group By Multiple Columns
+http://stackoverflow.com/questions/847066/group-by-multiple-columns
