@@ -1,0 +1,22 @@
+How to change email subject in C# using Exchange Web Services
+http://stackoverflow.com/questions/8015587/how-to-change-email-subject-in-c-sharp-using-exchange-web-services
+
+Wrong mailbox items being retreived using Exchange Web Services managed API in C#
+http://stackoverflow.com/questions/9220900/wrong-mailbox-items-being-retreived-using-exchange-web-services-managed-api-in-c
+
+
+
+How to: Work with Exchange mailbox items by using EWS in Exchange
+https://msdn.microsoft.com/en-us/library/office/dn535506(v=exchg.150).aspx
+
+Mailbox synchronization and EWS in Exchange
+https://msdn.microsoft.com/en-us/library/office/dn440952(v=exchg.150).aspx
+
+Deleting items by using EWS in Exchange
+https://msdn.microsoft.com/en-us/library/office/dn424760(v=exchg.150).aspx
+
+How to: Get free/busy information by using EWS in Exchange
+https://msdn.microsoft.com/en-us/library/office/dn643673(v=exchg.150).aspx
+
+Exchange Web Services
+http://www.codeproject.com/Articles/399015/Exchange-Web-Services

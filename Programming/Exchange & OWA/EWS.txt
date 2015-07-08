@@ -1,0 +1,43 @@
+How to: Work with Exchange mailbox items by using EWS in Exchange
+https://msdn.microsoft.com/en-us/library/office/dn535506(v=exchg.150).aspx
+
+Start using web services in Exchange
+https://msdn.microsoft.com/en-us/library/office/jj900168(v=exchg.150).aspx
+
+EWS Managed API, EWS, and web services in Exchange
+https://msdn.microsoft.com/en-us/library/office/dd877012(v=exchg.150).aspx
+
+Get started with EWS Managed API client applications
+https://msdn.microsoft.com/en-us/library/office/dn567668(v=exchg.150).aspx
+
+Getting Started with the EWS Managed API
+https://github.com/OfficeDev/ews-managed-api/blob/master/README.md
+
+Exchange Web Services Architecture in Exchange 2010
+https://msdn.microsoft.com/en-us/library/office/aa579369(v=exchg.140).aspx
+
+Connecting to EWS by using the EWS Managed API 2.0
+https://msdn.microsoft.com/en-us/library/office/ff597939(v=exchg.80).aspx
+
+Exchange Web Services (EWS) in Exchange 2010
+https://msdn.microsoft.com/en-us/library/office/dd877045(v=exchg.140).aspx
+
+How to: Communicate with EWS by using the EWS Managed API
+https://msdn.microsoft.com/en-us/library/office/dn467891(v=exchg.150).aspx
+
+
+
+
+
+Mail apps for Outlook and EWS in Exchange
+https://msdn.microsoft.com/EN-US/library/office/jj190901(v=exchg.150).aspx
+
+
+GetFolder operation
+https://msdn.microsoft.com/EN-US/library/office/aa580274(v=exchg.150).aspx
+
+
+
+Searching an Exchange mailbox by using the EWS Managed API 2.0
+https://msdn.microsoft.com/en-us/library/office/ee693001(v=exchg.80).aspx
+

@@ -1,0 +1,2 @@
+HtmlWebResponseObject Class
+https://msdn.microsoft.com/en-us/library/microsoft.powershell.commands.htmlwebresponseobject(v=vs.85).aspx

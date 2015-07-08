@@ -1,0 +1,2 @@
+VHDX Support for W2008R2 Guest
+https://social.technet.microsoft.com/Forums/windowsserver/en-US/f4dfda67-335a-410f-a18c-b0b5d598af73/vhdx-support-for-w2008r2-guest?forum=winserverhyperv

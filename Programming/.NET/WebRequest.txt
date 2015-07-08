@@ -1,0 +1,14 @@
+How do I use WebRequest to access an SSL encrypted site using https?
+http://stackoverflow.com/questions/560804/how-do-i-use-webrequest-to-access-an-ssl-encrypted-site-using-https
+
+Authentication in web services with HttpWebRequest
+http://blogs.msdn.com/b/buckh/archive/2004/07/28/199706.aspx
+
+Multiple WebRequest in same session
+http://stackoverflow.com/questions/787857/multiple-webrequest-in-same-session
+
+How to send an HTTPS GET Request in C#
+http://stackoverflow.com/questions/943852/how-to-send-an-https-get-request-in-c-sharp
+
+Generate HTTP Requests using c#
+http://codesamplez.com/programming/http-request-c-sharp

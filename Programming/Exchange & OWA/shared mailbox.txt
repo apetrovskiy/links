@@ -1,0 +1,8 @@
+Shared Mailbox – PowerShell commands reference
+http://o365info.com/shared-mailbox-powershell-commands/
+
+Shared Mailboxes
+http://blogs.technet.com/b/msukucc/archive/2009/02/23/shared-mailboxes.aspx
+
+Create a shared mailbox in Microsoft Exchange 2010 and Add to OWA
+https://atthedatacenter.wordpress.com/2010/09/28/create-a-shared-mailbox-in-microsoft-exchange-2010-and-add-to-owa/

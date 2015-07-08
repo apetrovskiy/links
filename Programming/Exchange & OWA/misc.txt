@@ -1,0 +1,2 @@
+Determining the Exchange Web Services (EWS) URL for the ShareScan Exchange Connector
+http://nuanceimaging.custhelp.com/app/answers/detail/a_id/13098/~/determining-the-exchange-web-services-(ews)-url-for-the-sharescan-exchange

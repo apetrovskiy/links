@@ -1,0 +1,6 @@
+Enable or disable Outlook Web App for a mailbox
+https://technet.microsoft.com/en-us/library/bb124124(v=exchg.150).aspx
+
+Working with Outlook Web App Customization
+https://msdn.microsoft.com/en-us/library/office/bb891801(v=exchg.140).aspx
+

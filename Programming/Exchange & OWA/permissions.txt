@@ -1,0 +1,2 @@
+Exchange and Shell infrastructure permissions
+https://technet.microsoft.com/en-us/library/dd638114.aspx

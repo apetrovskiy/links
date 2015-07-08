@@ -1,0 +1,25 @@
+Managing access for EWS Managed API 2.0 applications
+https://msdn.microsoft.com/en-us/library/office/ff597941(v=exchg.80).aspx
+
+Delegate Access in Exchange 2010
+https://msdn.microsoft.com/en-us/library/office/bb204081(v=exchg.140).aspx
+
+Using EWS API to search through different users mailboxes
+http://stackoverflow.com/questions/1614720/using-ews-api-to-search-through-different-users-mailboxes
+
+How to connect to EWS API?
+http://stackoverflow.com/questions/25072532/how-to-connect-to-ews-api
+
+Office 365 app authentication concepts
+https://msdn.microsoft.com/office/office365/howto/common-app-authentication-tasks
+
+EWS API error - The response received from the service didn't contain valid XML.
+https://social.msdn.microsoft.com/Forums/exchange/en-US/bd955ba4-58cd-4567-ac4c-893a69fc8631/ews-api-error-the-response-received-from-the-service-didnt-contain-valid-xml?forum=exchangesvrdevelopment
+
+Authentication and EWS in Exchange
+https://msdn.microsoft.com/en-us/library/office/dn626019(v=exchg.150).aspx
+
+
+Controlling client application access to EWS in Exchange
+https://msdn.microsoft.com/en-us/library/office/jj900165(v=exchg.150).aspx
+

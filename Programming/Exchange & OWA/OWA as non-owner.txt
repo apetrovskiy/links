@@ -1,0 +1,12 @@
+Outlook Web App 2010 Auto login
+http://blog.degree.no/2011/09/outlook-web-app-2010-auto-login/
+
+Go version:
+Authenticate on Microsoft Exchange via the Outlook Web App
+https://gist.github.com/fiorix/dc241189cef2ab7d6b12
+
+PowerShell Script to Simulate Outlook Web Access URL User Logon
+http://blogs.technet.com/b/meamcs/archive/2015/03/06/powershell-script-to-simulate-outlook-web-access-url-user-logon.aspx
+
+Opening other users Inboxes/Mailboxes using OWA 2010
+http://www.msexchange.org/blogs/walther/news/opening-other-users-inboxesmailboxes-using-owa-2010-494.html

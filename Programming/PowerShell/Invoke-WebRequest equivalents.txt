@@ -1,0 +1,23 @@
+# nothing useful, though
+Invoke-WebRequest equivalent in PowerShell v2
+http://stackoverflow.com/questions/25120703/invoke-webrequest-equivalent-in-powershell-v2
+
+Invoking Web Request in PowerShell Version 2.0 Timed out
+http://stackoverflow.com/questions/25136833/invoking-web-request-in-powershell-version-2-0-timed-out
+
+PowerShell Version 2 Invoke-WebRequest
+http://stackoverflow.com/questions/30219757/powershell-version-2-invoke-webrequest
+
+http requests with powershell
+http://stackoverflow.com/questions/7715695/http-requests-with-powershell/20941552#20941552
+
+Invoke-Webrequest Powershell 2.0
+http://powershell.org/wp/forums/topic/invoke-webrequest-powershell-2-0/
+
+
+http requests with powershell
+http://stackoverflow.com/questions/7715695/http-requests-with-powershell
+
+PowerShell Version 2 Invoke-WebRequest
+http://stackoverflow.com/questions/30219757/powershell-version-2-invoke-webrequest
+
