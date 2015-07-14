@@ -1,0 +1,5 @@
+Can I launch URLs from command line in Windows?
+http://superuser.com/questions/36728/can-i-launch-urls-from-command-line-in-windows
+
+How to easily open files and URLs from the command line
+http://www.dwheeler.com/essays/open-files-urls.html

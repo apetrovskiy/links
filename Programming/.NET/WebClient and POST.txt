@@ -1,0 +1,16 @@
+How to submit http form using C#
+http://stackoverflow.com/questions/1273998/how-to-submit-http-form-using-c-sharp
+
+JavaScript:
+How programmatically submit a form without a submit button in WebBrowser
+http://stackoverflow.com/questions/1539685/how-programmatically-submit-a-form-without-a-submit-button-in-webbrowser
+
+How do you programmatically fill in a form and 'POST' a web page?
+http://stackoverflow.com/questions/26857/how-do-you-programmatically-fill-in-a-form-and-post-a-web-page
+
+(four methods!!!)
+HTTP request with post
+http://stackoverflow.com/questions/4015324/http-request-with-post
+
+How to: Send Data Using the WebRequest Class
+https://msdn.microsoft.com/en-us/library/debx8sh9(v=vs.110).aspx
