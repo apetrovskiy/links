@@ -1,0 +1,5 @@
+how to pass data between console app and winform app c#?
+https://social.msdn.microsoft.com/Forums/vstudio/en-US/544ce5f7-ab64-464a-8d15-ea54a95d4bd2/how-to-pass-data-between-console-app-and-winform-app-c?forum=netfxbcl
+
+Inter-Process Communication in .NET Using Named Pipes, Part 2
+http://www.codeproject.com/Articles/7177/Inter-Process-Communication-in-NET-Using-Named-P

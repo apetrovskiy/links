@@ -1,0 +1,2 @@
+NHibernate 2.0, SQLite, and In-Memory Databases
+http://www.codethinked.com/nhibernate-20-sqlite-and-in-memory-databases

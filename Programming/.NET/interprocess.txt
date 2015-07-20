@@ -1,0 +1,11 @@
+Pass data between two applications
+http://stackoverflow.com/questions/13972511/pass-data-between-two-applications
+
+How to exchange data between two process?
+http://stackoverflow.com/questions/13643146/how-to-exchange-data-between-two-process
+
+IPC Mechanisms in C# - Usage and Best Practices
+http://stackoverflow.com/questions/56121/ipc-mechanisms-in-c-sharp-usage-and-best-practices
+
+How to exchange data between two process?
+http://stackoverflow.com/questions/13643146/how-to-exchange-data-between-two-process
