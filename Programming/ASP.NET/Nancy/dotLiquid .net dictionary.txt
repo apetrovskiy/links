@@ -1,1 +1,9 @@
+this works!
+Working with Dictionary object when key is not KNOWN
 https://github.com/dotliquid/dotliquid/issues/54
+
+DotLiquid - Dictionary<string,string> as parameter
+http://stackoverflow.com/questions/27860999/dotliquid-dictionarystring-string-as-parameter
+
+DotLiquid/Liquid access to dictionary
+http://stackoverflow.com/questions/8153929/dotliquid-liquid-access-to-dictionary
