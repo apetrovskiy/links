@@ -1,2 +1,6 @@
+this works!
 nodejs connect cannot find static
 http://stackoverflow.com/questions/24346161/nodejs-connect-cannot-find-static
+
+Node / connect issue Object function createServer has no method static [duplicate]
+http://stackoverflow.com/questions/23978734/node-connect-issue-object-function-createserver-has-no-method-static
