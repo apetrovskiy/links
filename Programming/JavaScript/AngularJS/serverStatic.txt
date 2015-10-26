@@ -1,0 +1,2 @@
+nodejs connect cannot find static
+http://stackoverflow.com/questions/24346161/nodejs-connect-cannot-find-static
