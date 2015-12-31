@@ -1,0 +1,3 @@
+this works!
+Equivalent of C#'s DateTime.Now in Java?
+http://stackoverflow.com/questions/2010284/equivalent-of-cs-datetime-now-in-java

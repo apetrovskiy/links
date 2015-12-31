@@ -4,3 +4,11 @@ http://habrahabr.ru/post/77382/
 http://www.apache-maven.ru/quick_start.html
 http://vsprog.ru/258
 http://javaxblog.ru/article/java-maven-1/
+
+this works!
+How do you specify the Java compiler version in a pom.xml file?
+http://stackoverflow.com/questions/16723533/how-do-you-specify-the-java-compiler-version-in-a-pom-xml-file
+
+this works!
+How do I add a “maven dependency” in eclipse?
+http://stackoverflow.com/questions/9164893/how-do-i-add-a-maven-dependency-in-eclipse

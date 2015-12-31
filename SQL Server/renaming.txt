@@ -1,0 +1,9 @@
+this works!
+How to: Rename a Computer that Hosts a Stand-Alone Instance of SQL Server 2005
+https://msdn.microsoft.com/en-us/library/ms143799(v=sql.90).aspx
+
+How to: Rename a SQL Server 2005 Virtual Server
+https://msdn.microsoft.com/en-us/library/ms178083(v=sql.90).aspx
+
+Renaming a Report Server Computer
+https://msdn.microsoft.com/en-us/library/ms345235(v=sql.90).aspx
