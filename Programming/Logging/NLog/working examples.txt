@@ -1,0 +1,8 @@
+Add / remove logfiles during runtime in NLog
+http://stackoverflow.com/questions/3516242/add-remove-logfiles-during-runtime-in-nlog?rq=1
+
+Log file not getting created using NLog when filename is set dynamically
+http://stackoverflow.com/questions/16840719/log-file-not-getting-created-using-nlog-when-filename-is-set-dynamically?rq=1
+
+How to get path of current target file using NLog in runtime?
+http://stackoverflow.com/questions/11452645/how-to-get-path-of-current-target-file-using-nlog-in-runtime?rq=1

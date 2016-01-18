@@ -1,0 +1,8 @@
+IPC (inter process communication) between python and java
+http://stackoverflow.com/questions/3356554/ipc-inter-process-communication-between-python-and-java
+
+simple inter-process communication
+http://stackoverflow.com/questions/4950120/simple-inter-process-communication
+
+Interprocess communication between Python and Java
+http://jj09.net/interprocess-communication-python-java/
