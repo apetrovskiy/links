@@ -1,0 +1,5 @@
+Active Directory - Check username / password
+http://stackoverflow.com/questions/400872/active-directory-check-username-password
+
+UserPrincipal.FindByIdentity Permissions
+http://stackoverflow.com/questions/3579588/userprincipal-findbyidentity-permissions

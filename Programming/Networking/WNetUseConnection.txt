@@ -1,0 +1,4 @@
+this works!
+Accessing a Shared File (UNC) From a Remote, Non-Trusted Domain With Credentials
+http://stackoverflow.com/questions/659013/accessing-a-shared-file-unc-from-a-remote-non-trusted-domain-with-credentials
+http://lookfwd.doitforme.gr/blog/media/PinvokeWindowsNetworking.cs

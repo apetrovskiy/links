@@ -1,0 +1,3 @@
+this works!
+Can you loop through all enum values? [duplicate]
+http://stackoverflow.com/questions/972307/can-you-loop-through-all-enum-values
