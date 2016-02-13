@@ -1,0 +1,20 @@
+this works!
+Accessing a Shared File (UNC) From a Remote, Non-Trusted Domain With Credentials
+http://stackoverflow.com/questions/659013/accessing-a-shared-file-unc-from-a-remote-non-trusted-domain-with-credentials
+http://lookfwd.doitforme.gr/blog/media/PinvokeWindowsNetworking.cs
+
+claimed as working
+How do I access a file share programattically
+http://stackoverflow.com/questions/1441406/how-do-i-access-a-file-share-programattically
+
+How To Use the WNetUseConnection API to Map a Drive in Visual Basic
+https://support.microsoft.com/en-us/kb/256847
+
+Difference between WNetAddConnection2() and NetUseAdd()
+http://stackoverflow.com/questions/6556924/difference-between-wnetaddconnection2-and-netuseadd
+
+WNetUseConnection function
+https://msdn.microsoft.com/en-us/library/windows/desktop/aa385482(v=vs.85).aspx
+
+WNetUseConnection function
+https://msdn.microsoft.com/en-us/library/aa385482(VS.85).aspx
