@@ -1,0 +1,2 @@
+POWERSHELL: CONVERT STRING TO SCRIPTBLOCK
+http://www.thomasmaurer.ch/2011/11/powershell-convert-string-to-scriptblock/
