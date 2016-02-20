@@ -1,0 +1,2 @@
+How to truncate milliseconds off of a .NET DateTime
+http://stackoverflow.com/questions/1004698/how-to-truncate-milliseconds-off-of-a-net-datetime
