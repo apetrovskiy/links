@@ -1,0 +1,2 @@
+Sharing with C#: Creating, Deleting, Listing and Managing Permissions of Windows Shares Using C#
+http://www.harindaka.com/2011/11/having-to-write-piece-of-code-for-above.html
