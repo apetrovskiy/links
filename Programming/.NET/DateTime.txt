@@ -1,0 +1,9 @@
+How to truncate milliseconds off of a .NET DateTime
+http://stackoverflow.com/questions/1004698/how-to-truncate-milliseconds-off-of-a-net-datetime
+
+DateTime.Parse(“2012-09-30T23:00:00.0000000Z”) always converts to DateTimeKind.Local
+http://stackoverflow.com/questions/10029099/datetime-parse2012-09-30t230000-0000000z-always-converts-to-datetimekind-l
+
+this, probably, works
+How to truncate milliseconds off of a .NET DateTime
+http://stackoverflow.com/questions/1004698/how-to-truncate-milliseconds-off-of-a-net-datetime

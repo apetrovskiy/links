@@ -1,0 +1,11 @@
+CreateProcessWithLogon in service returning code 5: access denied
+http://stackoverflow.com/questions/13626571/createprocesswithlogon-in-service-returning-code-5-access-denied
+
+createprocesswithlogonw error access denial
+https://social.msdn.microsoft.com/Forums/windowsdesktop/en-US/1000baf2-9eee-4914-949e-7d36b70265e7/createprocesswithlogonw-error-access-denial?forum=windowssdk
+
+How to call CreateProcessWithLogonW & CreateProcessAsUser in .NET
+https://blogs.msdn.microsoft.com/alejacma/2007/12/20/how-to-call-createprocesswithlogonw-createprocessasuser-in-net/
+
+CreateProcessWithLogonW function
+https://msdn.microsoft.com/en-us/library/windows/desktop/ms682431(v=vs.85).aspx
