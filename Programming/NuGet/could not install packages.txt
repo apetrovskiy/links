@@ -1,0 +1,5 @@
+this works!
+Unable to Install Any Package in Visual Studio 2015
+http://stackoverflow.com/questions/32344232/unable-to-install-any-package-in-visual-studio-2015/35544701#_=_
+Delete this:
+%AppData%/Nuget/Nuget.config
