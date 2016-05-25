@@ -1,0 +1,8 @@
+Does Java have an equivalent to .NET resource (.resx) files for localization?
+http://stackoverflow.com/questions/2436770/does-java-have-an-equivalent-to-net-resource-resx-files-for-localization
+
+About the ResourceBundle Class
+https://docs.oracle.com/javase/tutorial/i18n/resbundle/concept.html
+
+Resource Files
+https://www.jetbrains.com/help/idea/2016.1/resource-files.html
