@@ -1,0 +1,6 @@
+EFFECTIVE CSS SELECTORS
+http://ddavison.io/css/2014/02/18/effective-css-selectors.html
+
+Try CSS selectors in action
+this works!
+http://www.w3schools.com/cssref/trysel.asp
