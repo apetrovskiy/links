@@ -1,0 +1,5 @@
+How to convert String object to Boolean Object?
+http://stackoverflow.com/questions/1538755/how-to-convert-string-object-to-boolean-object
+
+Best approach to converting Boolean object to string in java
+http://stackoverflow.com/questions/18833054/best-approach-to-converting-boolean-object-to-string-in-java
