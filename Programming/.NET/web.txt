@@ -1,0 +1,20 @@
+getting data from SSRS 2008R2
+
+Authentication during loading XML
+https://forums.asp.net/t/1388594.aspx
+
+Get data from a web page
+http://stackoverflow.com/questions/1520703/sending-http-headers-with-http-web-request-for-ntlm-authentication
+http://stackoverflow.com/questions/17791746/how-to-authenticate-a-xml-in-c
+
+NetworkCredentials
+https://msdn.microsoft.com/en-us/library/system.net.networkcredential(v=vs.110).aspx
+
+NTLM and Kerberos Authentication
+https://msdn.microsoft.com/en-us/library/yk7437c8(v=vs.110).aspx
+
+NTLM authorization
+http://stackoverflow.com/questions/13805704/c-sharp-helper-classes-to-implement-ntlm-authorization
+
+Basic Authentication
+https://ericniemiec.wordpress.com/2012/07/24/passing-domain-credentials-in-c-to-a-webbrowser-control-in-net-winforms-applications/

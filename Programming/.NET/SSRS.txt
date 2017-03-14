@@ -1,0 +1,32 @@
+Authentication with the Report Server
+https://msdn.microsoft.com/en-us/library/bb283249.aspx
+
+Configure Basic Authentication on the Report Server
+https://technet.microsoft.com/en-us/library/cc281309(v=sql.110).aspx
+
+Passing Credentials to Sql Report Server 2008
+http://stackoverflow.com/questions/671694/passing-credentials-to-sql-report-server-2008
+
+schema
+http://stackoverflow.com/questions/7194504/what-is-the-valid-rdl-schema-for-ssrs-2008r2-reports
+
+schemata
+http://stackoverflow.com/questions/29951653/ssrs-2008r2-visual-studio-2008-and-2008-and-2010-schemas
+
+rs Utility
+https://msdn.microsoft.com/en-us/library/ms162839(v=sql.100).aspx
+
+Change SSRS data source of report programmatically in server side
+http://stackoverflow.com/questions/14546125/change-ssrs-data-source-of-report-programmatically-in-server-side
+
+Extracting SSRS Report RDL (XML) from the ReportServer database
+http://bretstateham.com/extracting-ssrs-report-rdl-xml-from-the-reportserver-database/
+
+Get Data from SSRS dataSet
+http://stackoverflow.com/questions/16817911/get-data-from-ssrs-dataset
+
+SSRS: programmatically repopulate multi value parameter after execution
+http://stackoverflow.com/questions/35160931/ssrs-programmatically-repopulate-multi-value-parameter-after-execution
+
+
+
