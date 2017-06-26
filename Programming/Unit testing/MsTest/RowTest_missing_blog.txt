@@ -1,0 +1,931 @@
+<DOCTYPE html>
+<html lang="en" class="wf-inactive wf-ffmetawebpro1-i4-inactive wf-ffmetawebpro1-i7-inactive wf-ffmetawebpro1-n4-inactive wf-ffmetawebpro1-n7-inactive"><head><script async="" src="https://www.linkedin.com/countserv/count/share?format=jsonp&amp;callback=WPCOMSharing.update_linkedin_count&amp;url=https%3A%2F%2Fblog.adilakhter.com%2F2007%2F12%2F22%2Ftestcontext-more-on-vsts-unit-testing%2F&amp;_=1498474480993"></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<base href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/"><style type="text/css">body { margin-left:0;margin-right:0;margin-top:0; }#google-cache-hdr {background:#f5f5f5 !important;font:13px arial,sans-serif !important;text-align:left !important;color:#202020 !important;border:0 !important;margin:0 !important;border-bottom:1px solid #cecece !important;line-height:16px !important ;padding:16px 28px 24px 28px !important;}#google-cache-hdr * {display:inline !important;font:inherit !important;text-align:inherit !important;color:inherit !important;line-height:inherit !important;background:none !important;border:0 !important;margin:0 !important;padding:0 !important;letter-spacing:0 !important;}#google-cache-hdr a {text-decoration:none !important;color:#1a0dab !important;}#google-cache-hdr a:hover { text-decoration:underline !important; }#google-cache-hdr a:visited { color:#609 !important; }#google-cache-hdr div { display:block !important;margin-top:4px !important; }#google-cache-hdr b {font-weight:bold !important;display:inline-block !important;direction:ltr !important;}</style><script defer="" src="http://b.scorecardresearch.com/beacon.js"></script><script src="https://s1.wp.com/wp-includes/js/wp-emoji-release.min.js?m=1496863874h&amp;ver=4.8-RC2-40878" type="text/javascript" defer=""></script><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><style type="text/css"></style><link rel="stylesheet" type="text/css" id="gravatar-card-css" href="http://0.gravatar.com/css/hovercard.css?ver=201724y"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="http://0.gravatar.com/css/services.css?ver=201724y"><style type="text/css">.tk-ff-meta-web-pro{font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif;}</style><script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.b731e6c82269f70f6fc53634e044a4c6.js"></script></head><body class="post-template-default single single-post postid-32 single-format-standard mp6 customizer-styles-applied widgets-hidden highlander-enabled highlander-light custom-colors"><div id="google-cache-hdr" dir="ltr"><div>This is Google's cache of <a href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/" dir="ltr">https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/</a>. It is a snapshot of the page as it appeared on 18 Jun 2017 14:26:19 GMT. </div><div>The <a href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/" dir="ltr">current page</a> could have changed in the meantime. <a href="http://support.google.com/websearch/bin/answer.py?hl=en&amp;p=cached&amp;answer=1687222">Learn more</a></div><div></div><div><span style="display:inline-block !important;margin-top:8px !important;margin-right:104px !important;white-space:nowrap !important;"><span style="margin-right:28px !important;"><span style="font-weight:bold !important;">Full version</span></span><span style="margin-right:28px !important;"><a href="http://webcache.googleusercontent.com/search?q=cache:https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/&amp;num=1&amp;strip=1&amp;vwsrc=0">Text-only version</a></span><span style="margin-right:28px !important;"><a href="http://webcache.googleusercontent.com/search?q=cache:https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/&amp;num=1&amp;strip=0&amp;vwsrc=1">View source</a></span></span><span style="display:inline-block !important;margin-top:8px !important;color:#717171 !important;">Tip: To quickly find your search term on this page, press <b>Ctrl+F</b> or <b>⌘-F</b> (Mac) and use the find bar.</span></div></div><div style="position:relative;">
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://blog.adilakhter.com/xmlrpc.php">
+
+<title>TestContext – more on mstest – Thoughts + Notes</title>
+<script src="https://s1.wp.com/wp-content/plugins/custom-fonts/js/webfont.js" type="text/javascript" async=""></script><script type="text/javascript">
+  WebFontConfig = {"typekit":{"id":"veh6xak"}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://s1.wp.com/wp-content/plugins/custom-fonts/js/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active body{font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif}.wf-active button, .wf-active input, .wf-active select, .wf-active textarea{font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif}.wf-active blockquote, .wf-active body .content-area .wpcom-reblog-snapshot .reblogger-note-content blockquote{font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif}.wf-active .size-thumbnail + .wp-caption-text, .wf-active .size-medium + .wp-caption-text, .wf-active .wp-caption-text{font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif}.wf-active .site-footer, .wf-active button, .wf-active input[type="button"], .wf-active input[type="reset"], .wf-active input[type="submit"], .wf-active #infinite-handle span{font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif}.wf-active th{font-weight:400;font-style:normal}.wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif;font-weight:400;font-style:normal}.wf-active h1{font-weight:400;font-style:normal}.wf-active h2{font-weight:400;font-style:normal}.wf-active h3{font-weight:400;font-style:normal}.wf-active h4{font-weight:400;font-style:normal}.wf-active h5{font-weight:400;font-style:normal}.wf-active h6{font-weight:400;font-style:normal}.wf-active th{font-weight:400;font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif;font-style:normal}.wf-active .site-title{font-style:normal;font-weight:400}.wf-active .site-description{font-style:normal;font-weight:400}.wf-active .widget-title{font-weight:400;font-style:normal}.wf-active .page-title{font-style:normal;font-weight:400}.wf-active .format-aside .entry-title{font-style:normal;font-weight:400}.wf-active .comment-reply-title, .wf-active .comments-title{font-style:normal;font-weight:400}@media screen and (min-width: 80em){.wf-active h1{font-weight:400;font-style:normal}}@media screen and (min-width: 80em){.wf-active h2{font-weight:400;font-style:normal}}@media screen and (min-width: 80em){.wf-active h3{font-weight:400;font-style:normal}}@media screen and (min-width: 80em){.wf-active h4{font-weight:400;font-style:normal}}@media screen and (min-width: 80em){.wf-active h5{font-weight:400;font-style:normal}}@media screen and (min-width: 80em){.wf-active h6{font-weight:400;font-style:normal}}</style>
+		<script src="https://r-login.wordpress.com/remote-login.php?action=js&amp;host=blog.adilakhter.com&amp;id=2219247&amp;t=1497795979&amp;back=https%3A%2F%2Fblog.adilakhter.com%2F2007%2F12%2F22%2Ftestcontext-more-on-vsts-unit-testing%2F" type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="dns-prefetch" href="//s2.wp.com">
+<link rel="dns-prefetch" href="//s1.wp.com">
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="dns-prefetch" href="//adilakhter.wordpress.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="Thoughts + Notes » Feed" href="https://blog.adilakhter.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Thoughts + Notes » Comments Feed" href="https://blog.adilakhter.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Thoughts + Notes » TestContext – more on&nbsp;mstest Comments Feed" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/feed/">
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1496863874h&ver=4.8-RC2-40878"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b===c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="all-css-0-1" href="https://s0.wp.com/_static/??-eJx9UtFOwzAM/CFMNAnGeEB8S5qazJsTR7Grwt+TtgwGE3mJzs6d7xTHzQWCZMNsLk1QeIqU1TGdUd0JrfhwhrW6D6p37oo+sMRvwSx19KO6yDJ4vuFeja7I3nCEImp/qp4sSMXWT8Xbwkg4kkfG1Gg92UxjxObTKF8YDN+7klT2F6MFHtsLdJPNpbFhGEpFVWhnoimBHVu2W93WdmUaXEBWmtSpfTD2DCJmrNQu/oE9E1Jh7yiHzQbWsJuAXBbbZl1AP4UAS/BGkn8V8Maean/ly19pMK57+CkX0Wt62T087w9Pu8Pj7vQJDoz3Aw==" type="text/css" media="all">
+<link rel="stylesheet" id="print-css-1-1" href="https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h" type="text/css" media="print">
+<link rel="stylesheet" id="all-css-2-1" href="https://s0.wp.com/_static/??/wp-content/themes/pub/isola/style.css,/wp-content/themes/pub/celsius/style.css?m=1496270047j" type="text/css" media="all">
+<link rel="stylesheet" id="celsius-droid-serif-css" href="https://fonts.googleapis.com/css?family=Libre+Baskerville%3A400%2C700%2C400italic&amp;ver=4.8-RC2-40878" type="text/css" media="all">
+<link rel="stylesheet" id="celsius-droid-sans-css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C600%2C300italic%2C400italic%2C600italic&amp;ver=4.8-RC2-40878" type="text/css" media="all">
+<link rel="stylesheet" id="all-css-6-1" href="https://s2.wp.com/_static/??-eJx9i9EKwjAMRX/IGoVN54P4LVnp2kialCbD3xcfRGTi0z0XzoFHC1HFkzjUNTReM4kBRieVGfuH9tFsB7/1puZhYaQOVrCT5Pf+q0wjIQfWrN9nE3lJNRmUATLrjPwSbvV6HC6H83Qap/H+BMWZScE=" type="text/css" media="all">
+<script type="text/javascript">
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/_static/??-eJyFj90KwjAMhV/IrAw6xQvxWWoXS2r/bNoNfXo70At1KARCTr4cTsScgIJ2dUQWttW1Yr49W2d5I34B4MlkVbDzFF6wjqFgKAvr44kcQmXMyjStGZ3jCpciF4/MDVrZvkeiMBHOfzGLJSl9gYxM9y9XXyG5aiiwyOjaAyMsGT6mdnX0h17uh36Qcre1DyuucHk="></script>
+<link rel="stylesheet" id="all-css-0-2" href="https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h" type="text/css" media="all">
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://adilakhter.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Designing Efficient Immutable .Net&nbsp;Objects" href="https://blog.adilakhter.com/2007/12/22/designing-efficient-immutable-net-objects/">
+<link rel="next" title="Searching files in a Directory using .Net&nbsp;Framework" href="https://blog.adilakhter.com/2008/01/03/searching-files-in-a-directory-using-net-framework/">
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/">
+<link rel="shortlink" href="http://wp.me/p9jkj-w">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fblog.adilakhter.com%2F2007%2F12%2F22%2Ftestcontext-more-on-vsts-unit-testing%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fblog.adilakhter.com%2F2007%2F12%2F22%2Ftestcontext-more-on-vsts-unit-testing%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="TestContext – more on mstest">
+<meta property="og:url" content="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/">
+<meta property="og:description" content="If we are in test driven development, we need to spend significant amount of time in writing unit tests. In VSTS unit testing framework, every test run create a unique folder in our machine and gen…">
+<meta property="article:published_time" content="2007-12-22T17:34:01+00:00">
+<meta property="article:modified_time" content="2012-11-15T16:13:10+00:00">
+<meta property="og:site_name" content="Thoughts + Notes">
+<meta property="og:image" content="https://adilakhter.wordpress.com/files/2007/12/unittestadaptercontext.jpg">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:site" content="@wordpressdotcom">
+<meta name="twitter:text:title" content="TestContext – more on&nbsp;mstest">
+<meta name="twitter:image" content="https://adilakhter.wordpress.com/files/2007/12/testresult.jpg?w=240">
+<meta name="twitter:card" content="summary">
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+<link rel="shortcut icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/a2102ea1941c9867b03d0e0a6e087f78?s=32" sizes="16x16">
+<link rel="icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/a2102ea1941c9867b03d0e0a6e087f78?s=32" sizes="16x16">
+<link rel="apple-touch-icon-precomposed" href="https://secure.gravatar.com/blavatar/a2102ea1941c9867b03d0e0a6e087f78?s=114">
+<link rel="openid.server" href="https://adilakhter.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://adilakhter.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://blog.adilakhter.com/osd.xml" title="Thoughts + Notes">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+<meta name="theme-color" content="#ffffff">
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<style type="text/css">
+.widget_twitter li {
+	word-wrap: break-word;
+}
+</style>
+<meta name="application-name" content="Thoughts + Notes"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-task" content="name=Subscribe;action-uri=https://blog.adilakhter.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/a2102ea1941c9867b03d0e0a6e087f78?s=16"><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="title" content="TestContext – more on&nbsp;mstest | Thoughts + Notes on WordPress.com">
+<meta name="description" content="If we are in test driven development, we need to spend significant amount of time in writing unit tests. In VSTS unit testing framework, every test run create a unique folder in our machine and generate a test report ( *.trx format) for every test run- Sometimes it’s needed to access the folder that current…">
+ 		<script type="text/javascript">
+		var _ipw_custom = {
+				wordAds: '0',
+				adSafe: '0',
+				domain: 'blog.adilakhter.com',
+				pageURL: 'https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/'
+			};
+		</script>
+ 		<script type="text/javascript" src="//s.pubmine.com/head.js"></script>
+		<script type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script><link rel="amphtml" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/amp/"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<style type="text/css" id="custom-colors-css">div#respond{border-color:rgba(255,255,255,0.3) !important}body,#infinite-footer .container{color:#444}.entry-title,.comments-title,.comment-reply-title,.entry-title a,.entry-title a:hover,.entry-title a:visited{color:#444}.site-title a,.site-title a:visited{color:#262626}.toggle .menu-toggle-image{fill:#262626}.header-search .search-icon .icon{fill:#262626}.jetpack-recipe,.site-content,.site-footer,.hentry,td,th,.page-header,.comment-list .children,.main-navigation a,.widget ul li,.widget-area,.widget,.entry-footer,.site-header{border-color:#f2f2f2}.jetpack-recipe,.site-content,.site-footer,.hentry,td,th,.page-header,.comment-list .children,.main-navigation a,.widget ul li,.widget-area,.widget,.entry-footer,.site-header{border-color:rgba(242,242,242,.3)}.contact-form label span{color:#6d6d6d}button,input[type="button"],input[type="reset"],input[type="submit"],#infinite-handle span{background-color:#999}button,input[type="button"],input[type="reset"],input[type="submit"],#infinite-handle span{background-color:rgba(153,153,153,.5)}.entry-footer>span a,.entry-footer>span a:visited,.reply a,.reply a:visited,.comment-metadata .edit-link a,.comment-metadata .edit-link a:visited{color:#6d6d6d}.contact-form label span{color:#6d6d6d}.entry-format:visited,.entry-format:hover{color:#6d6d6d}.site-footer a,.comment-form-author a,.comment-form-email a,.comment-form-url a,.comment-form-comment a{color:#6d6d6d}.site-footer a:visited,.comment-form-author a:visited,.comment-form-email a:visited,.comment-form-url a:visited,.comment-form-comment a:visited{color:#6d6d6d}.page-title{color:#6d6d6d}blockquote{color:#6d6d6d}.comments-title,.comment-reply-title{color:#6d6d6d}.comment-metadata,.comment-metadata a,.comment-metadata a:visited{color:#6d6d6d}#infinite-footer .container,#infinite-footer .container a,#infinite-footer .container a:visited{color:#6d6d6d}.format-aside .entry-title a,.format-aside .entry-title a:visited{color:#6d6d6d}.main-navigation a,.main-navigation a:visited,.main-navigation .current_page_item>a,.main-navigation .current-menu-item>a,.main-navigation .current_page_item>a:visited,.main-navigation .current-menu-item>a:visited{color:#3a3a3a}#menu-close,.widget-title{color:#3a3a3a}button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,#infinite-handle span:hover,button:focus,input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,#infinite-handle span:focus,button:active,input[type="button"]:active,input[type="reset"]:active,input[type="submit"]:active,#infinite-handle span:active{color:#3a3a3a}#toggle-sidebar,.widget-area{color:#3a3a3a}.widget-area a,.widget-area a:visited,.widget-area a:hover{color:#3a3a3a}.main-navigation a:hover{color:#3a3a3a}.wp-caption-text,.wp-caption{color:#6d6d6d}button,input[type="button"],input[type="reset"],input[type="submit"],#infinite-handle span{color:#282828}body,.site-header,#infinite-footer .container{background-color:#fff}.comments-link a:hover,.byline a:hover,.edit-link a:hover,.tags-links a:hover,.posted-on a:hover,.reply a:hover{background-color:#fff}#toggle-sidebar,.toggle-open #toggle-sidebar{background-color:#8fbe00}#toggle-sidebar::-webkit-scrollbar{background-color:#8fbe00}#toggle-sidebar::-webkit-scrollbar-thumb{border-color:#8fbe00}#toggle-sidebar::-webkit-scrollbar-thumb{background-color:#678900}.jetpack-recipe-title{border-color:#8fbe00}.jetpack-recipe-title{border-color:rgba(143,190,0,.3)}button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,#infinite-handle span:hover,button:focus,input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,#infinite-handle span:focus,button:active,input[type="button"]:active,input[type="reset"]:active,input[type="submit"]:active,#infinite-handle span:active{background-color:#8fbe00}.tags-links a,.tags-links a:visited{border-color:#577500}.tags-links a,.tags-links a:visited{color:#577500}.entry-footer span>a:hover,.comment-metadata .edit-link a:hover,.reply a:hover{color:#577500}a,a:visited{color:#577500}.site-title a:hover,a:hover,a:focus,a:active,.site-footer a:hover{color:#577500}.toggle .menu-toggle-image:hover,.toggle .menu-toggle-image:focus,.toggle .menu-toggle-image:active{fill:#577500}.header-search:hover .search-icon .icon,.header-search:focus .search-icon .icon,.header-search:active .search-icon .icon{fill:#577500}</style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'none']);
+	_gaq.push(['_setAllowLinker', true]);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script>
+
+
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<header id="masthead" class="site-header" role="banner" style="box-shadow: transparent 0px 0px 0px;">
+		<div class="site-header-inner">
+			<div class="site-branding">
+				<button id="menu-toggle" class="toggle" tabindex="13">
+					<svg version="1.1" class="menu-toggle-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+						<g id="menu">
+							<g>
+								<rect x="3" y="4" width="18" height="3"></rect>
+								<rect x="3" y="10" width="18" height="3"></rect>
+								<rect x="3" y="16" width="18" height="3"></rect>
+							</g>
+						</g>
+					</svg>
+					<span class="screen-reader-text">Primary Menu</span>
+				</button>
+				<h1 class="site-title"><a href="https://blog.adilakhter.com/" rel="home">Thoughts + Notes</a></h1>
+				<h2 class="site-description"></h2>
+			</div>
+
+			<div id="site-search" class="header-search">
+				<div class="header-search-form">
+					<form role="search" method="get" class="search-form" action="https://blog.adilakhter.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<span class="search-icon">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+			<g id="search">
+				<path class="icon" d="M15.846,13.846C16.573,12.742,17,11.421,17,10c0-3.866-3.134-7-7-7s-7,3.134-7,7s3.134,7,7,7
+					c1.421,0,2.742-0.427,3.846-1.154L19,21l2-2L15.846,13.846z M10,15c-2.761,0-5-2.238-5-5c0-2.761,2.239-5,5-5c2.762,0,5,2.239,5,5
+					C15,12.762,12.762,15,10,15z"></path>
+			</g>
+		</svg>
+	</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>				</div><!-- .header-search-form -->
+			</div><!-- #site-navigation -->
+		</div><!-- .site-header-inner -->
+	</header><!-- #masthead -->
+
+	<div id="toggle-sidebar" aria-hidden="true">
+		<button id="menu-close">
+			<span class="screen-reader-text">Close Menu</span>
+		</button>
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div class="menu-wrapper nav-menu">
+				<div class="menu-slick-container"><ul id="menu-slick" class="menu"><li id="menu-item-1264" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1264"><a href="https://adilakhter.wordpress.com">Home</a></li>
+<li id="menu-item-1263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1263"><a href="https://blog.adilakhter.com/problem-solving/">Programming Challenges</a>
+<ul class="sub-menu">
+	<li id="menu-item-1718" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1718"><a href="https://blog.adilakhter.com/problem-solving/dynamic-programming/">Dynamic Programming</a></li>
+	<li id="menu-item-2112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2112"><a href="https://blog.adilakhter.com/priority-queue/">Primer: Priority Queue</a></li>
+</ul>
+</li>
+<li id="menu-item-1262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1262"><a href="https://blog.adilakhter.com/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-2111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2111"><a href="https://blog.adilakhter.com/about/photo-credits/">Photo Credits</a></li>
+</ul>
+</li>
+</ul></div>			</div>
+		</nav><!-- #site-navigation -->
+						<div id="secondary" class="widget-area" role="complementary">
+		<aside id="rss_links-2" class="widget widget_rss_links"><h1 class="widget-title">RSS</h1><p class="size-small"><a class="feed-image-link" href="https://blog.adilakhter.com/feed/" title="Subscribe to Posts" tabindex="-1"><img src="https://blog.adilakhter.com/i/rss/red-small.png" alt="RSS Feed"></a>&nbsp;<a href="https://blog.adilakhter.com/feed/" title="Subscribe to Posts" tabindex="-1">RSS - Posts</a></p><p class="size-small"><a class="feed-image-link" href="https://blog.adilakhter.com/comments/feed/" title="Subscribe to Comments" tabindex="-1"><img src="https://blog.adilakhter.com/i/rss/red-small.png" alt="RSS Feed"></a>&nbsp;<a href="https://blog.adilakhter.com/comments/feed/" title="Subscribe to Comments" tabindex="-1">RSS - Comments</a></p>
+</aside><aside id="blog-stats-2" class="widget widget_blog-stats"><h1 class="widget-title">Total PageViews</h1>		<ul>
+			<li>184,058 </li>
+		</ul>
+		</aside><aside id="tag_cloud-2" class="widget widget_tag_cloud"><h1 class="widget-title">Categories</h1><div style="overflow: hidden;"><a href="https://blog.adilakhter.com/category/software-development/net-development/net/" style="font-size: 256.89655172414%; padding: 1px; margin: 1px;" title=".net (29)" tabindex="-1">.net</a> <a href="https://blog.adilakhter.com/category/software-development/net-development/" style="font-size: 124.13793103448%; padding: 1px; margin: 1px;" title=".Net Development (7)" tabindex="-1">.Net Development</a> <a href="https://blog.adilakhter.com/category/software-development/algorithm-software-development/ad-hoc/" style="font-size: 106.03448275862%; padding: 1px; margin: 1px;" title="ad-hoc (4)" tabindex="-1">ad-hoc</a> <a href="https://blog.adilakhter.com/category/software-development/agile/" style="font-size: 130.1724137931%; padding: 1px; margin: 1px;" title="Agile (8)" tabindex="-1">Agile</a> <a href="https://blog.adilakhter.com/category/software-development/algorithm-software-development/" style="font-size: 196.55172413793%; padding: 1px; margin: 1px;" title="Algorithm (19)" tabindex="-1">Algorithm</a> <a href="https://blog.adilakhter.com/category/software-development/net-development/c/" style="font-size: 250.86206896552%; padding: 1px; margin: 1px;" title="c# (28)" tabindex="-1">c#</a> <a href="https://blog.adilakhter.com/category/software-development/net-development/code-snippet/" style="font-size: 106.03448275862%; padding: 1px; margin: 1px;" title="Code Snippet (4)" tabindex="-1">Code Snippet</a> <a href="https://blog.adilakhter.com/category/software-development/design/" style="font-size: 106.03448275862%; padding: 1px; margin: 1px;" title="Design (4)" tabindex="-1">Design</a> <a href="https://blog.adilakhter.com/category/language-engineering/dsls/" style="font-size: 136.20689655172%; padding: 1px; margin: 1px;" title="DSLs (9)" tabindex="-1">DSLs</a> <a href="https://blog.adilakhter.com/category/software-development/algorithm-software-development/dynamic-programming-algorithm/" style="font-size: 112.06896551724%; padding: 1px; margin: 1px;" title="Dynamic Programming (5)" tabindex="-1">Dynamic Programming</a> <a href="https://blog.adilakhter.com/category/software-development/net-development/f/" style="font-size: 232.75862068966%; padding: 1px; margin: 1px;" title="F# (25)" tabindex="-1">F#</a> <a href="https://blog.adilakhter.com/category/software-development/agile/fds/" style="font-size: 124.13793103448%; padding: 1px; margin: 1px;" title="FDS (7)" tabindex="-1">FDS</a> <a href="https://blog.adilakhter.com/category/software-development/functional-programming/" style="font-size: 178.44827586207%; padding: 1px; margin: 1px;" title="Functional Programming (16)" tabindex="-1">Functional Programming</a> <a href="https://blog.adilakhter.com/category/software-development/gsd/" style="font-size: 106.03448275862%; padding: 1px; margin: 1px;" title="GSD (4)" tabindex="-1">GSD</a> <a href="https://blog.adilakhter.com/category/software-development/java/" style="font-size: 154.31034482759%; padding: 1px; margin: 1px;" title="Java (12)" tabindex="-1">Java</a> <a href="https://blog.adilakhter.com/category/me/" style="font-size: 100%; padding: 1px; margin: 1px;" title="Me (3)" tabindex="-1">Me</a> <a href="https://blog.adilakhter.com/category/misc/" style="font-size: 100%; padding: 1px; margin: 1px;" title="Misc (3)" tabindex="-1">Misc</a> <a href="https://blog.adilakhter.com/category/software-development/net-development/mstest/" style="font-size: 124.13793103448%; padding: 1px; margin: 1px;" title="mstest (7)" tabindex="-1">mstest</a> <a href="https://blog.adilakhter.com/category/myopinion/" style="font-size: 100%; padding: 1px; margin: 1px;" title="myopinion (3)" tabindex="-1">myopinion</a> <a href="https://blog.adilakhter.com/category/software-development/powershell/" style="font-size: 106.03448275862%; padding: 1px; margin: 1px;" title="PowerShell (4)" tabindex="-1">PowerShell</a> <a href="https://blog.adilakhter.com/category/programming/" style="font-size: 100%; padding: 1px; margin: 1px;" title="Programming (3)" tabindex="-1">Programming</a> <a href="https://blog.adilakhter.com/category/projecteuler/" style="font-size: 124.13793103448%; padding: 1px; margin: 1px;" title="ProjectEuler (7)" tabindex="-1">ProjectEuler</a> <a href="https://blog.adilakhter.com/category/software-development/scala/" style="font-size: 214.65517241379%; padding: 1px; margin: 1px;" title="Scala (22)" tabindex="-1">Scala</a> <a href="https://blog.adilakhter.com/category/security/" style="font-size: 100%; padding: 1px; margin: 1px;" title="Security (3)" tabindex="-1">Security</a> <a href="https://blog.adilakhter.com/category/language-engineering/sle/" style="font-size: 118.10344827586%; padding: 1px; margin: 1px;" title="SLE (6)" tabindex="-1">SLE</a> <a href="https://blog.adilakhter.com/category/software-development/" style="font-size: 275%; padding: 1px; margin: 1px;" title="Software Development (32)" tabindex="-1">Software Development</a> <a href="https://blog.adilakhter.com/category/spoj-2/" style="font-size: 112.06896551724%; padding: 1px; margin: 1px;" title="SPOJ (5)" tabindex="-1">SPOJ</a> <a href="https://blog.adilakhter.com/category/software-development/tdd/" style="font-size: 130.1724137931%; padding: 1px; margin: 1px;" title="TDD (8)" tabindex="-1">TDD</a> <a href="https://blog.adilakhter.com/category/software-development/unit-testing/" style="font-size: 136.20689655172%; padding: 1px; margin: 1px;" title="unit testing (9)" tabindex="-1">unit testing</a> <a href="https://blog.adilakhter.com/category/uva/" style="font-size: 124.13793103448%; padding: 1px; margin: 1px;" title="UVa (7)" tabindex="-1">UVa</a> </div></aside><aside id="twitter-400539885" class="widget widget_twitter"><h1 class="widget-title"><a href="http://twitter.com/adilakhter" tabindex="-1">On Twitter</a></h1><ul class="tweets">
+			<li>
+				RT @<a href="http://twitter.com/raulraja" tabindex="-1">raulraja</a>: <a href="http://www.stephendiehl.com/posts/monads_machine_code.html" tabindex="-1"> stephendiehl.com/posts/monads_m…</a> 				<a href="http://twitter.com/adilakhter/statuses/874862202704080896" class="timesince" tabindex="-1">4&nbsp;days&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				RT @<a href="http://twitter.com/QCon" tabindex="-1">QCon</a>: “Distributed Systems Theory for Practical Engineers”  @<a href="http://twitter.com/old_sound" tabindex="-1">old_sound</a> <a href="http://twitter.com/search?q=%23qconlondon" tabindex="-1">#qconlondon</a> 2017 live on @<a href="http://twitter.com/infoq" tabindex="-1">infoq</a> <a href="http://bit.ly/2sb4sTl" tabindex="-1"> bit.ly/2sb4sTl</a> 				<a href="http://twitter.com/adilakhter/statuses/874134772670443520" class="timesince" tabindex="-1">6&nbsp;days&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				RT @<a href="http://twitter.com/argumatronic" tabindex="-1">argumatronic</a>: The slides from my <a href="http://twitter.com/search?q=%23zurihac2017" tabindex="-1">#zurihac2017</a> are now available <a href="https://docs.google.com/presentation/d/1_I5mYXivG5NbOHnICld_Xo41uOyAT57Yade5qfz2toQ/edit?usp=sharing" tabindex="-1"> docs.google.com/presentation/d…</a> 				<a href="http://twitter.com/adilakhter/statuses/873501834119458816" class="timesince" tabindex="-1">1&nbsp;week&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				RT @<a href="http://twitter.com/curry_on_conf" tabindex="-1">curry_on_conf</a>: 20 tickets left! <img draggable="false" class="emoji" alt="🔥" src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f525.svg"><img draggable="false" class="emoji" alt="🔥" src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f525.svg"> Schedule here: <a href="http://www.curry-on.org/2017" tabindex="-1"> curry-on.org/2017</a>
+
+15% off discount codes! 
+Curry215 (2 day)
+Curry615 (6 day)… 				<a href="http://twitter.com/adilakhter/statuses/873126075068334080" class="timesince" tabindex="-1">1&nbsp;week&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				RT @<a href="http://twitter.com/curry_on_conf" tabindex="-1">curry_on_conf</a>: "Orchestrate @<a href="http://twitter.com/ING" tabindex="-1">ING</a> with Petri Net" by @<a href="http://twitter.com/adilakhter" tabindex="-1">adilakhter</a>. Lotsa @<a href="http://twitter.com/akkateam" tabindex="-1">akkateam</a> and @<a href="http://twitter.com/scala_lang" tabindex="-1">scala_lang</a> &amp; a touch of <a href="http://twitter.com/search?q=%23microservices" tabindex="-1">#microservices</a> <img draggable="false" class="emoji" alt="😊" src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f60a.svg">
+<a href="https://…" rel="nofollow" tabindex="-1">https://…</a> 				<a href="http://twitter.com/adilakhter/statuses/873079012578410496" class="timesince" tabindex="-1">1&nbsp;week&nbsp;ago</a>
+			</li>
+
+			</ul><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" title="Twitter Follow Button" src="http://platform.twitter.com/widgets/follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=adilakhter&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1498474481672" style="position: static; visibility: visible; width: 123px; height: 20px;" data-screen-name="adilakhter"></iframe></aside>	</div><!-- #secondary -->
+			</div>
+
+	
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-32" class="post-32 post type-post status-publish format-standard hentry category-net category-c category-mstest category-unit-testing tag-csharp tag-mstest tag-unit-testing">
+	<header class="entry-header">
+		<span class="tags-links"><a href="https://blog.adilakhter.com/tag/csharp/" rel="tag">csharp</a><a href="https://blog.adilakhter.com/tag/mstest/" rel="tag">mstest</a><a href="https://blog.adilakhter.com/tag/unit-testing/" rel="tag">unit testing</a></span>
+		<h1 class="entry-title">TestContext – more on&nbsp;mstest</h1>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+					<p>If we are in test driven development, we need to spend significant amount of time in writing unit tests. In VSTS unit testing framework, every test run create a unique folder in our machine and generate a test report ( *.trx format) for every test run-</p>
+<p><a title="testresult.jpg"><img alt="testresult.jpg" src="https://adilakhter.files.wordpress.com/2007/12/testresult.jpg?w=1120"></a></p>
+<p>Sometimes it’s needed to access the folder that current test run created. <code>UnitTestAdapterContext</code> class provides a set of properties related to current test run that can be accessed from inside unit tests.</p>
+<p>To use the properties provided in <code>UnitTestAdapterContext</code> we need add the following properties in our Test Class –</p>
+<pre class="brush: csharp; auto-links: false; gutter: true; pad-line-numbers: true; title: ; toolbar: true; notranslate" title="">private TestContext testContextInstance;
+
+///
+///Gets or sets the test context which provides
+///information about and functionality for the current test run.
+///
+public TestContext TestContext {
+ get
+ {
+ return testContextInstance;
+ }
+ set
+ {
+ testContextInstance = value;
+ }
+}
+</pre>
+<p>The property is automatically provided with a concrete instance of the <code>TestContext</code> type [1]. In essence, it implies that we do not need to instantiate or derive <code>TestContext</code> in our test class.</p>
+<p>Take a look at the properties and functionalities offered by TestContext –</p>
+<p class="Tahoma10" style="margin:0;"><span style="font-size:9pt;"><span style="font-size:9pt;"><span style="font-family:Tahoma;"><a title="classdiagram1.jpg" href="https://adilakhter.files.wordpress.com/2007/12/classdiagram1.jpg"></a><a title="testconttextcd.jpg" href="https://adilakhter.files.wordpress.com/2007/12/testconttextcd.jpg"><img style="width:375px;height:332px;" alt="testconttextcd.jpg" src="https://adilakhter.files.wordpress.com/2007/12/testconttextcd.jpg?w=315&amp;h=360" height="360" width="315"></a></span></span></span></p>
+<p>&nbsp;If I start debugging a unit test adding a break point and watch the TestContext, we can view different information about and functionality for current test run –&nbsp;<span style="font-size:9pt;"><span style="font-family:Tahoma;">&nbsp;</span></span><span style="font-size:9pt;"><span style="font-family:Tahoma;">&nbsp;</span></span><span style="font-size:9pt;"><span style="font-family:Tahoma;"></span></span></p>
+<p><span style="font-size:9pt;"><span style="font-family:Tahoma;"><span style="font-size:9pt;"><span style="font-family:Times New Roman;"><a title="unittestadaptercontext.jpg" href="https://adilakhter.files.wordpress.com/2007/12/unittestadaptercontext.jpg"><img style="width:822px;height:402px;" alt="unittestadaptercontext.jpg" src="https://adilakhter.files.wordpress.com/2007/12/unittestadaptercontext.jpg?w=837&amp;h=375" height="375" width="837"></a></span></span>&nbsp;</span></span><span style="font-size:9pt;font-family:Consolas;">&nbsp;</span></p>
+<p>So, Current <code>TestRun</code> Directory can be accessed by just one line of code-&nbsp;</p>
+<pre> string testDirectory = TestContext.TestDir; </pre>
+<p>Therefore , we can use class in our TestContext Unit Tests to get different informations about the current test run and we can use different functioanallity of this class – for example – BeginTimer() and EndTimer() would be verify useful to measure our application’s differenent module’s performance to validate certain non-functional requirements.</p>
+<p><b>More details on <code>TestContext</code> is available <a href="http://weblogs.asp.net/adilakhter/archive/2008/05/04/more-on-unit-testing-testcontext.aspx" target="_blank">here</a>.</b></p>
+<p><b>References</b><br>
+[1] <a title="Using the TestContext Class" href="http://msdn.microsoft.com/en-us/library/ms404699" target="_blank">http://msdn.microsoft.com/en-us/library/ms404699</a></p>
+			<style type="text/css">
+			div.wpmrec2x{max-width:610px;}
+			div.wpmrec2x div.u > div{float:left;margin-right:10px;}
+			div.wpmrec2x div.u > div:nth-child(3n){margin-right:0px;}
+			</style>		<div class="wpcnt">
+			<div class="wpa wpmrec wpmrec2x" style="display: inline-block !important;">
+				<span class="wpa-about">Advertisements</span>
+				<div class="u">
+								<script type="text/javascript" id="s26942">
+				(function(g,$){if("undefined"!=typeof g.__ATA){
+					g.__ATA.initAd({collapseEmpty:'after', sectionId:26942, width:300, height:250});
+					g.__ATA.initAd({collapseEmpty:'after', sectionId:114160, width:300, height:250});
+				}})(window,jQuery);
+			</script>
+				</div>
+				        <div id="crt-117822398" style="width: 300px; height: 250px; display: block !important;"><iframe src="http://cas.criteo.com/delivery/afr.php?ptv=18&amp;abp=1&amp;zoneid=388248&amp;cb=83288066295&amp;nodis=1&amp;charset=UTF-8&amp;dc=3&amp;atfr=0&amp;loc=http%3A%2F%2Fwebcache.googleusercontent.com%2Fsearch%3Fq%3Dcache%3Ahttps%3A%2F%2Fblog.adilakhter.com%2F2007%2F12%2F22%2Ftestcontext-more-on-vsts-unit-testing%2F%26gws_rd%3Dcr%26ei%3D8OdQWeKwD8SE6QTPlpigDw" id="crt-117822398_cto_iframe" frameborder="0" marginwidth="0px" marginheight="0px" width="100%" height="100%" scrolling="no"></iframe></div>
+        <script type="text/javascript">
+        var o = document.getElementById('crt-117822398');
+        if ("undefined"!=typeof Criteo) {
+            var p = o.parentNode;
+            p.style.setProperty('display', 'inline-block', 'important');
+            o.style.setProperty('display', 'block', 'important');
+            Criteo.DisplayAcceptableAdIfAdblocked({zoneid:388248,containerid:"crt-117822398",collapseContainerIfNotAdblocked:true,"callifnotadblocked": function () {var o = document.getElementById('crt-117822398'); o.style.setProperty('display','none','important');o.style.setProperty('visbility','hidden','important'); }
+        });
+        } else {
+            o.style.setProperty('display', 'none', 'important');
+            o.style.setProperty('visibility', 'hidden', 'important');
+        }
+        </script>
+			</div>
+		</div><div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-32" class="share-twitter sd-button share-icon no-text" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/?share=twitter&amp;nb=1" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-32" class="share-linkedin sd-button share-icon no-text" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/?share=linkedin&amp;nb=1" target="_blank" title="Click to share on LinkedIn"><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-32" class="share-google-plus-1 sd-button share-icon no-text" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/?share=google-plus-1&amp;nb=1" target="_blank" title="Click to share on Google+"><span></span><span class="sharing-screen-reader-text">Click to share on Google+ (Opens in new window)</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/?share=reddit&amp;nb=1" target="_blank" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-32" class="share-pinterest sd-button share-icon no-text" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/?share=pinterest&amp;nb=1" target="_blank" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest (Opens in new window)</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-32" class="share-facebook sd-button share-icon no-text" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/?share=facebook&amp;nb=1" target="_blank" title="Share on Facebook"><span></span><span class="sharing-screen-reader-text">Share on Facebook (Opens in new window)</span></a></li><li class="share-tumblr"><a rel="nofollow" data-shared="" class="share-tumblr sd-button share-icon no-text" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/?share=tumblr&amp;nb=1" target="_blank" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr (Opens in new window)</span></a></li><li class="share-print"><a rel="nofollow" data-shared="" class="share-print sd-button share-icon no-text" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/#print" target="_blank" title="Click to print"><span></span><span class="sharing-screen-reader-text">Click to print (Opens in new window)</span></a></li><li><a href="#" class="sharing-anchor sd-button share-more"><span>More</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none; width: 150px;"><ul style="background-image:none;"><li class="share-email share-service-visible"><a rel="nofollow" data-shared="" class="share-email sd-button share-icon no-text" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/?share=email&amp;nb=1" target="_blank" title="Click to email"><span></span><span class="sharing-screen-reader-text">Click to email (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-2219247-32-59468d8b99d26" data-src="//widgets.wp.com/likes/#blog_id=2219247&amp;post_id=32&amp;origin=adilakhter.wordpress.com&amp;obj_id=2219247-32-59468d8b99d26" data-name="like-post-frame-2219247-32-59468d8b99d26"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px;"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<div id="jp-relatedposts" class="jp-relatedposts">
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div></div>					</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		
+		<span class="posted-on"><a href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/" rel="bookmark"><time class="entry-date published" datetime="2007-12-22T17:34:01+00:00">December 22, 2007</time><time class="updated" datetime="2012-11-15T18:13:10+00:00">November 15, 2012</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://blog.adilakhter.com/author/adilakhter/">adilakhter</a></span></span>
+		
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+				<nav class="navigation post-navigation" role="navigation">
+		<h1 class="screen-reader-text">Post navigation</h1>
+		<div class="nav-links">
+			<div class="nav-previous"><a href="https://blog.adilakhter.com/2007/12/22/designing-efficient-immutable-net-objects/" rel="prev"><span class="meta-nav">←</span> Designing Efficient Immutable .Net&nbsp;Objects</a></div><div class="nav-next"><a href="https://blog.adilakhter.com/2008/01/03/searching-files-in-a-directory-using-net-framework/" rel="next">Searching files in a Directory using .Net&nbsp;Framework <span class="meta-nav">→</span></a></div>		</div><!-- .nav-links -->
+	</nav><!-- .navigation -->
+	
+			
+<div id="comments" class="comments-area">
+
+	
+			<h2 class="comments-title">
+			One thought on “<span>TestContext – more on&nbsp;mstest</span>”		</h2>
+
+		
+		<ol class="comment-list">
+					<li id="comment-146" class="comment even thread-even depth-1 highlander-comment">
+			<article id="div-comment-146" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt="" src="https://0.gravatar.com/avatar/c2192be16acbc400d243fdc063466271?s=50&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50" class="avatar avatar-50 grav-hashed grav-hijack" height="50" width="50" id="grav-c2192be16acbc400d243fdc063466271-0">						<b class="fn">Sajjad</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/#comment-146">
+							<time datetime="2008-08-06T10:37:43+00:00">
+								August 6, 2008 at 10:37 am							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Plz tell me is it possible to do unit testing on form events. and how we can test function that returns dataset from the database?<br>
+plz reply me asap.</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://blog.adilakhter.com/2007/12/22/testcontext-more-on-vsts-unit-testing/?replytocom=146#respond" onclick="return addComment.moveForm( &quot;div-comment-146&quot;, &quot;146&quot;, &quot;respond&quot;, &quot;32&quot; )" aria-label="Reply to Sajjad">Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+		
+	
+	
+		<div id="respond" class="comment-respond js">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2007/12/22/testcontext-more-on-vsts-unit-testing/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="https://blog.adilakhter.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate="">
+				<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="f6feaed450"><input type="hidden" name="_wp_http_referer" value="/2007/12/22/testcontext-more-on-vsts-unit-testing/">
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest">
+
+<div class="comment-form-field comment-textarea">
+	
+	<div id="comment-form-comment"><textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px; padding: 0px; box-sizing: content-box; word-wrap: break-word; overflow: hidden; transition: none; height: 0px !important; min-height: 0px !important; font-family: &quot;Source Sans Pro&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; text-decoration: none solid rgba(0, 0, 0, 0.7); word-spacing: 0px; text-indent: 0px; line-height: normal; width: 678px;" class="autosizejs "></textarea><textarea id="comment" name="comment" title="Enter your comment here..." placeholder="Enter your comment here..." style="height: 38px; overflow: hidden; word-wrap: break-word; resize: none;"></textarea></div>
+</div>
+
+<div id="comment-form-identity" style="display: none;">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+		</li></ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25" alt="Gravatar" width="25" class="no-grav">
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="required">(required)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name <span class="required">(required)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url" value=""></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25" alt="WordPress.com Logo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="">
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25" alt="Twitter picture" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="">
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25" alt="Facebook photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="">
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25" alt="Google+ photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="">
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe" style="display: none;">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p></div>
+
+
+
+
+<p class="form-submit" style="display: none;"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="32" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="fbfc0347f2"></p>
+<input type="hidden" name="genseq" value="1497795979">
+<p style="display: none;"></p>			<input type="hidden" id="ak_js" name="ak_js" value="1498474481372"></form>
+			</div><!-- #respond -->
+	<div style="clear: both"></div>
+</div><!-- #comments -->
+
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			<a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a>
+			
+					</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--  -->
+<script type="text/javascript" src="//0.gravatar.com/js/gprofiles.js?ver=201724y"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h"></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-c2192be16acbc400d243fdc063466271">
+	</div>
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/adilakhter.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/adilakhter.wordpress.com\/wp-login.php?action=logout&_wpnonce=25b515be2d","homeURL":"https:\/\/blog.adilakhter.com\/","postID":"32","gravDefault":"mystery","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j"></script>
+<script type="text/javascript" src="https://platform.twitter.com/widgets.js?ver=20111117"></script>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post">
+				<input type="hidden" id="carousel-reblog-blog-id" value="2219247">
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://blog.adilakhter.com">
+				<input type="hidden" id="carousel-reblog-blog-title" value="Thoughts + Notes">
+				<input type="hidden" id="carousel-reblog-post-url" value="">
+				<input type="hidden" id="carousel-reblog-post-title" value="">
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="f9b58a5fea"><input type="hidden" name="_wp_http_referer" value="/2007/12/22/testcontext-more-on-vsts-unit-testing/">		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/blog.adilakhter.com\/2007\/12\/22\/testcontext-more-on-vsts-unit-testing\/":32};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-linkedin' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+							<script type="text/javascript">
+				jQuery(document).on('ready', function(){
+					jQuery('body').on('click', 'a.share-pinterest', function(e){
+						e.preventDefault();
+						// Load Pinterest Bookmarklet code
+						var s = document.createElement("script");
+						s.type = "text/javascript";
+						s.src = window.location.protocol + "//assets.pinterest.com/js/pinmarklet.js?r=" + ( Math.random() * 99999999 );
+						var x = document.getElementsByTagName("script")[0];
+						x.parentNode.insertBefore(s, x);
+						// Trigger Stats
+						var s = document.createElement("script");
+						s.type = "text/javascript";
+						s.src = this + ( this.toString().indexOf( '?' ) ? '&' : '?' ) + 'js_only=1';
+						var x = document.getElementsByTagName("script")[0];
+						x.parentNode.insertBefore(s, x);
+					});
+				});
+			</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-tumblr' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+		});
+		</script>
+			
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431h"></script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??-eJzTLy/QTc7PK0nNK9EvyClNz8wr1i+uzCtJrMjITM/IAeKS1CJMEWP94uSizIISoOIM5/yiVL2sYh19yo1yKioFmheckVhUADTRPtfW0MTIyNjEyNDYJAsAVVpAuA=="></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://s0.wp.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://s0.wp.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?m=1363304414h&amp;ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+
+// Infinite scroll support
+jQuery( function( $ ) {
+	$( document.body ).on( 'post-load', function() {
+		SyntaxHighlighter.highlight();
+	} );
+} );
+</script>
+<link rel="stylesheet" id="all-css-0-3" href="https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h" type="text/css" media="all">
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"2219247","siteName":"Thoughts + Notes","siteURL":"https:\/\/blog.adilakhter.com","icon":"<img alt='' src='https:\/\/secure.gravatar.com\/blavatar\/a2102ea1941c9867b03d0e0a6e087f78?s=50&d=https%3A%2F%2Fs1.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/celsius","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/adilakhter.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fblog.adilakhter.com%2F2007%2F12%2F22%2Ftestcontext-more-on-vsts-unit-testing%2F","themeURL":"https:\/\/wordpress.com\/theme\/celsius\/","xhrURL":"https:\/\/blog.adilakhter.com\/wp-admin\/admin-ajax.php","nonce":"5710d114cb","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"368419d31e\" \/>","referer":"https:\/\/blog.adilakhter.com\/2007\/12\/22\/testcontext-more-on-vsts-unit-testing\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/adilakhter.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fadilakhter.wordpress.com%2F2007%2F12%2F22%2Ftestcontext-more-on-vsts-unit-testing%2F","postID":"32","shortlink":"http:\/\/wp.me\/p9jkj-w","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/blog.adilakhter.com\/32","statsLink":"https:\/\/wordpress.com\/stats\/post\/32\/blog.adilakhter.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Celsius","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/adilakhter.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fblog.adilakhter.com%2F2007%2F12%2F22%2Ftestcontext-more-on-vsts-unit-testing%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/blog.adilakhter.com\/wp-admin\/admin-ajax.php","nonce":"09d8119a70","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/adilakhter.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fblog.adilakhter.com%2F2007%2F12%2F22%2Ftestcontext-more-on-vsts-unit-testing%2F","blog_id":"2219247","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=2219247&v=wpcom&tz=1&user_id=0&subd=adilakhter","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??-eJyNUO1OwzAMfCFSbxNi4gfiWbzUbd3mCzsp7O1J0VYqmKb98ul8d74EPpOxMWQKGUaFlma2lL6aUZ9gs/LFJFd6DgqOJ1L4KFRowNA6kr/iPJCvklROwBodLsE/4BFhwJl7zBzDI2qdOBnHYTJdtEVNx2t1DtaVthqqzEbva4QRSu7ceP6XvXkftnVvTijgUTNJRSbOJMJL2MrdS7BL/SVhRbdKafrtseXH+rdyvoxmq7pxy6LEouRgpJzQTuZK3PGkqNl0DllABxQO/XVW07t/2z+/Hna7l/3hOH4DCADK8w=="></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>		<iframe src="https://widgets.wp.com/likes/master.html?ver=20170206#ver=20170206" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			&lt;p class="robots-nocontent"&gt;&lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=7518284&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=2.0&amp;cj=1" alt="" style="display:none;" width="1" height="1" /&gt;&lt;/p&gt;
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async="" defer=""></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'2219247','blog_tz':'1','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'2219247','v':'wpcom','tz':'1','user_id':'0','post':'32','subd':'adilakhter'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWtpP0NsWnVkPS9sL0ViLndld3BuVT01Unp2dX5PUFM2RTV+cWpxWUsmSjZ8dnFpLSVuTVExLVNibUJIOG4xWn5CUWwvazE1TE1lUFs0MnMlbUNWVXx5Z35QZm51bUhVdzJHeXUxT3YuWyV1QWJzaXRuK19CYVtJSEVKUVUyajc3V3E9MVFReVh5bDAtTS4lZS5mN3JjTkI9cGxmYVFiTStoJnM3UlpoXVpfJXp+K1ZTQ191RnolRWlicXRLLVBsL09lN3l8T0o/eXZLcmVCRWd5LHYyMGMxfFVJbiV6W1Myc0J2Wi9IVkJjSldhREQzOXJ0bjFhNittcjJFRjlsdWJ5U1grVU41LV1lS1tpekNqYkFMTlM/'}]);
+_stq.push([ 'clickTrackerInit', '2219247', '32' ]);
+	</script>
+<noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;</noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+
+
+</div><div id="actionbar" class="actnbr-pub-celsius actnbr-has-follow"><ul><li class="actnbr-btn actnbr-hidden"> 			    	<a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a> 			    	<div class="actnbr-popover tip tip-top-left actnbr-notice"> 			    		<div class="tip-arrow"></div> 			    		<div class="tip-inner actnbr-follow-bubble"></div> 			    	</div> 			    </li><li class="actnbr-ellipsis actnbr-hidden"> 			  <svg class="gridicon gridicon__ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><circle cx="5" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle></g></svg> 			  <div class="actnbr-popover tip tip-top-left actnbr-more"> 			  	<div class="tip-arrow"></div> 			  	<div class="tip-inner"> 				  <ul> 				    <li class="actnbr-sitename"><a href="https://blog.adilakhter.com"><img alt="" src="https://secure.gravatar.com/blavatar/a2102ea1941c9867b03d0e0a6e087f78?s=50&amp;d=https%3A%2F%2Fs1.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png" class="avatar avatar-50" height="50" width="50"> Thoughts + Notes</a></li> 				   	<li class="actnbr-folded-customize"><a href="https://adilakhter.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fadilakhter.wordpress.com%2F2007%2F12%2F22%2Ftestcontext-more-on-vsts-unit-testing%2F"><svg class="gridicon gridicon__customize" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" data-reactid=".2.1.1:0.1b.0"></path></g></svg><span>Customize<span></span></span></a></li> 				    <li class="actnbr-folded-follow"><a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a></li> 					<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li> 				    <li class="actnbr-login"><a href="https://adilakhter.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fblog.adilakhter.com%2F2007%2F12%2F22%2Ftestcontext-more-on-vsts-unit-testing%2F">Log in</a></li> 				     				    <li class="actnbr-shortlink"><a href="http://wp.me/p9jkj-w">Copy shortlink</a></li> 				    <li class="flb-report"><a href="http://en.wordpress.com/abuse/">Report this content</a></li> 				     				     				    <li class="actnbr-subs"><a href="https://subscribe.wordpress.com/">Manage subscriptions</a></li> 				    <li class="actnbr-fold"><a href="">Collapse this bar</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div><div id="sharing_email" style="display: none;">
+		<form action="/2007/12/22/testcontext-more-on-vsts-unit-testing/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="">
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="">
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="">
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off">
+			<script> document.getElementById('jetpack-source_f_name').value = ''; </script>
+			<div class="recaptcha" id="sharing_recaptcha"></div><input type="hidden" name="recaptcha_public_key" id="recaptcha_public_key" value="6LcYW8MSAAAAADBAuEH9yaPcF7lWh11Iq62ZKtoo">
+			<img style="float: right; display: none" class="loading" src="https://s2.wp.com/wp-content/mu-plugins/post-flair/sharing/images/loading.gif" alt="loading" width="16" height="16">
+			<input type="submit" value="Send Email" class="sharing_send">
+			<a rel="nofollow" href="#cancel" class="sharing_cancel">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div><img src="http://pixel.wp.com/g.gif?blog=2219247&amp;v=wpcom&amp;tz=1&amp;user_id=0&amp;post=32&amp;subd=adilakhter&amp;host=webcache.googleusercontent.com&amp;ref=&amp;rand=0.7636484708177051" alt=":)" id="wpstats"><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe></body></html>
