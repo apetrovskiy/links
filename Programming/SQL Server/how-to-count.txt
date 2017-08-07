@@ -1,0 +1,2 @@
+How to add results of two select commands in same query
+https://stackoverflow.com/questions/15149775/how-to-add-results-of-two-select-commands-in-same-query
