@@ -1,0 +1,7 @@
+FindBugs Maven Plugin Tutorial
+https://www.petrikainulainen.net/programming/maven/findbugs-maven-plugin-tutorial/
+
+https://gleclaire.github.io/findbugs-maven-plugin/usage.html
+
+Maven Findbugs plugin - How to run findbug on the test classes
+https://stackoverflow.com/questions/33234692/maven-findbugs-plugin-how-to-run-findbug-on-the-test-classes

@@ -1,0 +1,2 @@
+16 New Code Analysis, Testing and Debugging Tools For Visual Studio 2017
+https://visualstudiomagazine.com/articles/2018/05/01/vs-analysis-tools.aspx
