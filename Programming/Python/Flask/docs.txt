@@ -1,0 +1,9 @@
+Flask-Testing
+https://pythonhosted.org/Flask-Testing/
+
+testing
+https://flask.palletsprojects.com/en/master/tutorial/tests/
+https://flask.palletsprojects.com/en/1.1.x/testing/
+
+in Russian
+https://flask-russian-docs.readthedocs.io/ru/latest/index.html

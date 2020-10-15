@@ -1,0 +1,2 @@
+Using jsonify() fixes the error 'dict' object is not callable
+https://stackoverflow.com/questions/38256810/how-to-create-a-unit-test-to-check-the-response-of-an-api-made-in-flask
