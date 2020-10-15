@@ -1,0 +1,2 @@
+Inclusions and Exclusions of Tests
+https://maven.apache.org/surefire/maven-failsafe-plugin/examples/inclusion-exclusion.html
