@@ -1,0 +1,3 @@
+inheritance from object
+https://stackoverflow.com/questions/4015417/python-class-inherits-object
+https://stackoverflow.com/questions/1238606/is-it-necessary-or-useful-to-inherit-from-pythons-object-in-python-3-x/45893772
