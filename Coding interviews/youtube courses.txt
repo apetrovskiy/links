@@ -1,0 +1,11 @@
+Data Structures
+https://www.youtube.com/watch?v=zg9ih6SVACc
+
+
+Data Structures overviews
+https://www.youtube.com/watch?v=sVxBVvlnJsM
+https://www.youtube.com/watch?v=fLkD1dF6b-A
+
+
+Big O
+https://www.youtube.com/watch?v=oJ5s2hs_cKk
